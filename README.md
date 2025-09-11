@@ -1,128 +1,171 @@
-# my-agent
+# 「1」120分钟打造你的第一个智能体
 
-一个基于 LiteLLM 与 `google-adk` 构建的小型论文检索与信息提取 Agent。它使用 `arxiv` 库从 arXiv 搜索论文，将检索结果保存为本地 JSON，支持根据论文 ID 快速查看已保存的信息。
+# 先决条件
+我们默认大家均：
+1. 电脑上安装有Python（或者conda、miniforge等）
+2. 知道如何打开命令行界面（终端）
+3. 了解基本的Python语法
+4. 了解某种Python开发IDE的使用（如PyCharm、Visual Studio、Cursor等）
 
-## 功能特性
-- **搜索论文**：根据主题关键词检索 arXiv 上的论文，并将结果保存到本地 `papers_info.json`。
-- **提取信息**：通过论文短 ID（如 `2401.01234`）在本地检索并返回该论文的标题、作者、摘要、PDF 链接与发布日期。
-- **Agent 集成**：提供了一个 `google.adk.agents.Agent`（见 `my_first_agent/agent.py` 中的 `root_agent`），可将上述函数以工具的形式暴露给 LLM。
-
-## 目录结构
+# 环境配置（在终端中）
+## 依赖包管理器安装
+我们使用目前最被广泛使用现代包管理方法`uv`来进行Python环境与Python库的管理，它能够隔离各个项目之间的Python环境避免冲突，并且能够优化依赖库之间的连续多级依赖产生的冗余。首先我们需要安装uv（根据你的Python安装方式三选一）：
 ```
-my_agent/
-├─ main.py                         # 入口示例（当前仅打印问候语）
-├─ my_first_agent/
-│  ├─ __init__.py
-│  └─ agent.py                     # 搜索与信息提取工具 + root_agent 定义
-├─ pyproject.toml                  # 项目配置（依赖、Python 版本等）
-├─ uv.lock                         # uv 锁文件（若使用 uv 管理依赖）
-└─ README.md
+pip install uv
+conda install uv
+mamba install uv
 ```
 
-## 环境要求
-- Python >= 3.12
-
-## 安装
-你可以使用 `uv` 或 `pip` 安装依赖。
-
-- 使用 uv（推荐）：
-```bash
-# 确保已安装 uv： https://docs.astral.sh/uv/
-uv sync
+## 初始化一个标准的 Python 项目
+新建一个项目文件夹`my_agent`，并前往本文件夹目录下：
 ```
-
-- 使用 pip：
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
-pip install -U pip
-pip install -e .
+mkdir my_agent
+cd my_agent
 ```
+为该项目配置初始的Python环境：
+```
+uv init
+uv venv
+source .venv/bin/activate
+```
+## 安装必要依赖
+```
+uv add google-adk arxiv json os litellm
+```
+## 新建.env文件并写入如下信息配置API Key【在你的开发IDE中】
+```
+DEEPSEEK_API_KEY=【用你真实的API Key替换这里】
+```
+## Agent 代码实现【在你的开发IDE中】
+新建`agent.py`文件并写入：
+```
+from google.adk.agents import Agent
 
-## 依赖
-`pyproject.toml` 中声明了以下主要依赖：
-- `arxiv`：访问 arXiv API
-- `google-adk`：Agent 框架
-- `litellm`：模型调用统一接口
-
-## 模型与密钥配置
-本项目通过 `litellm.LiteLlm` 指定模型，示例位于 `my_first_agent/agent.py`：
-```python
+import arxiv
+import json
+import os
+from typing import List
 from google.adk.models.lite_llm import LiteLlm
 
+
+def search_papers(topic: str, max_results: int = 5) -> List[str]:
+    """
+    Search for papers on arXiv based on a topic and store their information.
+    
+    Args:
+        topic: The topic to search for
+        max_results: Maximum number of results to retrieve (default: 5)
+        
+    Returns:
+        List of paper IDs found in the search
+    """
+    
+    # Use arxiv to find the papers 
+    client = arxiv.Client()
+
+    # Search for the most relevant articles matching the queried topic
+    search = arxiv.Search(
+        query = topic,
+        max_results = max_results,
+        sort_by = arxiv.SortCriterion.Relevance
+    )
+
+    papers = client.results(search)
+    
+    # Create directory for this topic
+    path = os.path.join(PAPER_DIR, topic.lower().replace(" ", "_"))
+    os.makedirs(path, exist_ok=True)
+    
+    file_path = os.path.join(path, "papers_info.json")
+
+    # Try to load existing papers info
+    try:
+        with open(file_path, "r") as json_file:
+            papers_info = json.load(json_file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        papers_info = {}
+
+    # Process each paper and add to papers_info  
+    paper_ids = []
+    for paper in papers:
+        paper_ids.append(paper.get_short_id())
+        paper_info = {
+            'title': paper.title,
+            'authors': [author.name for author in paper.authors],
+            'summary': paper.summary,
+            'pdf_url': paper.pdf_url,
+            'published': str(paper.published.date())
+        }
+        papers_info[paper.get_short_id()] = paper_info
+    
+    # Save updated papers_info to json file
+    with open(file_path, "w") as json_file:
+        json.dump(papers_info, json_file, indent=2)
+    
+    print(f"Results are saved in: {file_path}")
+    
+    return paper_ids
+
+def extract_info(paper_id: str) -> str:
+    """
+    Search for information about a specific paper across all topic directories.
+    
+    Args:
+        paper_id: The ID of the paper to look for
+        
+    Returns:
+        JSON string with paper information if found, error message if not found
+    """
+ 
+    for item in os.listdir(PAPER_DIR):
+        item_path = os.path.join(PAPER_DIR, item)
+        if os.path.isdir(item_path):
+            file_path = os.path.join(item_path, "papers_info.json")
+            if os.path.isfile(file_path):
+                try:
+                    with open(file_path, "r") as json_file:
+                        papers_info = json.load(json_file)
+                        if paper_id in papers_info:
+                            return json.dumps(papers_info[paper_id], indent=2)
+                except (FileNotFoundError, json.JSONDecodeError) as e:
+                    print(f"Error reading {file_path}: {str(e)}")
+                    continue
+    
+    return f"There's no saved information related to paper {paper_id}."
+
 use_model = "deepseek"
+
 if use_model == "deepseek":
     model = LiteLlm(model="deepseek/deepseek-chat")
 if use_model == "gpt-4o":
     model = LiteLlm(model="azure/gpt-4o")
+
+
+root_agent = Agent(
+    name="search_papers_agent",
+    model=model,
+    description=(
+        "Agent to answer questions about the papers."
+    ),
+    instruction=(
+        "You are a helpful agent who can answer user questions about the papers."
+    ),
+    tools=[search_papers, extract_info],
+)
 ```
-请根据所选厂商配置相应的环境变量（示例）：
-- DeepSeek: 设置 `DEEPSEEK_API_KEY`
-- Azure OpenAI gpt-4o: 设置 `AZURE_OPENAI_API_KEY` 以及必要的 `AZURE_OPENAI_ENDPOINT`、`AZURE_OPENAI_API_VERSION`
-
-具体变量名可能因 `litellm` 版本与提供商不同而异，请参考 `litellm` 文档及对应大模型提供商的说明。设置环境变量示例：
-```bash
-export DEEPSEEK_API_KEY="<your_key>"
-# 或者（Azure OpenAI）
-export AZURE_OPENAI_API_KEY="<your_key>"
-export AZURE_OPENAI_ENDPOINT="<your_endpoint>"
-export AZURE_OPENAI_API_VERSION="2024-02-15-preview"
+# 运行
+在终端中（该文件夹下）运行：
 ```
-
-> 注：`arxiv` 检索无需 API Key。
-
-## 快速开始
-### 方式一：直接运行示例入口
-```bash
-python main.py
+uv run adk web
 ```
-当前 `main.py` 仅用于演示入口结构，会输出：
-```
-Hello from my-agent!
-```
+注：
 
-### 方式二：以函数形式使用工具
-你可以直接调用 `my_first_agent/agent.py` 中的两个工具函数：
+1. Google ADK共有三种启动Agent的方式，`adk web`、`adk run`、`adk api_server`，他们分别指：
+使用Google ADK封装好的Agent界面「包含了数据传输和基本的会话管理（如保证多轮对话的正常运行）的预实现」、直接以脚本的形式在终端启动Agent、将Agent作为某种公开服务开放为API，我们这里使用了最直观的`adk web`为大家演示。
 
-```python
-from my_first_agent.agent import search_papers, extract_info
+2. 所有使用`uv`进行依赖管理的项目，如果想在以该`uv`环境作为编译环境运行，均需使用`uv run 【你希望运行的指令】`启动，运行的指令本身并无变化。
 
-# 1) 按主题检索论文并保存信息
-topic = "large language model alignment"
-paper_ids = search_papers(topic, max_results=5)
-print("检索到的论文短 ID:", paper_ids)
+# 测试
+当测试时可以看到类似的正确调用工具并返回，则认为你的Agent成功搭建🎉🎉🎉
 
-# 2) 根据短 ID 提取已保存的信息（示例：取第一篇）
-if paper_ids:
-    info = extract_info(paper_ids[0])
-    print("论文信息:\n", info)
-```
-
-### 方式三：通过 Agent 使用工具
-`root_agent` 已将上述函数注册为工具，你可以将自然语言问题交给 Agent 处理：
-
-```python
-from my_first_agent.agent import root_agent
-
-# 示例：让 Agent 去检索某一主题的论文
-user_query = "帮我找 3 篇关于 RAG 的综述论文，并保存"
-response = root_agent.run(user_query)
-print(response)
-```
-
-> 提示：`google-adk` 的 Agent 行为依赖所选模型及工具注册方式，`run` 的具体用法请根据你所用的 `google-adk` 版本查看文档；如果你更倾向显式调用，可直接使用上面的函数式用法。
-
-## 数据保存位置
-当你调用 `search_papers(topic, ...)` 后，程序会在当前工作目录下创建：
-```
-./papers/<topic_下划线格式>/papers_info.json
-```
-其中会保存检索到论文的元信息；随后可用 `extract_info(<paper_id>)` 读取其中的内容。
-
-## 常见问题
-- **检索为空或较少？** 尝试更换或精炼关键词，或增大 `max_results`。
-- **无法调用模型/报鉴权错误？** 请确认已正确设置对应厂商的 API Key 与必需的环境变量。
-- **编码或字符显示问题？** 建议终端与编辑器统一为 UTF-8 编码。
-
-## 许可证
-当前未指定许可证。如需开源发布，请补充相应 LICENSE 文件。
+![alt](https://bohrium.oss-cn-zhangjiakou.aliyuncs.com/article/24161/f4790cbbe01a4b56be0b23b047c0ef4a/5b30c5ec-740d-4170-88bb-6d78e417d4fa.png)
