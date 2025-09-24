@@ -1,0 +1,56 @@
+{
+  "2507.01376v1": {
+    "title": "AI Agents and Agentic AI-Navigating a Plethora of Concepts for Future Manufacturing",
+    "authors": [
+      "Yinwang Ren",
+      "Yangyang Liu",
+      "Tang Ji",
+      "Xun Xu"
+    ],
+    "summary": "AI agents are autonomous systems designed to perceive, reason, and act within\ndynamic environments. With the rapid advancements in generative AI (GenAI),\nlarge language models (LLMs) and multimodal large language models (MLLMs) have\nsignificantly improved AI agents' capabilities in semantic comprehension,\ncomplex reasoning, and autonomous decision-making. At the same time, the rise\nof Agentic AI highlights adaptability and goal-directed autonomy in dynamic and\ncomplex environments. LLMs-based AI Agents (LLM-Agents), MLLMs-based AI Agents\n(MLLM-Agents), and Agentic AI contribute to expanding AI's capabilities in\ninformation processing, environmental perception, and autonomous\ndecision-making, opening new avenues for smart manufacturing. However, the\ndefinitions, capability boundaries, and practical applications of these\nemerging AI paradigms in smart manufacturing remain unclear. To address this\ngap, this study systematically reviews the evolution of AI and AI agent\ntechnologies, examines the core concepts and technological advancements of\nLLM-Agents, MLLM-Agents, and Agentic AI, and explores their potential\napplications in and integration into manufacturing, along with the potential\nchallenges they may face.",
+    "pdf_url": "http://arxiv.org/pdf/2507.01376v1",
+    "published": "2025-07-02"
+  },
+  "2502.18359v1": {
+    "title": "Responsible AI Agents",
+    "authors": [
+      "Deven R. Desai",
+      "Mark O. Riedl"
+    ],
+    "summary": "Thanks to advances in large language models, a new type of software agent,\nthe artificial intelligence (AI) agent, has entered the marketplace. Companies\nsuch as OpenAI, Google, Microsoft, and Salesforce promise their AI Agents will\ngo from generating passive text to executing tasks. Instead of a travel\nitinerary, an AI Agent would book all aspects of your trip. Instead of\ngenerating text or images for social media post, an AI Agent would post the\ncontent across a host of social media outlets. The potential power of AI Agents\nhas fueled legal scholars' fears that AI Agents will enable rogue commerce,\nhuman manipulation, rampant defamation, and intellectual property harms. These\nscholars are calling for regulation before AI Agents cause havoc.\n  This Article addresses the concerns around AI Agents head on. It shows that\ncore aspects of how one piece of software interacts with another creates ways\nto discipline AI Agents so that rogue, undesired actions are unlikely, perhaps\nmore so than rules designed to govern human agents. It also develops a way to\nleverage the computer-science approach to value-alignment to improve a user's\nability to take action to prevent or correct AI Agent operations. That approach\noffers and added benefit of helping AI Agents align with norms around user-AI\nAgent interactions. These practices will enable desired economic outcomes and\nmitigate perceived risks. The Article also argues that no matter how much AI\nAgents seem like human agents, they need not, and should not, be given legal\npersonhood status. In short, humans are responsible for AI Agents' actions, and\nthis Article provides a guide for how humans can build and maintain responsible\nAI Agents.",
+    "pdf_url": "http://arxiv.org/pdf/2502.18359v1",
+    "published": "2025-02-25"
+  },
+  "2506.01463v1": {
+    "title": "Agentic AI and Multiagentic: Are We Reinventing the Wheel?",
+    "authors": [
+      "V. Botti"
+    ],
+    "summary": "The terms Agentic AI and Multiagentic AI have recently gained popularity in\ndiscussions on generative artificial intelligence, often used to describe\nautonomous software agents and systems composed of such agents. However, the\nuse of these terms confuses these buzzwords with well-established concepts in\nAI literature: intelligent agents and multi-agent systems. This article offers\na critical analysis of this conceptual misuse. We review the theoretical\norigins of \"agentic\" in the social sciences (Bandura, 1986) and philosophical\nnotions of intentionality (Dennett, 1971), and then summarise foundational\nworks on intelligent agents and multi-agent systems by Wooldridge, Jennings and\nothers. We examine classic agent architectures, from simple reactive agents to\nBelief-Desire-Intention (BDI) models, and highlight key properties (autonomy,\nreactivity, proactivity, social capability) that define agency in AI. We then\ndiscuss recent developments in large language models (LLMs) and agent platforms\nbased on LLMs, including the emergence of LLM-powered AI agents and open-source\nmulti-agent orchestration frameworks. We argue that the term AI Agentic is\noften used as a buzzword for what are essentially AI agents, and AI\nMultiagentic for what are multi-agent systems. This confusion overlooks decades\nof research in the field of autonomous agents and multi-agent systems. The\narticle advocates for scientific and technological rigour and the use of\nestablished terminology from the state of the art in AI, incorporating the\nwealth of existing knowledge, including standards for multi-agent system\nplatforms, communication languages and coordination and cooperation algorithms,\nagreement technologies (automated negotiation, argumentation, virtual\norganisations, trust, reputation, etc.), into the new and promising wave of\nLLM-based AI agents, so as not to end up reinventing the wheel.",
+    "pdf_url": "http://arxiv.org/pdf/2506.01463v1",
+    "published": "2025-06-02"
+  },
+  "2505.10468v4": {
+    "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
+    "authors": [
+      "Ranjan Sapkota",
+      "Konstantinos I. Roumeliotis",
+      "Manoj Karkee"
+    ],
+    "summary": "This study critically distinguishes between AI Agents and Agentic AI,\noffering a structured conceptual taxonomy, application mapping, and challenge\nanalysis to clarify their divergent design philosophies and capabilities. We\nbegin by outlining the search strategy and foundational definitions,\ncharacterizing AI Agents as modular systems driven by Large Language Models\n(LLMs) and Large Image Models (LIMs) for narrow, task-specific automation.\nGenerative AI is positioned as a precursor, with AI Agents advancing through\ntool integration, prompt engineering, and reasoning enhancements. In contrast,\nAgentic AI systems represent a paradigmatic shift marked by multi-agent\ncollaboration, dynamic task decomposition, persistent memory, and orchestrated\nautonomy. Through a sequential evaluation of architectural evolution,\noperational mechanisms, interaction styles, and autonomy levels, we present a\ncomparative analysis across both paradigms. Application domains such as\ncustomer support, scheduling, and data summarization are contrasted with\nAgentic AI deployments in research automation, robotic coordination, and\nmedical decision support. We further examine unique challenges in each paradigm\nincluding hallucination, brittleness, emergent behavior, and coordination\nfailure and propose targeted solutions such as ReAct loops, RAG, orchestration\nlayers, and causal modeling. This work aims to provide a definitive roadmap for\ndeveloping robust, scalable, and explainable AI agent and Agentic AI-driven\nsystems. >AI Agents, Agent-driven, Vision-Language-Models, Agentic AI Decision\nSupport System, Agentic-AI Applications",
+    "pdf_url": "http://arxiv.org/pdf/2505.10468v4",
+    "published": "2025-05-15"
+  },
+  "2403.15137v1": {
+    "title": "CACA Agent: Capability Collaboration based AI Agent",
+    "authors": [
+      "Peng Xu",
+      "Haoran Wang",
+      "Chuang Wang",
+      "Xu Liu"
+    ],
+    "summary": "As AI Agents based on Large Language Models (LLMs) have shown potential in\npractical applications across various fields, how to quickly deploy an AI agent\nand how to conveniently expand the application scenario of AI agents has become\na challenge. Previous studies mainly focused on implementing all the reasoning\ncapabilities of AI agents within a single LLM, which often makes the model more\ncomplex and also reduces the extensibility of AI agent functionality. In this\npaper, we propose CACA Agent (Capability Collaboration based AI Agent), using\nan open architecture inspired by service computing. CACA Agent integrates a set\nof collaborative capabilities to implement AI Agents, not only reducing the\ndependence on a single LLM, but also enhancing the extensibility of both the\nplanning abilities and the tools available to AI agents. Utilizing the proposed\nsystem, we present a demo to illustrate the operation and the application\nscenario extension of CACA Agent.",
+    "pdf_url": "http://arxiv.org/pdf/2403.15137v1",
+    "published": "2024-03-22"
+  }
+}

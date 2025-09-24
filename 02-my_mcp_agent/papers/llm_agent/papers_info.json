@@ -1,0 +1,60 @@
+{
+  "2507.02699v1": {
+    "title": "Control at Stake: Evaluating the Security Landscape of LLM-Driven Email Agents",
+    "authors": [
+      "Jiangrong Wu",
+      "Yuhong Nan",
+      "Jianliang Wu",
+      "Zitong Yao",
+      "Zibin Zheng"
+    ],
+    "summary": "The increasing capabilities of LLMs have led to the rapid proliferation of\nLLM agent apps, where developers enhance LLMs with access to external resources\nto support complex task execution. Among these, LLM email agent apps represent\none of the widely used categories, as email remains a critical communication\nmedium for users. LLM email agents are capable of managing and responding to\nemail using LLM-driven reasoning and autonomously executing user instructions\nvia external email APIs (e.g., send email). However, despite their growing\ndeployment and utility, the security mechanism of LLM email agent apps remains\nunderexplored. Currently, there is no comprehensive study into the potential\nsecurity risk within these agent apps and their broader implications.\n  In this paper, we conduct the first in-depth and systematic security study of\nLLM email agents. We propose the Email Agent Hijacking (EAH) attack, which\noverrides the original prompts of the email agent via external email resources,\nallowing attackers to gain control of the email agent remotely and further\nperform specific attack scenarios without user awareness.\n  To facilitate the large-scale evaluation, we propose EAHawk, a pipeline to\nevaluate the EAH attack of LLM email agent apps. By EAHawk, we performed an\nempirical study spanning 14 representative LLM agent frameworks, 63 agent apps,\n12 LLMs, and 20 email services, which led to the generation of 1,404 real-world\nemail agent instances for evaluation. Experimental results indicate that all\n1,404 instances were successfully hijacked; on average, only 2.03 attack\nattempts are required to control an email agent instance. Even worse, for some\nLLMs, the average number of attempts needed to achieve full agent control drops\nto as few as 1.23.",
+    "pdf_url": "http://arxiv.org/pdf/2507.02699v1",
+    "published": "2025-07-03"
+  },
+  "2503.19213v1": {
+    "title": "A Survey of Large Language Model Agents for Question Answering",
+    "authors": [
+      "Murong Yue"
+    ],
+    "summary": "This paper surveys the development of large language model (LLM)-based agents\nfor question answering (QA). Traditional agents face significant limitations,\nincluding substantial data requirements and difficulty in generalizing to new\nenvironments. LLM-based agents address these challenges by leveraging LLMs as\ntheir core reasoning engine. These agents achieve superior QA results compared\nto traditional QA pipelines and naive LLM QA systems by enabling interaction\nwith external environments. We systematically review the design of LLM agents\nin the context of QA tasks, organizing our discussion across key stages:\nplanning, question understanding, information retrieval, and answer generation.\nAdditionally, this paper identifies ongoing challenges and explores future\nresearch directions to enhance the performance of LLM agent QA systems.",
+    "pdf_url": "http://arxiv.org/pdf/2503.19213v1",
+    "published": "2025-03-24"
+  },
+  "2408.12680v2": {
+    "title": "Can LLMs Understand Social Norms in Autonomous Driving Games?",
+    "authors": [
+      "Boxuan Wang",
+      "Haonan Duan",
+      "Yanhao Feng",
+      "Xu Chen",
+      "Yongjie Fu",
+      "Zhaobin Mo",
+      "Xuan Di"
+    ],
+    "summary": "Social norm is defined as a shared standard of acceptable behavior in a\nsociety. The emergence of social norms fosters coordination among agents\nwithout any hard-coded rules, which is crucial for the large-scale deployment\nof AVs in an intelligent transportation system. This paper explores the\napplication of LLMs in understanding and modeling social norms in autonomous\ndriving games. We introduce LLMs into autonomous driving games as intelligent\nagents who make decisions according to text prompts. These agents are referred\nto as LLM-based agents. Our framework involves LLM-based agents playing Markov\ngames in a multi-agent system (MAS), allowing us to investigate the emergence\nof social norms among individual agents. We aim to identify social norms by\ndesigning prompts and utilizing LLMs on textual information related to the\nenvironment setup and the observations of LLM-based agents. Using the OpenAI\nChat API powered by GPT-4.0, we conduct experiments to simulate interactions\nand evaluate the performance of LLM-based agents in two driving scenarios:\nunsignalized intersection and highway platoon. The results show that LLM-based\nagents can handle dynamically changing environments in Markov games, and social\nnorms evolve among LLM-based agents in both scenarios. In the intersection\ngame, LLM-based agents tend to adopt a conservative driving policy when facing\na potential car crash. The advantage of LLM-based agents in games lies in their\nstrong operability and analyzability, which facilitate experimental design.",
+    "pdf_url": "http://arxiv.org/pdf/2408.12680v2",
+    "published": "2024-08-22"
+  },
+  "2410.13919v2": {
+    "title": "LLM Agent Honeypot: Monitoring AI Hacking Agents in the Wild",
+    "authors": [
+      "Reworr",
+      "Dmitrii Volkov"
+    ],
+    "summary": "Attacks powered by Large Language Model (LLM) agents represent a growing\nthreat to modern cybersecurity. To address this concern, we present LLM\nHoneypot, a system designed to monitor autonomous AI hacking agents. By\naugmenting a standard SSH honeypot with prompt injection and time-based\nanalysis techniques, our framework aims to distinguish LLM agents among all\nattackers. Over a trial deployment of about three months in a public\nenvironment, we collected 8,130,731 hacking attempts and 8 potential AI agents.\nOur work demonstrates the emergence of AI-driven threats and their current\nlevel of usage, serving as an early warning of malicious LLM agents in the\nwild.",
+    "pdf_url": "http://arxiv.org/pdf/2410.13919v2",
+    "published": "2024-10-17"
+  },
+  "2505.09396v2": {
+    "title": "The Influence of Human-inspired Agentic Sophistication in LLM-driven Strategic Reasoners",
+    "authors": [
+      "Vince Trencsenyi",
+      "Agnieszka Mensfelt",
+      "Kostas Stathis"
+    ],
+    "summary": "The rapid rise of large language models (LLMs) has shifted artificial\nintelligence (AI) research toward agentic systems, motivating the use of weaker\nand more flexible notions of agency. However, this shift raises key questions\nabout the extent to which LLM-based agents replicate human strategic reasoning,\nparticularly in game-theoretic settings. In this context, we examine the role\nof agentic sophistication in shaping artificial reasoners' performance by\nevaluating three agent designs: a simple game-theoretic model, an unstructured\nLLM-as-agent model, and an LLM integrated into a traditional agentic framework.\nUsing guessing games as a testbed, we benchmarked these agents against human\nparticipants across general reasoning patterns and individual role-based\nobjectives. Furthermore, we introduced obfuscated game scenarios to assess\nagents' ability to generalise beyond training distributions. Our analysis,\ncovering over 2000 reasoning samples across 25 agent configurations, shows that\nhuman-inspired cognitive structures can enhance LLM agents' alignment with\nhuman strategic behaviour. Still, the relationship between agentic design\ncomplexity and human-likeness is non-linear, highlighting a critical dependence\non underlying LLM capabilities and suggesting limits to simple architectural\naugmentation.",
+    "pdf_url": "http://arxiv.org/pdf/2505.09396v2",
+    "published": "2025-05-14"
+  }
+}

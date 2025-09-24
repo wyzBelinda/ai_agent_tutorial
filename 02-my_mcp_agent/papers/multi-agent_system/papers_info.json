@@ -1,0 +1,52 @@
+{
+  "2406.13693v1": {
+    "title": "From Single Agent to Multi-Agent: Improving Traffic Signal Control",
+    "authors": [
+      "Maksim Tislenko",
+      "Dmitrii Kisilev"
+    ],
+    "summary": "Due to accelerating urbanization, the importance of solving the signal\ncontrol problem increases. This paper analyzes various existing methods and\nsuggests options for increasing the number of agents to reduce the average\ntravel time. Experiments were carried out with 2 datasets. The results show\nthat in some cases, the implementation of multiple agents can improve existing\nmethods. For a fine-tuned large language model approach there is small\nenhancement on all metrics.",
+    "pdf_url": "http://arxiv.org/pdf/2406.13693v1",
+    "published": "2024-06-19"
+  },
+  "1009.2998v1": {
+    "title": "Compact integral manifolds of differential systems",
+    "authors": [
+      "V. N. Gorbuzov"
+    ],
+    "summary": "The boundedness tests for the number of compact integral manifolds of\nautonomous ordinary differential systems, of autonomous total differential\nsystems, of linear systems of partial differential equations, of Pfaff systems\nof equations, and of systems of exterior differential equations are proved.",
+    "pdf_url": "http://arxiv.org/pdf/1009.2998v1",
+    "published": "2010-09-15"
+  },
+  "1911.09048v2": {
+    "title": "Morphisms of Networks of Hybrid Open Systems",
+    "authors": [
+      "James Schmidt"
+    ],
+    "summary": "This thesis (defended 10/07/2019) develops a theory of networks of hybrid\nopen systems and morphisms. It builds upon a framework of networks of\ncontinuous-time open systems as product and interconnection. We work out\ncategorical notions for hybrid systems, deterministic hybrid systems, hybrid\nopen systems, networks of hybrid open systems, and morphisms of networks of\nhybrid open systems.\n  We also develop categorical notions for abstract systems, abstract open\nsystems, networks of abstract open systems, and morphisms of networks of\nabstract open systems. We show that a collection of relations holding among\npairs of systems induces a relation between interconnected systems. We use this\nresult for abstract systems to prove a corresponding result for networks of\nhybrid systems.\n  This result translates as saying that our procedure for building networks\npreserves morphisms of open systems: a collection of morphisms of (sub)systems\nis sent to a morphism of networked systems. We thus both justify our formalism\nand concretize the intuition that a network is a collection of systems pieced\ntogether in a certain way.",
+    "pdf_url": "http://arxiv.org/pdf/1911.09048v2",
+    "published": "2019-11-20"
+  },
+  "1201.4141v1": {
+    "title": "First integrals of ordinary linear differential systems",
+    "authors": [
+      "V. N. Gorbuzov",
+      "A. F. Pranevich"
+    ],
+    "summary": "The spectral method for building first integrals of ordinary linear\ndifferential systems is elaborated. Using this method, we obtain bases of first\nintegrals for linear differential systems with constant coefficients, for\nlinear nonautonomous differential systems integrable in closed form (algebraic\nreducible systems, triangular systems, the Lappo-Danilevskii systems), and for\nreducible ordinary differential systems with respect to various transformation\ngroups.",
+    "pdf_url": "http://arxiv.org/pdf/1201.4141v1",
+    "published": "2012-01-19"
+  },
+  "2311.10786v1": {
+    "title": "A Systems-Theoretical Formalization of Closed Systems",
+    "authors": [
+      "Niloofar Shadab",
+      "Tyler Cody",
+      "Alejandro Salado",
+      "Peter Beling"
+    ],
+    "summary": "There is a lack of formalism for some key foundational concepts in systems\nengineering. One of the most recently acknowledged deficits is the inadequacy\nof systems engineering practices for engineering intelligent systems. In our\nprevious works, we proposed that closed systems precepts could be used to\naccomplish a required paradigm shift for the systems engineering of intelligent\nsystems. However, to enable such a shift, formal foundations for closed systems\nprecepts that expand the theory of systems engineering are needed. The concept\nof closure is a critical concept in the formalism underlying closed systems\nprecepts. In this paper, we provide formal, systems- and information-theoretic\ndefinitions of closure to identify and distinguish different types of closed\nsystems. Then, we assert a mathematical framework to evaluate the subjective\nformation of the boundaries and constraints of such systems. Finally, we argue\nthat engineering an intelligent system can benefit from appropriate closed and\nopen systems paradigms on multiple levels of abstraction of the system. In the\nmain, this framework will provide the necessary fundamentals to aid in systems\nengineering of intelligent systems.",
+    "pdf_url": "http://arxiv.org/pdf/2311.10786v1",
+    "published": "2023-11-16"
+  }
+}
