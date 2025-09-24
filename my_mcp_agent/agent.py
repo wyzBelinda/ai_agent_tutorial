@@ -11,7 +11,9 @@ from google.adk.tools.mcp_tool.mcp_session_manager import SseServerParams
 from mcp import StdioServerParameters
 from dotenv import load_dotenv
 
-PAPER_DIR='/Users/wyz/my_agent/my_first_agent/papers'
+load_dotenv()
+
+PAPER_DIR='my_mcp_agent/papers'
 
 def search_papers(topic: str, max_results: int = 5) -> List[str]:
     """
@@ -105,14 +107,18 @@ if use_model == "deepseek":
 if use_model == "gpt-4o":
     model = LiteLlm(model="azure/gpt-4o")
 
+
+# https://github.com/34892002/bilibili-mcp-js
 bilibili_mcp = MCPToolset(
     connection_params=StdioConnectionParams(
         server_params=StdioServerParameters(
             command='npx',
             args=['bilibili-mcp'],
         ),
+        timeout=50,
     ),
 )
+
 
 load_dotenv()
 tavily_api_key = os.getenv("TAVILY_API_KEY")
@@ -124,14 +130,7 @@ tavily_mcp = MCPToolset(
     ),
 )
 
-self_evolving_mcp = MCPToolset(
-    connection_params=StdioConnectionParams(
-        server_params=StdioServerParameters(
-            command='python',
-            args=['/Users/wyz/my_agent/my_mcp_agent/self_evolve_mcp/self_evolving_mcp.py'],
-        ),
-    ),
-)
+
 
 root_agent = Agent(
     name="search_papers_agent",
@@ -142,5 +141,5 @@ root_agent = Agent(
     instruction=(
         "You are a helpful agent who can answer user questions about the papers."
     ),
-    tools=[search_papers, extract_info, bilibili_mcp, tavily_mcp, self_evolving_mcp],   
+    tools=[search_papers, extract_info, bilibili_mcp, tavily_mcp],
 )

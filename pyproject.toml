@@ -1,7 +1,7 @@
 [project]
 name = "my-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "《AI Agent从入门到精通》课程教学代码——基于MIT版权属于WU Yuzhuo，化用请注明来源"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

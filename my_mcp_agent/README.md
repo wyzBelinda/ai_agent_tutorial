@@ -2,6 +2,10 @@
 ```bash
 source .venv/bin/activate
 ```
+# npx环境配置
+## 【nodejs的安装】
+下载地址见 : [https://nodejs.org/en/download](https://nodejs.org/en/download) 根据你的电脑环境选择适配的版本（软件LTS版本即可）。
+
 
 # 以网页形式运行Agent
 ```bash
@@ -10,7 +14,7 @@ uv run adk web
 
 # 开发自己的MCP Server
 # 调试工具安装准备
-## 【nodejs的安装】
+## 【nodejs的安装】（同上）
 下载地址见 : [https://nodejs.org/en/download](https://nodejs.org/en/download) 根据你的电脑环境选择适配的版本（软件LTS版本即可）。
 
 ## 【MCP调试工具-MCP Inspector】
