@@ -6,7 +6,7 @@ import os
 from typing import List
 from google.adk.models.lite_llm import LiteLlm
 
-PAPER_DIR='/Users/wyz/my_agent/my_first_agent/papers'
+PAPER_DIR='papers'
 
 def search_papers(topic: str, max_results: int = 5) -> List[str]:
     """
