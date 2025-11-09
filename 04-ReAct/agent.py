@@ -172,7 +172,7 @@ self_evolving_mcp = MCPToolset(
 root_agent = Agent(
     name="search_papers_agent",
     model=model,
-    # planner=PlanReActPlanner(), 
+    planner=PlanReActPlanner(), 
     description=(
         "Agent to answer questions about the papers."
     ),
