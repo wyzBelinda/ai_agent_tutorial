@@ -1,0 +1,145 @@
+{
+  "2503.08979v1": {
+    "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+    "authors": [
+      "Mourad Gridach",
+      "Jay Nanavati",
+      "Khaldoun Zine El Abidine",
+      "Lenon Mendes",
+      "Christina Mack"
+    ],
+    "summary": "The integration of Agentic AI into scientific discovery marks a new frontier\nin research automation. These AI systems, capable of reasoning, planning, and\nautonomous decision-making, are transforming how scientists perform literature\nreview, generate hypotheses, conduct experiments, and analyze results. This\nsurvey provides a comprehensive overview of Agentic AI for scientific\ndiscovery, categorizing existing systems and tools, and highlighting recent\nprogress across fields such as chemistry, biology, and materials science. We\ndiscuss key evaluation metrics, implementation frameworks, and commonly used\ndatasets to offer a detailed understanding of the current state of the field.\nFinally, we address critical challenges, such as literature review automation,\nsystem reliability, and ethical concerns, while outlining future research\ndirections that emphasize human-AI collaboration and enhanced system\ncalibration.",
+    "pdf_url": "http://arxiv.org/pdf/2503.08979v1",
+    "published": "2025-03-12"
+  },
+  "2508.14111v1": {
+    "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "authors": [
+      "Jiaqi Wei",
+      "Yuejin Yang",
+      "Xiang Zhang",
+      "Yuhan Chen",
+      "Xiang Zhuang",
+      "Zhangyang Gao",
+      "Dongzhan Zhou",
+      "Guangshuai Wang",
+      "Zhiqiang Gao",
+      "Juntai Cao",
+      "Zijie Qiu",
+      "Xuming He",
+      "Qiang Zhang",
+      "Chenyu You",
+      "Shuangjia Zheng",
+      "Ning Ding",
+      "Wanli Ouyang",
+      "Nanqing Dong",
+      "Yu Cheng",
+      "Siqi Sun",
+      "Lei Bai",
+      "Bowen Zhou"
+    ],
+    "summary": "Artificial intelligence (AI) is reshaping scientific discovery, evolving from\nspecialized computational tools into autonomous research partners. We position\nAgentic Science as a pivotal stage within the broader AI for Science paradigm,\nwhere AI systems progress from partial assistance to full scientific agency.\nEnabled by large language models (LLMs), multimodal systems, and integrated\nresearch platforms, agentic AI shows capabilities in hypothesis generation,\nexperimental design, execution, analysis, and iterative refinement -- behaviors\nonce regarded as uniquely human. This survey provides a domain-oriented review\nof autonomous scientific discovery across life sciences, chemistry, materials\nscience, and physics. We unify three previously fragmented perspectives --\nprocess-oriented, autonomy-oriented, and mechanism-oriented -- through a\ncomprehensive framework that connects foundational capabilities, core\nprocesses, and domain-specific realizations. Building on this framework, we (i)\ntrace the evolution of AI for Science, (ii) identify five core capabilities\nunderpinning scientific agency, (iii) model discovery as a dynamic four-stage\nworkflow, (iv) review applications across the above domains, and (v) synthesize\nkey challenges and future opportunities. This work establishes a\ndomain-oriented synthesis of autonomous scientific discovery and positions\nAgentic Science as a structured paradigm for advancing AI-driven research.",
+    "pdf_url": "http://arxiv.org/pdf/2508.14111v1",
+    "published": "2025-08-18"
+  },
+  "2312.09402v2": {
+    "title": "CERN for AI: A Theoretical Framework for Autonomous Simulation-Based Artificial Intelligence Testing and Alignment",
+    "authors": [
+      "Ljubisa Bojic",
+      "Matteo Cinelli",
+      "Dubravko Culibrk",
+      "Boris Delibasic"
+    ],
+    "summary": "This paper explores the potential of a multidisciplinary approach to testing\nand aligning artificial intelligence (AI), specifically focusing on large\nlanguage models (LLMs). Due to the rapid development and wide application of\nLLMs, challenges such as ethical alignment, controllability, and predictability\nof these models emerged as global risks. This study investigates an innovative\nsimulation-based multi-agent system within a virtual reality framework that\nreplicates the real-world environment. The framework is populated by automated\n'digital citizens,' simulating complex social structures and interactions to\nexamine and optimize AI. Application of various theories from the fields of\nsociology, social psychology, computer science, physics, biology, and economics\ndemonstrates the possibility of a more human-aligned and socially responsible\nAI. The purpose of such a digital environment is to provide a dynamic platform\nwhere advanced AI agents can interact and make independent decisions, thereby\nmimicking realistic scenarios. The actors in this digital city, operated by the\nLLMs, serve as the primary agents, exhibiting high degrees of autonomy. While\nthis approach shows immense potential, there are notable challenges and\nlimitations, most significantly the unpredictable nature of real-world social\ndynamics. This research endeavors to contribute to the development and\nrefinement of AI, emphasizing the integration of social, ethical, and\ntheoretical dimensions for future research.",
+    "pdf_url": "http://arxiv.org/pdf/2312.09402v2",
+    "published": "2023-12-14"
+  },
+  "2410.09034v1": {
+    "title": "PEAR: A Robust and Flexible Automation Framework for Ptychography Enabled by Multiple Large Language Model Agents",
+    "authors": [
+      "Xiangyu Yin",
+      "Chuqiao Shi",
+      "Yimo Han",
+      "Yi Jiang"
+    ],
+    "summary": "Ptychography is an advanced computational imaging technique in X-ray and\nelectron microscopy. It has been widely adopted across scientific research\nfields, including physics, chemistry, biology, and materials science, as well\nas in industrial applications such as semiconductor characterization. In\npractice, obtaining high-quality ptychographic images requires simultaneous\noptimization of numerous experimental and algorithmic parameters.\nTraditionally, parameter selection often relies on trial and error, leading to\nlow-throughput workflows and potential human bias. In this work, we develop the\n\"Ptychographic Experiment and Analysis Robot\" (PEAR), a framework that\nleverages large language models (LLMs) to automate data analysis in\nptychography. To ensure high robustness and accuracy, PEAR employs multiple LLM\nagents for tasks including knowledge retrieval, code generation, parameter\nrecommendation, and image reasoning. Our study demonstrates that PEAR's\nmulti-agent design significantly improves the workflow success rate, even with\nsmaller open-weight models such as LLaMA 3.1 8B. PEAR also supports various\nautomation levels and is designed to work with customized local knowledge\nbases, ensuring flexibility and adaptability across different research\nenvironments.",
+    "pdf_url": "http://arxiv.org/pdf/2410.09034v1",
+    "published": "2024-10-11"
+  },
+  "2309.13979v1": {
+    "title": "Morphological Computing as Logic Underlying Cognition in Human, Animal, and Intelligent Machine",
+    "authors": [
+      "Gordana Dodig-Crnkovic"
+    ],
+    "summary": "This work examines the interconnections between logic, epistemology, and\nsciences within the Naturalist tradition. It presents a scheme that connects\nlogic, mathematics, physics, chemistry, biology, and cognition, emphasizing\nscale-invariant, self-organizing dynamics across organizational tiers of\nnature. The inherent logic of agency exists in natural processes at various\nlevels, under information exchanges. It applies to humans, animals, and\nartifactual agents. The common human-centric, natural language-based logic is\nan example of complex logic evolved by living organisms that already appears in\nthe simplest form at the level of basal cognition of unicellular organisms.\nThus, cognitive logic stems from the evolution of physical, chemical, and\nbiological logic. In a computing nature framework with a self-organizing\nagency, innovative computational frameworks grounded in\nmorphological/physical/natural computation can be used to explain the genesis\nof human-centered logic through the steps of naturalized logical processes at\nlower levels of organization. The Extended Evolutionary Synthesis of living\nagents is essential for understanding the emergence of human-level logic and\nthe relationship between logic and information processing/computational\nepistemology. We conclude that more research is needed to elucidate the details\nof the mechanisms linking natural phenomena with the logic of agency in nature.",
+    "pdf_url": "http://arxiv.org/pdf/2309.13979v1",
+    "published": "2023-09-25"
+  },
+  "2201.13448v4": {
+    "title": "Warmth and competence in human-agent cooperation",
+    "authors": [
+      "Kevin R. McKee",
+      "Xuechunzi Bai",
+      "Susan T. Fiske"
+    ],
+    "summary": "Interaction and cooperation with humans are overarching aspirations of\nartificial intelligence (AI) research. Recent studies demonstrate that AI\nagents trained with deep reinforcement learning are capable of collaborating\nwith humans. These studies primarily evaluate human compatibility through\n\"objective\" metrics such as task performance, obscuring potential variation in\nthe levels of trust and subjective preference that different agents garner. To\nbetter understand the factors shaping subjective preferences in human-agent\ncooperation, we train deep reinforcement learning agents in Coins, a two-player\nsocial dilemma. We recruit $N = 501$ participants for a human-agent cooperation\nstudy and measure their impressions of the agents they encounter. Participants'\nperceptions of warmth and competence predict their stated preferences for\ndifferent agents, above and beyond objective performance metrics. Drawing\ninspiration from social science and biology research, we subsequently implement\na new ``partner choice'' framework to elicit revealed preferences: after\nplaying an episode with an agent, participants are asked whether they would\nlike to play the next episode with the same agent or to play alone. As with\nstated preferences, social perception better predicts participants' revealed\npreferences than does objective performance. Given these results, we recommend\nhuman-agent interaction researchers routinely incorporate the measurement of\nsocial perception and subjective preferences into their studies.",
+    "pdf_url": "http://arxiv.org/pdf/2201.13448v4",
+    "published": "2022-01-31"
+  },
+  "2508.07583v1": {
+    "title": "MiqroForge: An Intelligent Workflow Platform for Quantum-Enhanced Computational Chemistry",
+    "authors": [
+      "Jianan Wang",
+      "Wenbo Guo",
+      "Xin Yue",
+      "Minjie Xu",
+      "Yueqiang Zheng",
+      "Jingxiang Dong",
+      "Jiarui Hu",
+      "Jian Xia",
+      "Chuixiong Wu"
+    ],
+    "summary": "The connect-fill-run workflow paradigm, widely adopted in mature software\nengineering, accelerates collaborative development. However, computational\nchemistry, computational materials science, and computational biology face\npersistent demands for multi-scale simulations constrained by simplistic\nplatform designs. We present MiqroForge, an intelligent cross-scale platform\nintegrating quantum computing capabilities. By combining AI-driven dynamic\nresource scheduling with an intuitive visual interface, MiqroForge\nsignificantly lowers entry barriers while optimizing computational efficiency.\nThe platform fosters a collaborative ecosystem through shared node libraries\nand data repositories, thereby bridging practitioners across classical and\nquantum computational domains.",
+    "pdf_url": "http://arxiv.org/pdf/2508.07583v1",
+    "published": "2025-08-11"
+  },
+  "physics/0601009v3": {
+    "title": "Research Methodology",
+    "authors": [
+      "S. Rajasekar",
+      "P. Philominathan",
+      "V. Chinnathambi"
+    ],
+    "summary": "In this manuscript various components of research are listed and briefly\ndiscussed. The topics considered in this write-up cover a part of the research\nmethodology paper of Master of Philosophy (M.Phil.) course and Doctor of\nPhilosophy (Ph.D.) course. The manuscript is intended for students and research\nscholars of science subjects such as mathematics, physics, chemistry,\nstatistics, biology and computer science. Various stages of research are\ndiscussed in detail. Special care has been taken to motivate the young\nresearchers to take up challenging problems. Ten assignment works are given.\nFor the benefit of young researchers a short interview with three eminent\nscientists is included at the end of the manuscript.",
+    "pdf_url": "http://arxiv.org/pdf/physics/0601009v3",
+    "published": "2006-01-03"
+  },
+  "2411.08728v1": {
+    "title": "Polymetis:Large Language Modeling for Multiple Material Domains",
+    "authors": [
+      "Chao Huang",
+      "Huichen Xiao",
+      "Chen Chen",
+      "Chunyan Chen",
+      "Yi Zhao",
+      "Shiyu Du",
+      "Yiming Zhang",
+      "He Sha",
+      "Ruixin Gu"
+    ],
+    "summary": "As the application of large language models in various fields continues to\nexpand, materials science also ushers in opportunities for AI-driven\ninnovation. The traditional way of relying on manual search for materials\nscience-related information is now using artificial intelligence technology as\nan auxiliary tool to improve the efficiency of materials science research. To\naccelerate researchers' knowledge acquisition and intelligent decision-making\nsupport in materials science research, this paper proposes a large language\nmodel Polymetis model for a variety of materials fields, aiming to provide\nhighly professional knowledge answers in the field of materials, covering\nenergy materials, functional materials, alloy materials, physical chemistry,\nbiology, and other material directions. The model uses a dataset of about 2\nmillion material knowledge instructions, and in the process of building the\ndataset, we developed the Intelligent Extraction Large Model (IELM), which is\nspecially used to extract and form structured knowledge from scientific texts,\navoiding a large number of costs that need to be manually annotated, and\nimproving efficiency. We inject this data into the GLM4-9B model for learning\nto enhance its inference capabilities in a variety of material domains. In\naddition, we have introduced enhanced prompt strategies to ensure that the\nanswers to the model are more organized and comprehensive, providing efficient\nand comprehensive intelligent support for the diverse needs of materials\nscience exploration, and promoting the development of material science.",
+    "pdf_url": "http://arxiv.org/pdf/2411.08728v1",
+    "published": "2024-11-13"
+  },
+  "2501.13135v1": {
+    "title": "Applications and Challenges of AI and Microscopy in Life Science Research: A Review",
+    "authors": [
+      "Himanshu Buckchash",
+      "Gyanendra Kumar Verma",
+      "Dilip K. Prasad"
+    ],
+    "summary": "The complexity of human biology and its intricate systems holds immense\npotential for advancing human health, disease treatment, and scientific\ndiscovery. However, traditional manual methods for studying biological\ninteractions are often constrained by the sheer volume and complexity of\nbiological data. Artificial Intelligence (AI), with its proven ability to\nanalyze vast datasets, offers a transformative approach to addressing these\nchallenges. This paper explores the intersection of AI and microscopy in life\nsciences, emphasizing their potential applications and associated challenges.\nWe provide a detailed review of how various biological systems can benefit from\nAI, highlighting the types of data and labeling requirements unique to this\ndomain. Particular attention is given to microscopy data, exploring the\nspecific AI techniques required to process and interpret this information. By\naddressing challenges such as data heterogeneity and annotation scarcity, we\noutline potential solutions and emerging trends in the field. Written primarily\nfrom an AI perspective, this paper aims to serve as a valuable resource for\nresearchers working at the intersection of AI, microscopy, and biology. It\nsummarizes current advancements, key insights, and open problems, fostering an\nunderstanding that encourages interdisciplinary collaborations. By offering a\ncomprehensive yet concise synthesis of the field, this paper aspires to\ncatalyze innovation, promote cross-disciplinary engagement, and accelerate the\nadoption of AI in life science research.",
+    "pdf_url": "http://arxiv.org/pdf/2501.13135v1",
+    "published": "2025-01-22"
+  }
+}

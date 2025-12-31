@@ -1,0 +1,133 @@
+{
+  "2412.11427v2": {
+    "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+    "authors": [
+      "Chandan K Reddy",
+      "Parshin Shojaee"
+    ],
+    "summary": "Scientific discovery is a complex cognitive process that has driven human\nknowledge and technological progress for centuries. While artificial\nintelligence (AI) has made significant advances in automating aspects of\nscientific reasoning, simulation, and experimentation, we still lack integrated\nAI systems capable of performing autonomous long-term scientific research and\ndiscovery. This paper examines the current state of AI for scientific\ndiscovery, highlighting recent progress in large language models and other AI\ntechniques applied to scientific tasks. We then outline key challenges and\npromising research directions toward developing more comprehensive AI systems\nfor scientific discovery, including the need for science-focused AI agents,\nimproved benchmarks and evaluation metrics, multimodal scientific\nrepresentations, and unified frameworks combining reasoning, theorem proving,\nand data-driven modeling. Addressing these challenges could lead to\ntransformative AI tools to accelerate progress across disciplines towards\nscientific discovery.",
+    "pdf_url": "http://arxiv.org/pdf/2412.11427v2",
+    "published": "2024-12-16"
+  },
+  "2405.13352v1": {
+    "title": "\"Turing Tests\" For An AI Scientist",
+    "authors": [
+      "Xiaoxin Yin"
+    ],
+    "summary": "While LLMs have shown impressive capabilities in solving math or coding\nproblems, the ability to make scientific discoveries remains a distinct\nchallenge. This paper proposes a \"Turing test for an AI scientist\" to assess\nwhether an AI agent can conduct scientific research independently, without\nrelying on human-generated knowledge. Drawing inspiration from the historical\ndevelopment of science, we propose seven benchmark tests that evaluate an AI\nagent's ability to make groundbreaking discoveries in various scientific\ndomains. These tests include inferring the heliocentric model from celestial\nobservations, discovering the laws of motion in a simulated environment,\nderiving the differential equation governing vibrating strings, inferring\nMaxwell's equations from electrodynamics simulations, inventing numerical\nmethods for initial value problems, discovering Huffman coding for data\ncompression, and developing efficient sorting algorithms. To ensure the\nvalidity of these tests, the AI agent is provided with interactive libraries or\ndatasets specific to each problem, without access to human knowledge that could\npotentially contain information about the target discoveries. The ultimate goal\nis to create an AI scientist capable of making novel and impactful scientific\ndiscoveries, surpassing the best human experts in their respective fields.\nThese \"Turing tests\" serve as intermediate milestones, assessing the AI agent's\nability to make discoveries that were groundbreaking in their time. If an AI\nagent can pass the majority of these seven tests, it would indicate significant\nprogress towards building an AI scientist, paving the way for future\nadvancements in autonomous scientific discovery. This paper aims to establish a\nbenchmark for the capabilities of AI in scientific research and to stimulate\nfurther research in this exciting field.",
+    "pdf_url": "http://arxiv.org/pdf/2405.13352v1",
+    "published": "2024-05-22"
+  },
+  "2504.08066v1": {
+    "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+    "authors": [
+      "Yutaro Yamada",
+      "Robert Tjarko Lange",
+      "Cong Lu",
+      "Shengran Hu",
+      "Chris Lu",
+      "Jakob Foerster",
+      "Jeff Clune",
+      "David Ha"
+    ],
+    "summary": "AI is increasingly playing a pivotal role in transforming how scientific\ndiscoveries are made. We introduce The AI Scientist-v2, an end-to-end agentic\nsystem capable of producing the first entirely AI generated\npeer-review-accepted workshop paper. This system iteratively formulates\nscientific hypotheses, designs and executes experiments, analyzes and\nvisualizes data, and autonomously authors scientific manuscripts. Compared to\nits predecessor (v1, Lu et al., 2024 arXiv:2408.06292), The AI Scientist-v2\neliminates the reliance on human-authored code templates, generalizes\neffectively across diverse machine learning domains, and leverages a novel\nprogressive agentic tree-search methodology managed by a dedicated experiment\nmanager agent. Additionally, we enhance the AI reviewer component by\nintegrating a Vision-Language Model (VLM) feedback loop for iterative\nrefinement of content and aesthetics of the figures. We evaluated The AI\nScientist-v2 by submitting three fully autonomous manuscripts to a\npeer-reviewed ICLR workshop. Notably, one manuscript achieved high enough\nscores to exceed the average human acceptance threshold, marking the first\ninstance of a fully AI-generated paper successfully navigating a peer review.\nThis accomplishment highlights the growing capability of AI in conducting all\naspects of scientific research. We anticipate that further advancements in\nautonomous scientific discovery technologies will profoundly impact human\nknowledge generation, enabling unprecedented scalability in research\nproductivity and significantly accelerating scientific breakthroughs, greatly\nbenefiting society at large. We have open-sourced the code at\nhttps://github.com/SakanaAI/AI-Scientist-v2 to foster the future development of\nthis transformative technology. We also discuss the role of AI in science,\nincluding AI safety.",
+    "pdf_url": "http://arxiv.org/pdf/2504.08066v1",
+    "published": "2025-04-10"
+  },
+  "2508.14111v1": {
+    "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "authors": [
+      "Jiaqi Wei",
+      "Yuejin Yang",
+      "Xiang Zhang",
+      "Yuhan Chen",
+      "Xiang Zhuang",
+      "Zhangyang Gao",
+      "Dongzhan Zhou",
+      "Guangshuai Wang",
+      "Zhiqiang Gao",
+      "Juntai Cao",
+      "Zijie Qiu",
+      "Xuming He",
+      "Qiang Zhang",
+      "Chenyu You",
+      "Shuangjia Zheng",
+      "Ning Ding",
+      "Wanli Ouyang",
+      "Nanqing Dong",
+      "Yu Cheng",
+      "Siqi Sun",
+      "Lei Bai",
+      "Bowen Zhou"
+    ],
+    "summary": "Artificial intelligence (AI) is reshaping scientific discovery, evolving from\nspecialized computational tools into autonomous research partners. We position\nAgentic Science as a pivotal stage within the broader AI for Science paradigm,\nwhere AI systems progress from partial assistance to full scientific agency.\nEnabled by large language models (LLMs), multimodal systems, and integrated\nresearch platforms, agentic AI shows capabilities in hypothesis generation,\nexperimental design, execution, analysis, and iterative refinement -- behaviors\nonce regarded as uniquely human. This survey provides a domain-oriented review\nof autonomous scientific discovery across life sciences, chemistry, materials\nscience, and physics. We unify three previously fragmented perspectives --\nprocess-oriented, autonomy-oriented, and mechanism-oriented -- through a\ncomprehensive framework that connects foundational capabilities, core\nprocesses, and domain-specific realizations. Building on this framework, we (i)\ntrace the evolution of AI for Science, (ii) identify five core capabilities\nunderpinning scientific agency, (iii) model discovery as a dynamic four-stage\nworkflow, (iv) review applications across the above domains, and (v) synthesize\nkey challenges and future opportunities. This work establishes a\ndomain-oriented synthesis of autonomous scientific discovery and positions\nAgentic Science as a structured paradigm for advancing AI-driven research.",
+    "pdf_url": "http://arxiv.org/pdf/2508.14111v1",
+    "published": "2025-08-18"
+  },
+  "2507.09023v1": {
+    "title": "Accelerating Drug Discovery Through Agentic AI: A Multi-Agent Approach to Laboratory Automation in the DMTA Cycle",
+    "authors": [
+      "Yao Fehlis",
+      "Charles Crain",
+      "Aidan Jensen",
+      "Michael Watson",
+      "James Juhasz",
+      "Paul Mandel",
+      "Betty Liu",
+      "Shawn Mahon",
+      "Daren Wilson",
+      "Nick Lynch-Jonely",
+      "Ben Leedom",
+      "David Fuller"
+    ],
+    "summary": "The pharmaceutical industry faces unprecedented challenges in drug discovery,\nwith traditional approaches struggling to meet modern therapeutic development\ndemands. This paper introduces a novel AI framework, Tippy, that transforms\nlaboratory automation through specialized AI agents operating within the\nDesign-Make-Test-Analyze (DMTA) cycle. Our multi-agent system employs five\nspecialized agents - Supervisor, Molecule, Lab, Analysis, and Report, with\nSafety Guardrail oversight - each designed to excel in specific phases of the\ndrug discovery pipeline. Tippy represents the first production-ready\nimplementation of specialized AI agents for automating the DMTA cycle,\nproviding a concrete example of how AI can transform laboratory workflows. By\nleveraging autonomous AI agents that reason, plan, and collaborate, we\ndemonstrate how Tippy accelerates DMTA cycles while maintaining scientific\nrigor essential for pharmaceutical research. The system shows significant\nimprovements in workflow efficiency, decision-making speed, and\ncross-disciplinary coordination, offering a new paradigm for AI-assisted drug\ndiscovery.",
+    "pdf_url": "http://arxiv.org/pdf/2507.09023v1",
+    "published": "2025-07-11"
+  },
+  "2505.15047v2": {
+    "title": "PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration",
+    "authors": [
+      "Yingming Pu",
+      "Tao Lin",
+      "Hongyu Chen"
+    ],
+    "summary": "Large Language Model (LLM)-based multi-agent systems (MAS) demonstrate\nremarkable potential for scientific discovery. Existing approaches, however,\noften automate scientific discovery using predefined workflows that lack\nrationality constraints. This often leads to aimless hypothesizing and a\nfailure to consistently link hypotheses with evidence, thereby hindering the\nsystematic reduction of uncertainty. Overcoming these limitations fundamentally\nrequires a principled approach to exploration. We introduce PiFlow, an\ninformation-theoretical framework, treating automated scientific discovery as a\nstructured uncertainty reduction problem guided by principles (e.g., scientific\nlaws). In evaluations across three distinct scientific domains -- discovering\nnanomaterial structures, bio-molecules, and superconductor candidates with\ntargeted properties -- our method significantly improves discovery efficiency,\nreflected by a 73.55\\% increase in the Area Under the Curve (AUC) of property\nvalues versus exploration steps, and enhances solution quality by 94.06\\%\ncompared to a vanilla agent system. Overall, PiFlow serves as a Plug-and-Play\nmethod, establishing a novel paradigm shift in highly efficient automated\nscientific discovery, paving the way for more robust and accelerated AI-driven\nresearch. Code is publicly available at our\n\\href{https://github.com/amair-lab/PiFlow}{GitHub}.",
+    "pdf_url": "http://arxiv.org/pdf/2505.15047v2",
+    "published": "2025-05-21"
+  },
+  "2505.19955v2": {
+    "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+    "authors": [
+      "Hui Chen",
+      "Miao Xiong",
+      "Yujie Lu",
+      "Wei Han",
+      "Ailin Deng",
+      "Yufei He",
+      "Jiaying Wu",
+      "Yibo Li",
+      "Yue Liu",
+      "Bryan Hooi"
+    ],
+    "summary": "Recent advancements in AI agents have demonstrated their growing potential to\ndrive and support scientific discovery. In this work, we introduce MLR-Bench, a\ncomprehensive benchmark for evaluating AI agents on open-ended machine learning\nresearch. MLR-Bench includes three key components: (1) 201 research tasks\nsourced from NeurIPS, ICLR, and ICML workshops covering diverse ML topics; (2)\nMLR-Judge, an automated evaluation framework combining LLM-based reviewers with\ncarefully designed review rubrics to assess research quality; and (3)\nMLR-Agent, a modular agent scaffold capable of completing research tasks\nthrough four stages: idea generation, proposal formulation, experimentation,\nand paper writing. Our framework supports both stepwise assessment across these\ndistinct research stages, and end-to-end evaluation of the final research\npaper. We then use MLR-Bench to evaluate six frontier LLMs and an advanced\ncoding agent, finding that while LLMs are effective at generating coherent\nideas and well-structured papers, current coding agents frequently (e.g., in\n80% of the cases) produce fabricated or invalidated experimental\nresults--posing a major barrier to scientific reliability. We validate\nMLR-Judge through human evaluation, showing high agreement with expert\nreviewers, supporting its potential as a scalable tool for research evaluation.\nWe open-source MLR-Bench to help the community benchmark, diagnose, and improve\nAI research agents toward trustworthy and transparent scientific discovery.",
+    "pdf_url": "http://arxiv.org/pdf/2505.19955v2",
+    "published": "2025-05-26"
+  },
+  "2404.02831v2": {
+    "title": "Empowering Biomedical Discovery with AI Agents",
+    "authors": [
+      "Shanghua Gao",
+      "Ada Fang",
+      "Yepeng Huang",
+      "Valentina Giunchiglia",
+      "Ayush Noori",
+      "Jonathan Richard Schwarz",
+      "Yasha Ektefaie",
+      "Jovana Kondic",
+      "Marinka Zitnik"
+    ],
+    "summary": "We envision \"AI scientists\" as systems capable of skeptical learning and\nreasoning that empower biomedical research through collaborative agents that\nintegrate AI models and biomedical tools with experimental platforms. Rather\nthan taking humans out of the discovery process, biomedical AI agents combine\nhuman creativity and expertise with AI's ability to analyze large datasets,\nnavigate hypothesis spaces, and execute repetitive tasks. AI agents are poised\nto be proficient in various tasks, planning discovery workflows and performing\nself-assessment to identify and mitigate gaps in their knowledge. These agents\nuse large language models and generative models to feature structured memory\nfor continual learning and use machine learning tools to incorporate scientific\nknowledge, biological principles, and theories. AI agents can impact areas\nranging from virtual cell simulation, programmable control of phenotypes, and\nthe design of cellular circuits to developing new therapies.",
+    "pdf_url": "http://arxiv.org/pdf/2404.02831v2",
+    "published": "2024-04-03"
+  }
+}

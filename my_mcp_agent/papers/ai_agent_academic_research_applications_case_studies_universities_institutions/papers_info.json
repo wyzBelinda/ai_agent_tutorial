@@ -1,0 +1,89 @@
+{
+  "1302.4053v1": {
+    "title": "Mapping Academic Institutions According to Their Journal Publication Profile: Spanish Universities as a Case Study",
+    "authors": [
+      "J. A. Garc\u00eda",
+      "Rosa Rodr\u00edguez-S\u00e1nchez",
+      "J. Fdez-Valdivia",
+      "Nicolas Robinson-Garc\u00eda",
+      "Daniel Torres-Salinas"
+    ],
+    "summary": "We introduce a novel methodology for mapping academic institutions based on their journal publication profiles. We believe that journals in which researchers from academic institutions publish their works can be considered as useful identifiers for representing the relationships between these institutions and establishing comparisons. However, when academic journals are used for research output representation, distinctions must be introduced between them, based on their value as institution descriptors. This leads us to the use of journal weights attached to the institution identifiers. Since a journal in which researchers from a large proportion of institutions published their papers may be a bad indicator of similarity between two academic institutions, it seems reasonable to weight it in accordance with how frequently researchers from different institutions published their papers in this journal. Cluster analysis can then be applied to group the academic institutions, and dendrograms can be provided to illustrate groups of institutions following agglomerative hierarchical clustering. In order to test this methodology, we use a sample of Spanish universities as a case study. We first map the study sample according to an institution's overall research output, then we use it for two scientific fields (Information and Communication Technologies, as well as Medicine and Pharmacology) as a means to demonstrate how our methodology can be applied, not only for analyzing institutions as a whole, but also in different disciplinary contexts.",
+    "pdf_url": null,
+    "published": "2013-02-17"
+  },
+  "2503.12687v1": {
+    "title": "AI Agents: Evolution, Architecture, and Real-World Applications",
+    "authors": [
+      "Naveen Krishnan"
+    ],
+    "summary": "This paper examines the evolution, architecture, and practical applications of AI agents from their early, rule-based incarnations to modern sophisticated systems that integrate large language models with dedicated modules for perception, planning, and tool use. Emphasizing both theoretical foundations and real-world deployments, the paper reviews key agent paradigms, discusses limitations of current evaluation benchmarks, and proposes a holistic evaluation framework that balances task effectiveness, efficiency, robustness, and safety. Applications across enterprise, personal assistance, and specialized domains are analyzed, with insights into future research directions for more resilient and adaptive AI agent systems.",
+    "pdf_url": null,
+    "published": "2025-03-16"
+  },
+  "2211.12434v1": {
+    "title": "Expansive Participatory AI: Supporting Dreaming within Inequitable Institutions",
+    "authors": [
+      "Michael Alan Chang",
+      "Shiran Dudy"
+    ],
+    "summary": "Participatory Artificial Intelligence (PAI) has recently gained interest by researchers as means to inform the design of technology through collective's lived experience. PAI has a greater promise than that of providing useful input to developers, it can contribute to the process of democratizing the design of technology, setting the focus on what should be designed. However, in the process of PAI there existing institutional power dynamics that hinder the realization of expansive dreams and aspirations of the relevant stakeholders. In this work we propose co-design principals for AI that address institutional power dynamics focusing on Participatory AI with youth.",
+    "pdf_url": null,
+    "published": "2022-11-22"
+  },
+  "2505.00174v2": {
+    "title": "Real-World Gaps in AI Governance Research",
+    "authors": [
+      "Ilan Strauss",
+      "Isobel Moure",
+      "Tim O'Reilly",
+      "Sruly Rosenblat"
+    ],
+    "summary": "Drawing on 1,178 safety and reliability papers from 9,439 generative AI papers (January 2020 - March 2025), we compare research outputs of leading AI companies (Anthropic, Google DeepMind, Meta, Microsoft, and OpenAI) and AI universities (CMU, MIT, NYU, Stanford, UC Berkeley, and University of Washington). We find that corporate AI research increasingly concentrates on pre-deployment areas -- model alignment and testing & evaluation -- while attention to deployment-stage issues such as model bias has waned. Significant research gaps exist in high-risk deployment domains, including healthcare, finance, misinformation, persuasive and addictive features, hallucinations, and copyright. Without improved observability into deployed AI, growing corporate concentration could deepen knowledge deficits. We recommend expanding external researcher access to deployment data and systematic observability of in-market AI behaviors.",
+    "pdf_url": null,
+    "published": "2025-04-30"
+  },
+  "2501.02842v1": {
+    "title": "Foundations of GenIR",
+    "authors": [
+      "Qingyao Ai",
+      "Jingtao Zhan",
+      "Yiqun Liu"
+    ],
+    "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+    "pdf_url": null,
+    "published": "2025-01-06"
+  },
+  "2011.11393v1": {
+    "title": "Training Ethically Responsible AI Researchers: a Case Study",
+    "authors": [
+      "Hang Yuan",
+      "Claudia Vanea",
+      "Federica Lucivero",
+      "Nina Hallowell"
+    ],
+    "summary": "Ethical oversight of AI research is beset by a number of problems. There are numerous ways to tackle these problems, however, they leave full responsibility for ethical reflection in the hands of review boards and committees. In this paper, we propose an alternative solution: the training of ethically responsible AI researchers. We showcase this solution through a case study of a centre for doctoral training and outline how ethics training is structured in the program. We go on to present two second-year students' reflections on their training which demonstrates some of their newly found capabilities as ethically responsible researchers.",
+    "pdf_url": null,
+    "published": "2020-11-20"
+  },
+  "2401.15284v6": {
+    "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+    "authors": [
+      "Zhicheng Lin"
+    ],
+    "summary": "The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \"Triple-Too\" problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches--principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)--offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: 1) understanding model training and output, including bias mitigation strategies; 2) respecting privacy, confidentiality, and copyright; 3) avoiding plagiarism and policy violations; 4) applying AI beneficially compared to alternatives; and 5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.",
+    "pdf_url": null,
+    "published": "2024-01-27"
+  },
+  "2009.10385v4": {
+    "title": "A narrowing of AI research?",
+    "authors": [
+      "Joel Klinger",
+      "Juan Mateos-Garcia",
+      "Konstantinos Stathoulopoulos"
+    ],
+    "summary": "The arrival of deep learning techniques able to infer patterns from large datasets has dramatically improved the performance of Artificial Intelligence (AI) systems. Deep learning's rapid development and adoption, in great part led by large technology companies, has however created concerns about a premature narrowing in the technological trajectory of AI research despite its weaknesses, which include lack of robustness, high environmental costs, and potentially unfair outcomes. We seek to improve the evidence base with a semantic analysis of AI research in arXiv, a popular pre-prints database. We study the evolution of the thematic diversity of AI research, compare the thematic diversity of AI research in academia and the private sector and measure the influence of private companies in AI research through the citations they receive and their collaborations with other institutions. Our results suggest that diversity in AI research has stagnated in recent years, and that AI research involving the private sector tends to be less diverse and more influential than research in academia. We also find that private sector AI researchers tend to specialise in data-hungry and computationally intensive deep learning methods at the expense of research involving other AI methods, research that considers the societal and ethical implications of AI, and applications in sectors like health. Our results provide a rationale for policy action to prevent a premature narrowing of AI research that could constrain its societal benefits, but we note the informational, incentive and scale hurdles standing in the way of such interventions.",
+    "pdf_url": null,
+    "published": "2020-09-22"
+  }
+}

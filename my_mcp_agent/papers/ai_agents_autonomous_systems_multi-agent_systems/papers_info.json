@@ -1,0 +1,90 @@
+{
+  "2203.08975v2": {
+    "title": "A Survey of Multi-Agent Deep Reinforcement Learning with Communication",
+    "authors": [
+      "Changxi Zhu",
+      "Mehdi Dastani",
+      "Shihan Wang"
+    ],
+    "summary": "Communication is an effective mechanism for coordinating the behaviors of multiple agents, broadening their views of the environment, and to support their collaborations. In the field of multi-agent deep reinforcement learning (MADRL), agents can improve the overall learning performance and achieve their objectives by communication. Agents can communicate various types of messages, either to all agents or to specific agent groups, or conditioned on specific constraints. With the growing body of research work in MADRL with communication (Comm-MADRL), there is a lack of a systematic and structural approach to distinguish and classify existing Comm-MADRL approaches. In this paper, we survey recent works in the Comm-MADRL field and consider various aspects of communication that can play a role in designing and developing multi-agent reinforcement learning systems. With these aspects in mind, we propose 9 dimensions along which Comm-MADRL approaches can be analyzed, developed, and compared. By projecting existing works into the multi-dimensional space, we discover interesting trends. We also propose some novel directions for designing future Comm-MADRL systems through exploring possible combinations of the dimensions.",
+    "pdf_url": null,
+    "published": "2022-03-16"
+  },
+  "2412.06333v3": {
+    "title": "Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi",
+    "authors": [
+      "F. Bredell",
+      "H. A. Engelbrecht",
+      "J. C. Schoeman"
+    ],
+    "summary": "The card game Hanabi is considered a strong medium for the testing and development of multi-agent reinforcement learning (MARL) algorithms, due to its cooperative nature, partial observability, limited communication and remarkable complexity. Previous research efforts have explored the capabilities of MARL algorithms within Hanabi, focusing largely on advanced architecture design and algorithmic manipulations to achieve state-of-the-art performance for various number of cooperators. However, this often leads to complex solution strategies with high computational cost and requiring large amounts of training data. For humans to solve the Hanabi game effectively, they require the use of conventions, which often allows for a means to implicitly convey ideas or knowledge based on a predefined, and mutually agreed upon, set of \"rules\" or principles. Multi-agent problems containing partial observability, especially when limited communication is present, can benefit greatly from the use of implicit knowledge sharing. In this paper, we propose a novel approach to augmenting an agent's action space using conventions, which act as a sequence of special cooperative actions that span over and include multiple time steps and multiple agents, requiring agents to actively opt in for it to reach fruition. These conventions are based on existing human conventions, and result in a significant improvement on the performance of existing techniques for self-play and cross-play for various number of cooperators within Hanabi.",
+    "pdf_url": null,
+    "published": "2024-12-09"
+  },
+  "2305.09349v1": {
+    "title": "Establishing Shared Query Understanding in an Open Multi-Agent System",
+    "authors": [
+      "Nikolaos Kondylidis",
+      "Ilaria Tiddi",
+      "Annette ten Teije"
+    ],
+    "summary": "We propose a method that allows to develop shared understanding between two agents for the purpose of performing a task that requires cooperation. Our method focuses on efficiently establishing successful task-oriented communication in an open multi-agent system, where the agents do not know anything about each other and can only communicate via grounded interaction. The method aims to assist researchers that work on human-machine interaction or scenarios that require a human-in-the-loop, by defining interaction restrictions and efficiency metrics. To that end, we point out the challenges and limitations of such a (diverse) setup, while also restrictions and requirements which aim to ensure that high task performance truthfully reflects the extent to which the agents correctly understand each other. Furthermore, we demonstrate a use-case where our method can be applied for the task of cooperative query answering. We design the experiments by modifying an established ontology alignment benchmark. In this example, the agents want to query each other, while representing different databases, defined in their own ontologies that contain different and incomplete knowledge. Grounded interaction here has the form of examples that consists of common instances, for which the agents are expected to have similar knowledge. Our experiments demonstrate successful communication establishment under the required restrictions, and compare different agent policies that aim to solve the task in an efficient manner.",
+    "pdf_url": null,
+    "published": "2023-05-16"
+  },
+  "2302.10809v4": {
+    "title": "Causal Explanations for Sequential Decision-Making in Multi-Agent Systems",
+    "authors": [
+      "Balint Gyevnar",
+      "Cheng Wang",
+      "Christopher G. Lucas",
+      "Shay B. Cohen",
+      "Stefano V. Albrecht"
+    ],
+    "summary": "We present CEMA: Causal Explanations in Multi-Agent systems; a framework for creating causal natural language explanations of an agent's decisions in dynamic sequential multi-agent systems to build more trustworthy autonomous agents. Unlike prior work that assumes a fixed causal structure, CEMA only requires a probabilistic model for forward-simulating the state of the system. Using such a model, CEMA simulates counterfactual worlds that identify the salient causes behind the agent's decisions. We evaluate CEMA on the task of motion planning for autonomous driving and test it in diverse simulated scenarios. We show that CEMA correctly and robustly identifies the causes behind the agent's decisions, even when a large number of other agents is present, and show via a user study that CEMA's explanations have a positive effect on participants' trust in autonomous vehicles and are rated as high as high-quality baseline explanations elicited from other participants. We release the collected explanations with annotations as the HEADD dataset.",
+    "pdf_url": null,
+    "published": "2023-02-21"
+  },
+  "nlin/0611054v3": {
+    "title": "A Model of a Trust-based Recommendation System on a Social Network",
+    "authors": [
+      "Frank E. Walter",
+      "Stefano Battiston",
+      "Frank Schweitzer"
+    ],
+    "summary": "In this paper, we present a model of a trust-based recommendation system on a social network. The idea of the model is that agents use their social network to reach information and their trust relationships to filter it. We investigate how the dynamics of trust among agents affect the performance of the system by comparing it to a frequency-based recommendation system. Furthermore, we identify the impact of network density, preference heterogeneity among agents, and knowledge sparseness to be crucial factors for the performance of the system. The system self-organises in a state with performance near to the optimum; the performance on the global level is an emergent property of the system, achieved without explicit coordination from the local interactions of agents.",
+    "pdf_url": null,
+    "published": "2006-11-28"
+  },
+  "1301.6431v2": {
+    "title": "Automatic Verification of Parameterised Interleaved Multi-Agent Systems",
+    "authors": [
+      "Panagiotis Kouvaros",
+      "Alessio Lomuscio"
+    ],
+    "summary": "A key problem in verification of multi-agent systems by model checking concerns the fact that the state-space of the system grows exponentially with the number of agents present. This makes practical model checking unfeasible whenever the system contains more than a few agents. In this paper we put forward a technique to establish a cutoff result, thereby showing that all systems of arbitrary number of agents can be verified by model checking a single system containing a number of agents equal to the cutoff of the system. While this problem is undecidable in general, we here define a class of parameterised interpreted systems and a parameterised temporal-epistemic logic for which the result can be shown. We exemplify the theoretical results on a robotic example and present an implementation of the technique on top of mcmas, an open-source model checker for multi-agent systems.",
+    "pdf_url": null,
+    "published": "2013-01-28"
+  },
+  "2404.01131v2": {
+    "title": "GOV-REK: Governed Reward Engineering Kernels for Designing Robust Multi-Agent Reinforcement Learning Systems",
+    "authors": [
+      "Ashish Rana",
+      "Michael Oesterle",
+      "Jannik Brinkmann"
+    ],
+    "summary": "For multi-agent reinforcement learning systems (MARLS), the problem formulation generally involves investing massive reward engineering effort specific to a given problem. However, this effort often cannot be translated to other problems; worse, it gets wasted when system dynamics change drastically. This problem is further exacerbated in sparse reward scenarios, where a meaningful heuristic can assist in the policy convergence task. We propose GOVerned Reward Engineering Kernels (GOV-REK), which dynamically assign reward distributions to agents in MARLS during its learning stage. We also introduce governance kernels, which exploit the underlying structure in either state or joint action space for assigning meaningful agent reward distributions. During the agent learning stage, it iteratively explores different reward distribution configurations with a Hyperband-like algorithm to learn ideal agent reward models in a problem-agnostic manner. Our experiments demonstrate that our meaningful reward priors robustly jumpstart the learning process for effectively learning different MARL problems.",
+    "pdf_url": null,
+    "published": "2024-04-01"
+  },
+  "cs/0407024v1": {
+    "title": "An agent-based intelligent environmental monitoring system",
+    "authors": [
+      "Ioannis N Athanasiadis",
+      "Pericles A Mitkas"
+    ],
+    "summary": "Fairly rapid environmental changes call for continuous surveillance and on-line decision making. There are two main areas where IT technologies can be valuable. In this paper we present a multi-agent system for monitoring and assessing air-quality attributes, which uses data coming from a meteorological station. A community of software agents is assigned to monitor and validate measurements coming from several sensors, to assess air-quality, and, finally, to fire alarms to appropriate recipients, when needed. Data mining techniques have been used for adding data-driven, customized intelligence into agents. The architecture of the developed system, its domain ontology, and typical agent interactions are presented. Finally, the deployment of a real-world test case is demonstrated.",
+    "pdf_url": null,
+    "published": "2004-07-10"
+  }
+}

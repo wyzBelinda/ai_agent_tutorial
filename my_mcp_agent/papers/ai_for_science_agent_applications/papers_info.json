@@ -1,0 +1,123 @@
+{
+  "2504.18875v1": {
+    "title": "Generative to Agentic AI: Survey, Conceptualization, and Challenges",
+    "authors": [
+      "Johannes Schneider"
+    ],
+    "summary": "Agentic Artificial Intelligence (AI) builds upon Generative AI (GenAI). It\nconstitutes the next major step in the evolution of AI with much stronger\nreasoning and interaction capabilities that enable more autonomous behavior to\ntackle complex tasks. Since the initial release of ChatGPT (3.5), Generative AI\nhas seen widespread adoption, giving users firsthand experience. However, the\ndistinction between Agentic AI and GenAI remains less well understood. To\naddress this gap, our survey is structured in two parts. In the first part, we\ncompare GenAI and Agentic AI using existing literature, discussing their key\ncharacteristics, how Agentic AI remedies limitations of GenAI, and the major\nsteps in GenAI's evolution toward Agentic AI. This section is intended for a\nbroad audience, including academics in both social sciences and engineering, as\nwell as industry professionals. It provides the necessary insights to\ncomprehend novel applications that are possible with Agentic AI but not with\nGenAI. In the second part, we deep dive into novel aspects of Agentic AI,\nincluding recent developments and practical concerns such as defining agents.\nFinally, we discuss several challenges that could serve as a future research\nagenda, while cautioning against risks that can emerge when exceeding human\nintelligence.",
+    "pdf_url": "http://arxiv.org/pdf/2504.18875v1",
+    "published": "2025-04-26"
+  },
+  "2506.00856v2": {
+    "title": "Can AI Master Econometrics? Evidence from Econometrics AI Agent on Expert-Level Tasks",
+    "authors": [
+      "Qiang Chen",
+      "Tianyang Han",
+      "Jin Li",
+      "Ye Luo",
+      "Yuxiao Wu",
+      "Xiaowei Zhang",
+      "Tuo Zhou"
+    ],
+    "summary": "Can AI effectively perform complex econometric analysis traditionally\nrequiring human expertise? This paper evaluates AI agents' capability to master\neconometrics, focusing on empirical analysis performance. We develop an\n``Econometrics AI Agent'' built on the open-source MetaGPT framework. This\nagent exhibits outstanding performance in: (1) planning econometric tasks\nstrategically, (2) generating and executing code, (3) employing error-based\nreflection for improved robustness, and (4) allowing iterative refinement\nthrough multi-round conversations. We construct two datasets from academic\ncoursework materials and published research papers to evaluate performance\nagainst real-world challenges. Comparative testing shows our domain-specialized\nAI agent significantly outperforms both benchmark large language models (LLMs)\nand general-purpose AI agents. This work establishes a testbed for exploring\nAI's impact on social science research and enables cost-effective integration\nof domain expertise, making advanced econometric methods accessible to users\nwith minimal coding skills. Furthermore, our AI agent enhances research\nreproducibility and offers promising pedagogical applications for econometrics\nteaching.",
+    "pdf_url": "http://arxiv.org/pdf/2506.00856v2",
+    "published": "2025-06-01"
+  },
+  "2507.01376v1": {
+    "title": "AI Agents and Agentic AI-Navigating a Plethora of Concepts for Future Manufacturing",
+    "authors": [
+      "Yinwang Ren",
+      "Yangyang Liu",
+      "Tang Ji",
+      "Xun Xu"
+    ],
+    "summary": "AI agents are autonomous systems designed to perceive, reason, and act within\ndynamic environments. With the rapid advancements in generative AI (GenAI),\nlarge language models (LLMs) and multimodal large language models (MLLMs) have\nsignificantly improved AI agents' capabilities in semantic comprehension,\ncomplex reasoning, and autonomous decision-making. At the same time, the rise\nof Agentic AI highlights adaptability and goal-directed autonomy in dynamic and\ncomplex environments. LLMs-based AI Agents (LLM-Agents), MLLMs-based AI Agents\n(MLLM-Agents), and Agentic AI contribute to expanding AI's capabilities in\ninformation processing, environmental perception, and autonomous\ndecision-making, opening new avenues for smart manufacturing. However, the\ndefinitions, capability boundaries, and practical applications of these\nemerging AI paradigms in smart manufacturing remain unclear. To address this\ngap, this study systematically reviews the evolution of AI and AI agent\ntechnologies, examines the core concepts and technological advancements of\nLLM-Agents, MLLM-Agents, and Agentic AI, and explores their potential\napplications in and integration into manufacturing, along with the potential\nchallenges they may face.",
+    "pdf_url": "http://arxiv.org/pdf/2507.01376v1",
+    "published": "2025-07-02"
+  },
+  "2509.11431v1": {
+    "title": "Securing AI Agents: Implementing Role-Based Access Control for Industrial Applications",
+    "authors": [
+      "Aadil Gani Ganie"
+    ],
+    "summary": "The emergence of Large Language Models (LLMs) has significantly advanced\nsolutions across various domains, from political science to software\ndevelopment. However, these models are constrained by their training data,\nwhich is static and limited to information available up to a specific date.\nAdditionally, their generalized nature often necessitates fine-tuning --\nwhether for classification or instructional purposes -- to effectively perform\nspecific downstream tasks. AI agents, leveraging LLMs as their core, mitigate\nsome of these limitations by accessing external tools and real-time data,\nenabling applications such as live weather reporting and data analysis. In\nindustrial settings, AI agents are transforming operations by enhancing\ndecision-making, predictive maintenance, and process optimization. For example,\nin manufacturing, AI agents enable near-autonomous systems that boost\nproductivity and support real-time decision-making. Despite these advancements,\nAI agents remain vulnerable to security threats, including prompt injection\nattacks, which pose significant risks to their integrity and reliability. To\naddress these challenges, this paper proposes a framework for integrating\nRole-Based Access Control (RBAC) into AI agents, providing a robust security\nguardrail. This framework aims to support the effective and scalable deployment\nof AI agents, with a focus on on-premises implementations.",
+    "pdf_url": "http://arxiv.org/pdf/2509.11431v1",
+    "published": "2025-09-14"
+  },
+  "2505.06378v1": {
+    "title": "Bi-LSTM based Multi-Agent DRL with Computation-aware Pruning for Agent Twins Migration in Vehicular Embodied AI Networks",
+    "authors": [
+      "Yuxiang Wei",
+      "Zhuoqi Zeng",
+      "Yue Zhong",
+      "Jiawen Kang",
+      "Ryan Wen Liu",
+      "M. Shamim Hossain"
+    ],
+    "summary": "With the advancement of large language models and embodied Artificial\nIntelligence (AI) in the intelligent transportation scenarios, the combination\nof them in intelligent transportation spawns the Vehicular Embodied AI Network\n(VEANs). In VEANs, Autonomous Vehicles (AVs) are typical agents whose local\nadvanced AI applications are defined as vehicular embodied AI agents, enabling\ncapabilities such as environment perception and multi-agent collaboration. Due\nto computation latency and resource constraints, the local AI applications and\nservices running on vehicular embodied AI agents need to be migrated, and\nsubsequently referred to as vehicular embodied AI agent twins, which drive the\nadvancement of vehicular embodied AI networks to offload intensive tasks to\nRoadside Units (RSUs), mitigating latency problems while maintaining service\nquality. Recognizing workload imbalance among RSUs in traditional approaches,\nwe model AV-RSU interactions as a Stackelberg game to optimize bandwidth\nresource allocation for efficient migration. A Tiny Multi-Agent Bidirectional\nLSTM Proximal Policy Optimization (TMABLPPO) algorithm is designed to\napproximate the Stackelberg equilibrium through decentralized coordination.\nFurthermore, a personalized neural network pruning algorithm based on Path\neXclusion (PX) dynamically adapts to heterogeneous AV computation capabilities\nby identifying task-critical parameters in trained models, reducing model\ncomplexity with less performance degradation. Experimental validation confirms\nthe algorithm's effectiveness in balancing system load and minimizing delays,\ndemonstrating significant improvements in vehicular embodied AI agent\ndeployment.",
+    "pdf_url": "http://arxiv.org/pdf/2505.06378v1",
+    "published": "2025-05-09"
+  },
+  "2502.18359v1": {
+    "title": "Responsible AI Agents",
+    "authors": [
+      "Deven R. Desai",
+      "Mark O. Riedl"
+    ],
+    "summary": "Thanks to advances in large language models, a new type of software agent,\nthe artificial intelligence (AI) agent, has entered the marketplace. Companies\nsuch as OpenAI, Google, Microsoft, and Salesforce promise their AI Agents will\ngo from generating passive text to executing tasks. Instead of a travel\nitinerary, an AI Agent would book all aspects of your trip. Instead of\ngenerating text or images for social media post, an AI Agent would post the\ncontent across a host of social media outlets. The potential power of AI Agents\nhas fueled legal scholars' fears that AI Agents will enable rogue commerce,\nhuman manipulation, rampant defamation, and intellectual property harms. These\nscholars are calling for regulation before AI Agents cause havoc.\n  This Article addresses the concerns around AI Agents head on. It shows that\ncore aspects of how one piece of software interacts with another creates ways\nto discipline AI Agents so that rogue, undesired actions are unlikely, perhaps\nmore so than rules designed to govern human agents. It also develops a way to\nleverage the computer-science approach to value-alignment to improve a user's\nability to take action to prevent or correct AI Agent operations. That approach\noffers and added benefit of helping AI Agents align with norms around user-AI\nAgent interactions. These practices will enable desired economic outcomes and\nmitigate perceived risks. The Article also argues that no matter how much AI\nAgents seem like human agents, they need not, and should not, be given legal\npersonhood status. In short, humans are responsible for AI Agents' actions, and\nthis Article provides a guide for how humans can build and maintain responsible\nAI Agents.",
+    "pdf_url": "http://arxiv.org/pdf/2502.18359v1",
+    "published": "2025-02-25"
+  },
+  "2401.11839v1": {
+    "title": "AI for social science and social science of AI: A Survey",
+    "authors": [
+      "Ruoxi Xu",
+      "Yingfei Sun",
+      "Mengjie Ren",
+      "Shiguang Guo",
+      "Ruotong Pan",
+      "Hongyu Lin",
+      "Le Sun",
+      "Xianpei Han"
+    ],
+    "summary": "Recent advancements in artificial intelligence, particularly with the\nemergence of large language models (LLMs), have sparked a rethinking of\nartificial general intelligence possibilities. The increasing human-like\ncapabilities of AI are also attracting attention in social science research,\nleading to various studies exploring the combination of these two fields. In\nthis survey, we systematically categorize previous explorations in the\ncombination of AI and social science into two directions that share common\ntechnical approaches but differ in their research objectives. The first\ndirection is focused on AI for social science, where AI is utilized as a\npowerful tool to enhance various stages of social science research. While the\nsecond direction is the social science of AI, which examines AI agents as\nsocial entities with their human-like cognitive and linguistic capabilities. By\nconducting a thorough review, particularly on the substantial progress\nfacilitated by recent advancements in large language models, this paper\nintroduces a fresh perspective to reassess the relationship between AI and\nsocial science, provides a cohesive framework that allows researchers to\nunderstand the distinctions and connections between AI for social science and\nsocial science of AI, and also summarized state-of-art experiment simulation\nplatforms to facilitate research in these two directions. We believe that as AI\ntechnology continues to advance and intelligent agents find increasing\napplications in our daily lives, the significance of the combination of AI and\nsocial science will become even more prominent.",
+    "pdf_url": "http://arxiv.org/pdf/2401.11839v1",
+    "published": "2024-01-22"
+  },
+  "2402.17270v2": {
+    "title": "Multi-Agent, Human-Agent and Beyond: A Survey on Cooperation in Social Dilemmas",
+    "authors": [
+      "Chunjiang Mu",
+      "Hao Guo",
+      "Yang Chen",
+      "Chen Shen",
+      "Shuyue Hu",
+      "Zhen Wang"
+    ],
+    "summary": "The study of cooperation within social dilemmas has long been a fundamental\ntopic across various disciplines, including computer science and social\nscience. Recent advancements in Artificial Intelligence (AI) have significantly\nreshaped this field, offering fresh insights into understanding and enhancing\ncooperation. This survey examines three key areas at the intersection of AI and\ncooperation in social dilemmas. First, focusing on multi-agent cooperation, we\nreview the intrinsic and external motivations that support cooperation among\nrational agents, and the methods employed to develop effective strategies\nagainst diverse opponents. Second, looking into human-agent cooperation, we\ndiscuss the current AI algorithms for cooperating with humans and the human\nbiases towards AI agents. Third, we review the emergent field of leveraging AI\nagents to enhance cooperation among humans. We conclude by discussing future\nresearch avenues, such as using large language models, establishing unified\ntheoretical frameworks, revisiting existing theories of human cooperation, and\nexploring multiple real-world applications.",
+    "pdf_url": "http://arxiv.org/pdf/2402.17270v2",
+    "published": "2024-02-27"
+  },
+  "2506.01463v1": {
+    "title": "Agentic AI and Multiagentic: Are We Reinventing the Wheel?",
+    "authors": [
+      "V. Botti"
+    ],
+    "summary": "The terms Agentic AI and Multiagentic AI have recently gained popularity in\ndiscussions on generative artificial intelligence, often used to describe\nautonomous software agents and systems composed of such agents. However, the\nuse of these terms confuses these buzzwords with well-established concepts in\nAI literature: intelligent agents and multi-agent systems. This article offers\na critical analysis of this conceptual misuse. We review the theoretical\norigins of \"agentic\" in the social sciences (Bandura, 1986) and philosophical\nnotions of intentionality (Dennett, 1971), and then summarise foundational\nworks on intelligent agents and multi-agent systems by Wooldridge, Jennings and\nothers. We examine classic agent architectures, from simple reactive agents to\nBelief-Desire-Intention (BDI) models, and highlight key properties (autonomy,\nreactivity, proactivity, social capability) that define agency in AI. We then\ndiscuss recent developments in large language models (LLMs) and agent platforms\nbased on LLMs, including the emergence of LLM-powered AI agents and open-source\nmulti-agent orchestration frameworks. We argue that the term AI Agentic is\noften used as a buzzword for what are essentially AI agents, and AI\nMultiagentic for what are multi-agent systems. This confusion overlooks decades\nof research in the field of autonomous agents and multi-agent systems. The\narticle advocates for scientific and technological rigour and the use of\nestablished terminology from the state of the art in AI, incorporating the\nwealth of existing knowledge, including standards for multi-agent system\nplatforms, communication languages and coordination and cooperation algorithms,\nagreement technologies (automated negotiation, argumentation, virtual\norganisations, trust, reputation, etc.), into the new and promising wave of\nLLM-based AI agents, so as not to end up reinventing the wheel.",
+    "pdf_url": "http://arxiv.org/pdf/2506.01463v1",
+    "published": "2025-06-02"
+  },
+  "2405.01561v1": {
+    "title": "Rapid Mobile App Development for Generative AI Agents on MIT App Inventor",
+    "authors": [
+      "Jaida Gao",
+      "Calab Su",
+      "Etai Miller",
+      "Kevin Lu",
+      "Yu Meng"
+    ],
+    "summary": "The evolution of Artificial Intelligence (AI) stands as a pivotal force\nshaping our society, finding applications across diverse domains such as\neducation, sustainability, and safety. Leveraging AI within mobile applications\nmakes it easily accessible to the public, catalyzing its transformative\npotential. In this paper, we present a methodology for the rapid development of\nAI agent applications using the development platform provided by MIT App\nInventor. To demonstrate its efficacy, we share the development journey of\nthree distinct mobile applications: SynchroNet for fostering sustainable\ncommunities; ProductiviTeams for addressing procrastination; and iHELP for\nenhancing community safety. All three applications seamlessly integrate a\nspectrum of generative AI features, leveraging OpenAI APIs. Furthermore, we\noffer insights gleaned from overcoming challenges in integrating diverse tools\nand AI functionalities, aiming to inspire young developers to join our efforts\nin building practical AI agent applications.",
+    "pdf_url": "http://arxiv.org/pdf/2405.01561v1",
+    "published": "2024-04-01"
+  }
+}

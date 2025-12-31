@@ -1,0 +1,194 @@
+{
+  "2310.18852v2": {
+    "title": "AI for Open Science: A Multi-Agent Perspective for Ethically Translating Data to Knowledge",
+    "authors": [
+      "Chase Yakaboski",
+      "Gregory Hyde",
+      "Clement Nyanhongo",
+      "Eugene Santos Jr"
+    ],
+    "summary": "AI for Science (AI4Science), particularly in the form of self-driving labs,\nhas the potential to sideline human involvement and hinder scientific discovery\nwithin the broader community. While prior research has focused on ensuring the\nresponsible deployment of AI applications, enhancing security, and ensuring\ninterpretability, we also propose that promoting openness in AI4Science\ndiscoveries should be carefully considered. In this paper, we introduce the\nconcept of AI for Open Science (AI4OS) as a multi-agent extension of AI4Science\nwith the core principle of maximizing open knowledge translation throughout the\nscientific enterprise rather than a single organizational unit. We use the\nestablished principles of Knowledge Discovery and Data Mining (KDD) to\nformalize a language around AI4OS. We then discuss three principle stages of\nknowledge translation embedded in AI4Science systems and detail specific points\nwhere openness can be applied to yield an AI4OS alternative. Lastly, we\nformulate a theoretical metric to assess AI4OS with a supporting ethical\nargument highlighting its importance. Our goal is that by drawing attention to\nAI4OS we can ensure the natural consequence of AI4Science (e.g., self-driving\nlabs) is a benefit not only for its developers but for society as a whole.",
+    "pdf_url": "http://arxiv.org/pdf/2310.18852v2",
+    "published": "2023-10-28"
+  },
+  "2412.09628v2": {
+    "title": "Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science",
+    "authors": [
+      "Yutong Xie",
+      "Yijun Pan",
+      "Hua Xu",
+      "Qiaozhu Mei"
+    ],
+    "summary": "Artificial Intelligence has proven to be a transformative tool for advancing\nscientific research across a wide range of disciplines. However, a significant\ngap still exists between AI and scientific communities, limiting the full\npotential of AI methods in driving broad scientific discovery. Existing efforts\nin identifying and bridging this gap have often relied on qualitative\nexamination of small samples of literature, offering a limited perspective on\nthe broader AI4Science landscape. In this work, we present a large-scale\nanalysis of the AI4Science literature, starting by using large language models\nto identify scientific problems and AI methods in publications from top science\nand AI venues. Leveraging this new dataset, we quantitatively highlight key\ndisparities between AI methods and scientific problems, revealing substantial\nopportunities for deeper AI integration across scientific disciplines.\nFurthermore, we explore the potential and challenges of facilitating\ncollaboration between AI and scientific communities through the lens of link\nprediction. Our findings and tools aim to promote more impactful\ninterdisciplinary collaborations and accelerate scientific discovery through\ndeeper and broader AI integration. Our code and dataset are available at:\nhttps://github.com/charles-pyj/Bridging-AI-and-Science.",
+    "pdf_url": "http://arxiv.org/pdf/2412.09628v2",
+    "published": "2024-11-27"
+  },
+  "2508.07807v2": {
+    "title": "Topological Feature Compression for Molecular Graph Neural Networks",
+    "authors": [
+      "Rahul Khorana"
+    ],
+    "summary": "Recent advances in molecular representation learning have produced highly\neffective encodings of molecules for numerous cheminformatics and\nbioinformatics tasks. However, extracting general chemical insight while\nbalancing predictive accuracy, interpretability, and computational efficiency\nremains a major challenge. In this work, we introduce a novel Graph Neural\nNetwork (GNN) architecture that combines compressed higher-order topological\nsignals with standard molecular features. Our approach captures global\ngeometric information while preserving computational tractability and\nhuman-interpretable structure. We evaluate our model across a range of\nbenchmarks, from small-molecule datasets to complex material datasets, and\ndemonstrate superior performance using a parameter-efficient architecture. We\nachieve the best performing results in both accuracy and robustness across\nalmost all benchmarks. We open source all code \\footnote{All code and results\ncan be found on Github https://github.com/rahulkhorana/TFC-PACT-Net}.",
+    "pdf_url": "http://arxiv.org/pdf/2508.07807v2",
+    "published": "2025-08-11"
+  },
+  "2307.08423v6": {
+    "title": "Artificial Intelligence for Science in Quantum, Atomistic, and Continuum Systems",
+    "authors": [
+      "Xuan Zhang",
+      "Limei Wang",
+      "Jacob Helwig",
+      "Youzhi Luo",
+      "Cong Fu",
+      "Yaochen Xie",
+      "Meng Liu",
+      "Yuchao Lin",
+      "Zhao Xu",
+      "Keqiang Yan",
+      "Keir Adams",
+      "Maurice Weiler",
+      "Xiner Li",
+      "Tianfan Fu",
+      "Yucheng Wang",
+      "Alex Strasser",
+      "Haiyang Yu",
+      "YuQing Xie",
+      "Xiang Fu",
+      "Shenglong Xu",
+      "Yi Liu",
+      "Yuanqi Du",
+      "Alexandra Saxton",
+      "Hongyi Ling",
+      "Hannah Lawrence",
+      "Hannes St\u00e4rk",
+      "Shurui Gui",
+      "Carl Edwards",
+      "Nicholas Gao",
+      "Adriana Ladera",
+      "Tailin Wu",
+      "Elyssa F. Hofgard",
+      "Aria Mansouri Tehrani",
+      "Rui Wang",
+      "Ameya Daigavane",
+      "Montgomery Bohde",
+      "Jerry Kurtin",
+      "Qian Huang",
+      "Tuong Phung",
+      "Minkai Xu",
+      "Chaitanya K. Joshi",
+      "Simon V. Mathis",
+      "Kamyar Azizzadenesheli",
+      "Ada Fang",
+      "Al\u00e1n Aspuru-Guzik",
+      "Erik Bekkers",
+      "Michael Bronstein",
+      "Marinka Zitnik",
+      "Anima Anandkumar",
+      "Stefano Ermon",
+      "Pietro Li\u00f2",
+      "Rose Yu",
+      "Stephan G\u00fcnnemann",
+      "Jure Leskovec",
+      "Heng Ji",
+      "Jimeng Sun",
+      "Regina Barzilay",
+      "Tommi Jaakkola",
+      "Connor W. Coley",
+      "Xiaoning Qian",
+      "Xiaofeng Qian",
+      "Tess Smidt",
+      "Shuiwang Ji"
+    ],
+    "summary": "Advances in artificial intelligence (AI) are fueling a new paradigm of\ndiscoveries in natural sciences. Today, AI has started to advance natural\nsciences by improving, accelerating, and enabling our understanding of natural\nphenomena at a wide range of spatial and temporal scales, giving rise to a new\narea of research known as AI for science (AI4Science). Being an emerging\nresearch paradigm, AI4Science is unique in that it is an enormous and highly\ninterdisciplinary area. Thus, a unified and technical treatment of this field\nis needed yet challenging. This work aims to provide a technically thorough\naccount of a subarea of AI4Science; namely, AI for quantum, atomistic, and\ncontinuum systems. These areas aim at understanding the physical world from the\nsubatomic (wavefunctions and electron density), atomic (molecules, proteins,\nmaterials, and interactions), to macro (fluids, climate, and subsurface) scales\nand form an important subarea of AI4Science. A unique advantage of focusing on\nthese areas is that they largely share a common set of challenges, thereby\nallowing a unified and foundational treatment. A key common challenge is how to\ncapture physics first principles, especially symmetries, in natural systems by\ndeep learning methods. We provide an in-depth yet intuitive account of\ntechniques to achieve equivariance to symmetry transformations. We also discuss\nother common technical challenges, including explainability,\nout-of-distribution generalization, knowledge transfer with foundation and\nlarge language models, and uncertainty quantification. To facilitate learning\nand education, we provide categorized lists of resources that we found to be\nuseful. We strive to be thorough and unified and hope this initial effort may\ntrigger more community interests and efforts to further advance AI4Science.",
+    "pdf_url": "http://arxiv.org/pdf/2307.08423v6",
+    "published": "2023-07-17"
+  },
+  "2503.13503v3": {
+    "title": "SciHorizon: Benchmarking AI-for-Science Readiness from Scientific Data to Large Language Models",
+    "authors": [
+      "Chuan Qin",
+      "Xin Chen",
+      "Chengrui Wang",
+      "Pengmin Wu",
+      "Xi Chen",
+      "Yihang Cheng",
+      "Jingyi Zhao",
+      "Meng Xiao",
+      "Xiangchao Dong",
+      "Qingqing Long",
+      "Boya Pan",
+      "Han Wu",
+      "Chengzan Li",
+      "Yuanchun Zhou",
+      "Hui Xiong",
+      "Hengshu Zhu"
+    ],
+    "summary": "In recent years, the rapid advancement of Artificial Intelligence (AI)\ntechnologies, particularly Large Language Models (LLMs), has revolutionized the\nparadigm of scientific discovery, establishing AI-for-Science (AI4Science) as a\ndynamic and evolving field. However, there is still a lack of an effective\nframework for the overall assessment of AI4Science, particularly from a\nholistic perspective on data quality and model capability. Therefore, in this\nstudy, we propose SciHorizon, a comprehensive assessment framework designed to\nbenchmark the readiness of AI4Science from both scientific data and LLM\nperspectives. First, we introduce a generalizable framework for assessing\nAI-ready scientific data, encompassing four key dimensions: Quality, FAIRness,\nExplainability, and Compliance-which are subdivided into 15 sub-dimensions.\nDrawing on data resource papers published between 2018 and 2023 in\npeer-reviewed journals, we present recommendation lists of AI-ready datasets\nfor Earth, Life, and Materials Sciences, making a novel and original\ncontribution to the field. Concurrently, to assess the capabilities of LLMs\nacross multiple scientific disciplines, we establish 16 assessment dimensions\nbased on five core indicators Knowledge, Understanding, Reasoning,\nMultimodality, and Values spanning Mathematics, Physics, Chemistry, Life\nSciences, and Earth and Space Sciences. Using the developed benchmark datasets,\nwe have conducted a comprehensive evaluation of over 50 representative\nopen-source and closed source LLMs. All the results are publicly available and\ncan be accessed online at www.scihorizon.cn/en.",
+    "pdf_url": "http://arxiv.org/pdf/2503.13503v3",
+    "published": "2025-03-12"
+  },
+  "2503.05822v3": {
+    "title": "Unlocking the Potential of AI Researchers in Scientific Discovery: What Is Missing?",
+    "authors": [
+      "Hengjie Yu",
+      "Shuya Liu",
+      "Haiyun Yang",
+      "Yuping Yan",
+      "Maozhen Qu",
+      "Yaochu Jin"
+    ],
+    "summary": "The potential of AI researchers in scientific discovery remains largely\nuntapped. Over the past decade, AI for Science (AI4Science) publications in 145\nNature Index journals have increased fifteen-fold, yet they still account for\nless than 3% of the total publications. Drawing upon the Diffusion of\nInnovation theory, we project AI4Science's share of total publications to rise\nfrom 2.72% in 2024 to approximately 20% by 2050. Achieving this shift requires\nfully harnessing the potential of AI researchers, as nearly 95% of AI-driven\nresearch in these journals is led by experimental scientists. To facilitate\nthis, we propose structured workflows and strategic interventions to position\nAI researchers at the forefront of scientific discovery. Specifically, we\nidentify three critical pathways: equipping experimental scientists with\naccessible AI tools to amplify the impact of AI researchers, bridging cognitive\nand methodological gaps to enable more direct involvement in scientific\ndiscovery, and proactively fostering a thriving AI-driven scientific ecosystem.\nBy addressing these challenges, we aim to empower AI researchers as key drivers\nof future scientific breakthroughs.",
+    "pdf_url": "http://arxiv.org/pdf/2503.05822v3",
+    "published": "2025-03-05"
+  },
+  "2507.12803v1": {
+    "title": "FLDmamba: Integrating Fourier and Laplace Transform Decomposition with Mamba for Enhanced Time Series Prediction",
+    "authors": [
+      "Qianru Zhang",
+      "Chenglei Yu",
+      "Haixin Wang",
+      "Yudong Yan",
+      "Yuansheng Cao",
+      "Siu-Ming Yiu",
+      "Tailin Wu",
+      "Hongzhi Yin"
+    ],
+    "summary": "Time series prediction, a crucial task across various domains, faces\nsignificant challenges due to the inherent complexities of time series data,\nincluding non-stationarity, multi-scale periodicity, and transient dynamics,\nparticularly when tackling long-term predictions. While Transformer-based\narchitectures have shown promise, their quadratic complexity with sequence\nlength hinders their efficiency for long-term predictions. Recent advancements\nin State-Space Models, such as Mamba, offer a more efficient alternative for\nlong-term modeling, but they cannot capture multi-scale periodicity and\ntransient dynamics effectively. Meanwhile, they are susceptible to data noise\nissues in time series. This paper proposes a novel framework, FLDmamba (Fourier\nand Laplace Transform Decomposition Mamba), addressing these limitations.\nFLDmamba leverages the strengths of both Fourier and Laplace transforms to\neffectively capture both multi-scale periodicity, transient dynamics within\ntime series data, and improve the robustness of the model to the data noise\nissue. Our extensive experiments demonstrate that FLDmamba achieves superior\nperformance on time series prediction benchmarks, outperforming both\nTransformer-based and other Mamba-based architectures. To promote the\nreproducibility of our method, we have made both the code and data accessible\nvia the following\nURL:{\\href{https://github.com/AI4Science-WestlakeU/FLDmamba}{https://github.com/AI4Science-WestlakeU/\\model}.",
+    "pdf_url": "http://arxiv.org/pdf/2507.12803v1",
+    "published": "2025-07-17"
+  },
+  "2110.11286v2": {
+    "title": "One-Shot Transfer Learning of Physics-Informed Neural Networks",
+    "authors": [
+      "Shaan Desai",
+      "Marios Mattheakis",
+      "Hayden Joy",
+      "Pavlos Protopapas",
+      "Stephen Roberts"
+    ],
+    "summary": "Solving differential equations efficiently and accurately sits at the heart\nof progress in many areas of scientific research, from classical dynamical\nsystems to quantum mechanics. There is a surge of interest in using\nPhysics-Informed Neural Networks (PINNs) to tackle such problems as they\nprovide numerous benefits over traditional numerical approaches. Despite their\npotential benefits for solving differential equations, transfer learning has\nbeen under explored. In this study, we present a general framework for transfer\nlearning PINNs that results in one-shot inference for linear systems of both\nordinary and partial differential equations. This means that highly accurate\nsolutions to many unknown differential equations can be obtained\ninstantaneously without retraining an entire network. We demonstrate the\nefficacy of the proposed deep learning approach by solving several real-world\nproblems, such as first- and second-order linear ordinary equations, the\nPoisson equation, and the time-dependent Schrodinger complex-value partial\ndifferential equation.",
+    "pdf_url": "http://arxiv.org/pdf/2110.11286v2",
+    "published": "2021-10-21"
+  },
+  "2202.04829v2": {
+    "title": "Target-aware Molecular Graph Generation",
+    "authors": [
+      "Cheng Tan",
+      "Zhangyang Gao",
+      "Stan Z. Li"
+    ],
+    "summary": "Generating molecules with desired biological activities has attracted growing\nattention in drug discovery. Previous molecular generation models are designed\nas chemocentric methods that hardly consider the drug-target interaction,\nlimiting their practical applications. In this paper, we aim to generate\nmolecular drugs in a target-aware manner that bridges biological activity and\nmolecular design. To solve this problem, we compile a benchmark dataset from\nseveral publicly available datasets and build baselines in a unified framework.\nBuilding on the recent advantages of flow-based molecular generation models, we\npropose SiamFlow, which forces the flow to fit the distribution of target\nsequence embeddings in latent space. Specifically, we employ an alignment loss\nand a uniform loss to bring target sequence embeddings and drug graph\nembeddings into agreements while avoiding collapse. Furthermore, we formulate\nthe alignment into a one-to-many problem by learning spaces of target sequence\nembeddings. Experiments quantitatively show that our proposed method learns\nmeaningful representations in the latent space toward the target-aware\nmolecular graph generation and provides an alternative approach to bridge\nbiology and chemistry in drug discovery.",
+    "pdf_url": "http://arxiv.org/pdf/2202.04829v2",
+    "published": "2022-02-10"
+  },
+  "2206.01637v2": {
+    "title": "Unsupervised Discovery of Inertial-Fusion Plasma Physics using Differentiable Kinetic Simulations and a Maximum Entropy Loss Function",
+    "authors": [
+      "Archis S. Joglekar",
+      "Alexander G. R. Thomas"
+    ],
+    "summary": "Plasma supports collective modes and particle-wave interactions that leads to\ncomplex behavior in inertial fusion energy applications. While plasma can\nsometimes be modeled as a charged fluid, a kinetic description is useful\ntowards the study of nonlinear effects in the higher dimensional\nmomentum-position phase-space that describes the full complexity of plasma\ndynamics. We create a differentiable solver for the plasma kinetics 3D\npartial-differential-equation and introduce a domain-specific objective\nfunction. Using this framework, we perform gradient-based optimization of\nneural networks that provide forcing function parameters to the differentiable\nsolver given a set of initial conditions. We apply this to an inertial-fusion\nrelevant configuration and find that the optimization process exploits a novel\nphysical effect that has previously remained undiscovered.",
+    "pdf_url": "http://arxiv.org/pdf/2206.01637v2",
+    "published": "2022-06-03"
+  }
+}

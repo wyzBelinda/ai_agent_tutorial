@@ -1,0 +1,122 @@
+{
+  "2504.16770v1": {
+    "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+    "authors": [
+      "Chaeyeon Lim"
+    ],
+    "summary": "While generative artificial intelligence (Gen AI) increasingly transforms academic environments, a critical gap exists in understanding and mitigating human biases in AI interactions, such as anchoring and confirmation bias. This position paper advocates for metacognitive AI literacy interventions to help university students critically engage with AI and address biases across the Human-AI interaction workflows. The paper presents the importance of considering (1) metacognitive support with deliberate friction focusing on human bias; (2) bi-directional Human-AI interaction intervention addressing both input formulation and output interpretation; and (3) adaptive scaffolding that responds to diverse user engagement patterns. These frameworks are illustrated through ongoing work on \"DeBiasMe,\" AIED (AI in Education) interventions designed to enhance awareness of cognitive biases while empowering user agency in AI interactions. The paper invites multiple stakeholders to engage in discussions on design and evaluation methods for scaffolding mechanisms, bias visualization, and analysis frameworks. This position contributes to the emerging field of AI-augmented learning by emphasizing the critical role of metacognition in helping students navigate the complex interaction between human, statistical, and systemic biases in AI use while highlighting how cognitive adaptation to AI systems must be explicitly integrated into comprehensive AI literacy frameworks.",
+    "pdf_url": null,
+    "published": "2025-04-23"
+  },
+  "2504.14689v1": {
+    "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+    "authors": [
+      "Katelyn Xiaoying Mei",
+      "Nic Weber"
+    ],
+    "summary": "The recent rapid advancement of LLM-based AI systems has accelerated our search and production of information. While the advantages brought by these systems seemingly improve the performance or efficiency of human activities, they do not necessarily enhance human capabilities. Recent research has started to examine the impact of generative AI on individuals' cognitive abilities, especially critical thinking. Based on definitions of critical thinking across psychology and education, this position paper proposes the distinction between demonstrated and performed critical thinking in the era of generative AI and discusses the implication of this distinction in research and development of AI systems that aim to augment human critical thinking.",
+    "pdf_url": null,
+    "published": "2025-04-20"
+  },
+  "2412.01978v1": {
+    "title": "Human-centred test and evaluation of military AI",
+    "authors": [
+      "David Helmer",
+      "Michael Boardman",
+      "S. Kate Conroy",
+      "Adam J. Hepworth",
+      "Manoj Harjani"
+    ],
+    "summary": "The REAIM 2024 Blueprint for Action states that AI applications in the military domain should be ethical and human-centric and that humans must remain responsible and accountable for their use and effects. Developing rigorous test and evaluation, verification and validation (TEVV) frameworks will contribute to robust oversight mechanisms. TEVV in the development and deployment of AI systems needs to involve human users throughout the lifecycle. Traditional human-centred test and evaluation methods from human factors need to be adapted for deployed AI systems that require ongoing monitoring and evaluation. The language around AI-enabled systems should be shifted to inclusion of the human(s) as a component of the system. Standards and requirements supporting this adjusted definition are needed, as are metrics and means to evaluate them. The need for dialogue between technologists and policymakers on human-centred TEVV will be evergreen, but dialogue needs to be initiated with an objective in mind for it to be productive. Development of TEVV throughout system lifecycle is critical to support this evolution including the issue of human scalability and impact on scale of achievable testing. Communication between technical and non technical communities must be improved to ensure operators and policy-makers understand risk assumed by system use and to better inform research and development. Test and evaluation in support of responsible AI deployment must include the effect of the human to reflect operationally realised system performance. Means of communicating the results of TEVV to those using and making decisions regarding the use of AI based systems will be key in informing risk based decisions regarding use.",
+    "pdf_url": null,
+    "published": "2024-12-02"
+  },
+  "2202.04977v3": {
+    "title": "Needs-aware Artificial Intelligence: AI that 'serves [human] needs'",
+    "authors": [
+      "Ryan Watkins",
+      "Soheil Human"
+    ],
+    "summary": "By defining the current limits (and thereby the frontiers), many boundaries are shaping, and will continue to shape, the future of Artificial Intelligence (AI). We push on these boundaries in order to make further progress into what were yesterday's frontiers. They are both pliable and resilient - always creating new boundaries of what AI can (or should) achieve. Among these are technical boundaries (such as processing capacity), psychological boundaries (such as human trust in AI systems), ethical boundaries (such as with AI weapons), and conceptual boundaries (such as the AI people can imagine). It is within this final category while it can play a fundamental role in all other boundaries} that we find the construct of needs and the limitations that our current concept of need places on the future AI.",
+    "pdf_url": null,
+    "published": "2022-02-10"
+  },
+  "2405.14107v1": {
+    "title": "Towards Feature Engineering with Human and AI's Knowledge: Understanding Data Science Practitioners' Perceptions in Human&AI-Assisted Feature Engineering Design",
+    "authors": [
+      "Qian Zhu",
+      "Dakuo Wang",
+      "Shuai Ma",
+      "April Yi Wang",
+      "Zixin Chen",
+      "Udayan Khurana",
+      "Xiaojuan Ma"
+    ],
+    "summary": "As AI technology continues to advance, the importance of human-AI collaboration becomes increasingly evident, with numerous studies exploring its potential in various fields. One vital field is data science, including feature engineering (FE), where both human ingenuity and AI capabilities play pivotal roles. Despite the existence of AI-generated recommendations for FE, there remains a limited understanding of how to effectively integrate and utilize humans' and AI's knowledge. To address this gap, we design a readily-usable prototype, human\\&AI-assisted FE in Jupyter notebooks. It harnesses the strengths of humans and AI to provide feature suggestions to users, seamlessly integrating these recommendations into practical workflows. Using the prototype as a research probe, we conducted an exploratory study to gain valuable insights into data science practitioners' perceptions, usage patterns, and their potential needs when presented with feature suggestions from both humans and AI. Through qualitative analysis, we discovered that the Creator of the feature (i.e., AI or human) significantly influences users' feature selection, and the semantic clarity of the suggested feature greatly impacts its adoption rate. Furthermore, our findings indicate that users perceive both differences and complementarity between features generated by humans and those generated by AI. Lastly, based on our study results, we derived a set of design recommendations for future human&AI FE design. Our findings show the collaborative potential between humans and AI in the field of FE.",
+    "pdf_url": null,
+    "published": "2024-05-23"
+  },
+  "2205.01467v1": {
+    "title": "On the Effect of Information Asymmetry in Human-AI Teams",
+    "authors": [
+      "Patrick Hemmer",
+      "Max Schemmer",
+      "Niklas K\u00fchl",
+      "Michael V\u00f6ssing",
+      "Gerhard Satzger"
+    ],
+    "summary": "Over the last years, the rising capabilities of artificial intelligence (AI) have improved human decision-making in many application areas. Teaming between AI and humans may even lead to complementary team performance (CTP), i.e., a level of performance beyond the ones that can be reached by AI or humans individually. Many researchers have proposed using explainable AI (XAI) to enable humans to rely on AI advice appropriately and thereby reach CTP. However, CTP is rarely demonstrated in previous work as often the focus is on the design of explainability, while a fundamental prerequisite -- the presence of complementarity potential between humans and AI -- is often neglected. Therefore, we focus on the existence of this potential for effective human-AI decision-making. Specifically, we identify information asymmetry as an essential source of complementarity potential, as in many real-world situations, humans have access to different contextual information. By conducting an online experiment, we demonstrate that humans can use such contextual information to adjust the AI's decision, finally resulting in CTP.",
+    "pdf_url": null,
+    "published": "2022-05-03"
+  },
+  "1904.03285v4": {
+    "title": "Can You Explain That? Lucid Explanations Help Human-AI Collaborative Image Retrieval",
+    "authors": [
+      "Arijit Ray",
+      "Yi Yao",
+      "Rakesh Kumar",
+      "Ajay Divakaran",
+      "Giedrius Burachas"
+    ],
+    "summary": "While there have been many proposals on making AI algorithms explainable, few have attempted to evaluate the impact of AI-generated explanations on human performance in conducting human-AI collaborative tasks. To bridge the gap, we propose a Twenty-Questions style collaborative image retrieval game, Explanation-assisted Guess Which (ExAG), as a method of evaluating the efficacy of explanations (visual evidence or textual justification) in the context of Visual Question Answering (VQA). In our proposed ExAG, a human user needs to guess a secret image picked by the VQA agent by asking natural language questions to it. We show that overall, when AI explains its answers, users succeed more often in guessing the secret image correctly. Notably, a few correct explanations can readily improve human performance when VQA answers are mostly incorrect as compared to no-explanation games. Furthermore, we also show that while explanations rated as \"helpful\" significantly improve human performance, \"incorrect\" and \"unhelpful\" explanations can degrade performance as compared to no-explanation games. Our experiments, therefore, demonstrate that ExAG is an effective means to evaluate the efficacy of AI-generated explanations on a human-AI collaborative task.",
+    "pdf_url": null,
+    "published": "2019-04-05"
+  },
+  "2509.00961v1": {
+    "title": "Ultra Strong Machine Learning: Teaching Humans Active Learning Strategies via Automated AI Explanations",
+    "authors": [
+      "Lun Ai",
+      "Johannes Langer",
+      "Ute Schmid",
+      "Stephen Muggleton"
+    ],
+    "summary": "Ultra Strong Machine Learning (USML) refers to symbolic learning systems that not only improve their own performance but can also teach their acquired knowledge to quantifiably improve human performance. In this work, we present LENS (Logic Programming Explanation via Neural Summarisation), a neuro-symbolic method that combines symbolic program synthesis with large language models (LLMs) to automate the explanation of machine-learned logic programs in natural language. LENS addresses a key limitation of prior USML approaches by replacing hand-crafted explanation templates with scalable automated generation. Through systematic evaluation using multiple LLM judges and human validation, we demonstrate that LENS generates superior explanations compared to direct LLM prompting and hand-crafted templates. To investigate whether LENS can teach transferable active learning strategies, we carried out a human learning experiment across three related domains. Our results show no significant human performance improvements, suggesting that comprehensive LLM responses may overwhelm users for simpler problems rather than providing learning support. Our work provides a solid foundation for building effective USML systems to support human learning. The source code is available on: https://github.com/lun-ai/LENS.git.",
+    "pdf_url": null,
+    "published": "2025-08-31"
+  },
+  "2504.15894v1": {
+    "title": "Supporting Data-Frame Dynamics in AI-assisted Decision Making",
+    "authors": [
+      "Chengbo Zheng",
+      "Tim Miller",
+      "Alina Bialkowski",
+      "H Peter Soyer",
+      "Monika Janda"
+    ],
+    "summary": "High stakes decision-making often requires a continuous interplay between evolving evidence and shifting hypotheses, a dynamic that is not well supported by current AI decision support systems. In this paper, we introduce a mixed-initiative framework for AI assisted decision making that is grounded in the data-frame theory of sensemaking and the evaluative AI paradigm. Our approach enables both humans and AI to collaboratively construct, validate, and adapt hypotheses. We demonstrate our framework with an AI-assisted skin cancer diagnosis prototype that leverages a concept bottleneck model to facilitate interpretable interactions and dynamic updates to diagnostic hypotheses.",
+    "pdf_url": null,
+    "published": "2025-04-22"
+  },
+  "2504.14996v1": {
+    "title": "Distributed Cognition for AI-supported Remote Operations: Challenges and Research Directions",
+    "authors": [
+      "Rune M\u00f8berg Jacobsen",
+      "Joel Wester",
+      "Helena B\u00f8jer Djern\u00e6s",
+      "Niels van Berkel"
+    ],
+    "summary": "This paper investigates the impact of artificial intelligence integration on remote operations, emphasising its influence on both distributed and team cognition. As remote operations increasingly rely on digital interfaces, sensors, and networked communication, AI-driven systems transform decision-making processes across domains such as air traffic control, industrial automation, and intelligent ports. However, the integration of AI introduces significant challenges, including the reconfiguration of human-AI team cognition, the need for adaptive AI memory that aligns with human distributed cognition, and the design of AI fallback operators to maintain continuity during communication disruptions. Drawing on theories of distributed and team cognition, we analyse how cognitive overload, loss of situational awareness, and impaired team coordination may arise in AI-supported environments. Based on real-world intelligent port scenarios, we propose research directions that aim to safeguard human reasoning and enhance collaborative decision-making in AI-augmented remote operations.",
+    "pdf_url": null,
+    "published": "2025-04-21"
+  }
+}

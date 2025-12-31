@@ -1,0 +1,161 @@
+{
+  "2506.01463v1": {
+    "title": "Agentic AI and Multiagentic: Are We Reinventing the Wheel?",
+    "authors": [
+      "V. Botti"
+    ],
+    "summary": "The terms Agentic AI and Multiagentic AI have recently gained popularity in\ndiscussions on generative artificial intelligence, often used to describe\nautonomous software agents and systems composed of such agents. However, the\nuse of these terms confuses these buzzwords with well-established concepts in\nAI literature: intelligent agents and multi-agent systems. This article offers\na critical analysis of this conceptual misuse. We review the theoretical\norigins of \"agentic\" in the social sciences (Bandura, 1986) and philosophical\nnotions of intentionality (Dennett, 1971), and then summarise foundational\nworks on intelligent agents and multi-agent systems by Wooldridge, Jennings and\nothers. We examine classic agent architectures, from simple reactive agents to\nBelief-Desire-Intention (BDI) models, and highlight key properties (autonomy,\nreactivity, proactivity, social capability) that define agency in AI. We then\ndiscuss recent developments in large language models (LLMs) and agent platforms\nbased on LLMs, including the emergence of LLM-powered AI agents and open-source\nmulti-agent orchestration frameworks. We argue that the term AI Agentic is\noften used as a buzzword for what are essentially AI agents, and AI\nMultiagentic for what are multi-agent systems. This confusion overlooks decades\nof research in the field of autonomous agents and multi-agent systems. The\narticle advocates for scientific and technological rigour and the use of\nestablished terminology from the state of the art in AI, incorporating the\nwealth of existing knowledge, including standards for multi-agent system\nplatforms, communication languages and coordination and cooperation algorithms,\nagreement technologies (automated negotiation, argumentation, virtual\norganisations, trust, reputation, etc.), into the new and promising wave of\nLLM-based AI agents, so as not to end up reinventing the wheel.",
+    "pdf_url": "http://arxiv.org/pdf/2506.01463v1",
+    "published": "2025-06-02"
+  },
+  "2507.15003v1": {
+    "title": "The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering",
+    "authors": [
+      "Hao Li",
+      "Haoxiang Zhang",
+      "Ahmed E. Hassan"
+    ],
+    "summary": "The future of software engineering--SE 3.0--is unfolding with the rise of AI\nteammates: autonomous, goal-driven systems collaborating with human developers.\nAmong these, autonomous coding agents are especially transformative, now\nactively initiating, reviewing, and evolving code at scale. This paper\nintroduces AIDev, the first large-scale dataset capturing how such agents\noperate in the wild. Spanning over 456,000 pull requests by five leading\nagents--OpenAI Codex, Devin, GitHub Copilot, Cursor, and Claude Code--across\n61,000 repositories and 47,000 developers, AIDev provides an unprecedented\nempirical foundation for studying autonomous teammates in software development.\n  Unlike prior work that has largely theorized the rise of AI-native software\nengineering, AIDev offers structured, open data to support research in\nbenchmarking, agent readiness, optimization, collaboration modeling, and AI\ngovernance. The dataset includes rich metadata on PRs, authorship, review\ntimelines, code changes, and integration outcomes--enabling exploration beyond\nsynthetic benchmarks like SWE-bench. For instance, although agents often\noutperform humans in speed, their PRs are accepted less frequently, revealing a\ntrust and utility gap. Furthermore, while agents accelerate code\nsubmission--one developer submitted as many PRs in three days as they had in\nthree years--these are structurally simpler (via code complexity metrics).\n  We envision AIDev as a living resource: extensible, analyzable, and ready for\nthe SE and AI communities. Grounding SE 3.0 in real-world evidence, AIDev\nenables a new generation of research into AI-native workflows and supports\nbuilding the next wave of symbiotic human-AI collaboration. The dataset is\npublicly available at https://github.com/SAILResearch/AI_Teammates_in_SE3.\n  > AI Agent, Agentic AI, Coding Agent, Agentic Coding, Software Engineering\nAgent",
+    "pdf_url": "http://arxiv.org/pdf/2507.15003v1",
+    "published": "2025-07-20"
+  },
+  "2504.18875v1": {
+    "title": "Generative to Agentic AI: Survey, Conceptualization, and Challenges",
+    "authors": [
+      "Johannes Schneider"
+    ],
+    "summary": "Agentic Artificial Intelligence (AI) builds upon Generative AI (GenAI). It\nconstitutes the next major step in the evolution of AI with much stronger\nreasoning and interaction capabilities that enable more autonomous behavior to\ntackle complex tasks. Since the initial release of ChatGPT (3.5), Generative AI\nhas seen widespread adoption, giving users firsthand experience. However, the\ndistinction between Agentic AI and GenAI remains less well understood. To\naddress this gap, our survey is structured in two parts. In the first part, we\ncompare GenAI and Agentic AI using existing literature, discussing their key\ncharacteristics, how Agentic AI remedies limitations of GenAI, and the major\nsteps in GenAI's evolution toward Agentic AI. This section is intended for a\nbroad audience, including academics in both social sciences and engineering, as\nwell as industry professionals. It provides the necessary insights to\ncomprehend novel applications that are possible with Agentic AI but not with\nGenAI. In the second part, we deep dive into novel aspects of Agentic AI,\nincluding recent developments and practical concerns such as defining agents.\nFinally, we discuss several challenges that could serve as a future research\nagenda, while cautioning against risks that can emerge when exceeding human\nintelligence.",
+    "pdf_url": "http://arxiv.org/pdf/2504.18875v1",
+    "published": "2025-04-26"
+  },
+  "2508.14111v1": {
+    "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "authors": [
+      "Jiaqi Wei",
+      "Yuejin Yang",
+      "Xiang Zhang",
+      "Yuhan Chen",
+      "Xiang Zhuang",
+      "Zhangyang Gao",
+      "Dongzhan Zhou",
+      "Guangshuai Wang",
+      "Zhiqiang Gao",
+      "Juntai Cao",
+      "Zijie Qiu",
+      "Xuming He",
+      "Qiang Zhang",
+      "Chenyu You",
+      "Shuangjia Zheng",
+      "Ning Ding",
+      "Wanli Ouyang",
+      "Nanqing Dong",
+      "Yu Cheng",
+      "Siqi Sun",
+      "Lei Bai",
+      "Bowen Zhou"
+    ],
+    "summary": "Artificial intelligence (AI) is reshaping scientific discovery, evolving from\nspecialized computational tools into autonomous research partners. We position\nAgentic Science as a pivotal stage within the broader AI for Science paradigm,\nwhere AI systems progress from partial assistance to full scientific agency.\nEnabled by large language models (LLMs), multimodal systems, and integrated\nresearch platforms, agentic AI shows capabilities in hypothesis generation,\nexperimental design, execution, analysis, and iterative refinement -- behaviors\nonce regarded as uniquely human. This survey provides a domain-oriented review\nof autonomous scientific discovery across life sciences, chemistry, materials\nscience, and physics. We unify three previously fragmented perspectives --\nprocess-oriented, autonomy-oriented, and mechanism-oriented -- through a\ncomprehensive framework that connects foundational capabilities, core\nprocesses, and domain-specific realizations. Building on this framework, we (i)\ntrace the evolution of AI for Science, (ii) identify five core capabilities\nunderpinning scientific agency, (iii) model discovery as a dynamic four-stage\nworkflow, (iv) review applications across the above domains, and (v) synthesize\nkey challenges and future opportunities. This work establishes a\ndomain-oriented synthesis of autonomous scientific discovery and positions\nAgentic Science as a structured paradigm for advancing AI-driven research.",
+    "pdf_url": "http://arxiv.org/pdf/2508.14111v1",
+    "published": "2025-08-18"
+  },
+  "2504.19678v1": {
+    "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+    "authors": [
+      "Mohamed Amine Ferrag",
+      "Norbert Tihanyi",
+      "Merouane Debbah"
+    ],
+    "summary": "Large language models and autonomous AI agents have evolved rapidly,\nresulting in a diverse array of evaluation benchmarks, frameworks, and\ncollaboration protocols. However, the landscape remains fragmented and lacks a\nunified taxonomy or comprehensive survey. Therefore, we present a side-by-side\ncomparison of benchmarks developed between 2019 and 2025 that evaluate these\nmodels and agents across multiple domains. In addition, we propose a taxonomy\nof approximately 60 benchmarks that cover general and academic knowledge\nreasoning, mathematical problem-solving, code generation and software\nengineering, factual grounding and retrieval, domain-specific evaluations,\nmultimodal and embodied tasks, task orchestration, and interactive assessments.\nFurthermore, we review AI-agent frameworks introduced between 2023 and 2025\nthat integrate large language models with modular toolkits to enable autonomous\ndecision-making and multi-step reasoning. Moreover, we present real-world\napplications of autonomous AI agents in materials science, biomedical research,\nacademic ideation, software engineering, synthetic data generation, chemical\nreasoning, mathematical problem-solving, geographic information systems,\nmultimedia, healthcare, and finance. We then survey key agent-to-agent\ncollaboration protocols, namely the Agent Communication Protocol (ACP), the\nModel Context Protocol (MCP), and the Agent-to-Agent Protocol (A2A). Finally,\nwe discuss recommendations for future research, focusing on advanced reasoning\nstrategies, failure modes in multi-agent LLM systems, automated scientific\ndiscovery, dynamic tool integration via reinforcement learning, integrated\nsearch capabilities, and security vulnerabilities in agent protocols.",
+    "pdf_url": "http://arxiv.org/pdf/2504.19678v1",
+    "published": "2025-04-28"
+  },
+  "2504.08066v1": {
+    "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+    "authors": [
+      "Yutaro Yamada",
+      "Robert Tjarko Lange",
+      "Cong Lu",
+      "Shengran Hu",
+      "Chris Lu",
+      "Jakob Foerster",
+      "Jeff Clune",
+      "David Ha"
+    ],
+    "summary": "AI is increasingly playing a pivotal role in transforming how scientific\ndiscoveries are made. We introduce The AI Scientist-v2, an end-to-end agentic\nsystem capable of producing the first entirely AI generated\npeer-review-accepted workshop paper. This system iteratively formulates\nscientific hypotheses, designs and executes experiments, analyzes and\nvisualizes data, and autonomously authors scientific manuscripts. Compared to\nits predecessor (v1, Lu et al., 2024 arXiv:2408.06292), The AI Scientist-v2\neliminates the reliance on human-authored code templates, generalizes\neffectively across diverse machine learning domains, and leverages a novel\nprogressive agentic tree-search methodology managed by a dedicated experiment\nmanager agent. Additionally, we enhance the AI reviewer component by\nintegrating a Vision-Language Model (VLM) feedback loop for iterative\nrefinement of content and aesthetics of the figures. We evaluated The AI\nScientist-v2 by submitting three fully autonomous manuscripts to a\npeer-reviewed ICLR workshop. Notably, one manuscript achieved high enough\nscores to exceed the average human acceptance threshold, marking the first\ninstance of a fully AI-generated paper successfully navigating a peer review.\nThis accomplishment highlights the growing capability of AI in conducting all\naspects of scientific research. We anticipate that further advancements in\nautonomous scientific discovery technologies will profoundly impact human\nknowledge generation, enabling unprecedented scalability in research\nproductivity and significantly accelerating scientific breakthroughs, greatly\nbenefiting society at large. We have open-sourced the code at\nhttps://github.com/SakanaAI/AI-Scientist-v2 to foster the future development of\nthis transformative technology. We also discuss the role of AI in science,\nincluding AI safety.",
+    "pdf_url": "http://arxiv.org/pdf/2504.08066v1",
+    "published": "2025-04-10"
+  },
+  "2506.06366v3": {
+    "title": "AI Agent Behavioral Science",
+    "authors": [
+      "Lin Chen",
+      "Yunke Zhang",
+      "Jie Feng",
+      "Haoye Chai",
+      "Honglin Zhang",
+      "Bingbing Fan",
+      "Yibo Ma",
+      "Shiyuan Zhang",
+      "Nian Li",
+      "Tianhui Liu",
+      "Nicholas Sukiennik",
+      "Keyu Zhao",
+      "Yu Li",
+      "Ziyi Liu",
+      "Fengli Xu",
+      "Yong Li"
+    ],
+    "summary": "Recent advances in large language models (LLMs) have enabled the development\nof AI agents that exhibit increasingly human-like behaviors, including\nplanning, adaptation, and social dynamics across diverse, interactive, and\nopen-ended scenarios. These behaviors are not solely the product of the\ninternal architectures of the underlying models, but emerge from their\nintegration into agentic systems operating within specific contexts, where\nenvironmental factors, social cues, and interaction feedbacks shape behavior\nover time. This evolution necessitates a new scientific perspective: AI Agent\nBehavioral Science. Rather than focusing only on internal mechanisms, this\nperspective emphasizes the systematic observation of behavior, design of\ninterventions to test hypotheses, and theory-guided interpretation of how AI\nagents act, adapt, and interact over time. We systematize a growing body of\nresearch across individual agent, multi-agent, and human-agent interaction\nsettings, and further demonstrate how this perspective informs responsible AI\nby treating fairness, safety, interpretability, accountability, and privacy as\nbehavioral properties. By unifying recent findings and laying out future\ndirections, we position AI Agent Behavioral Science as a necessary complement\nto traditional model-centric approaches, providing essential tools for\nunderstanding, evaluating, and governing the real-world behavior of\nincreasingly autonomous AI systems.",
+    "pdf_url": "http://arxiv.org/pdf/2506.06366v3",
+    "published": "2025-06-04"
+  },
+  "2508.19383v1": {
+    "title": "Aleks: AI powered Multi Agent System for Autonomous Scientific Discovery via Data-Driven Approaches in Plant Science",
+    "authors": [
+      "Daoyuan Jin",
+      "Nick Gunner",
+      "Niko Carvajal Janke",
+      "Shivranjani Baruah",
+      "Kaitlin M. Gold",
+      "Yu Jiang"
+    ],
+    "summary": "Modern plant science increasingly relies on large, heterogeneous datasets,\nbut challenges in experimental design, data preprocessing, and reproducibility\nhinder research throughput. Here we introduce Aleks, an AI-powered multi-agent\nsystem that integrates domain knowledge, data analysis, and machine learning\nwithin a structured framework to autonomously conduct data-driven scientific\ndiscovery. Once provided with a research question and dataset, Aleks\niteratively formulated problems, explored alternative modeling strategies, and\nrefined solutions across multiple cycles without human intervention. In a case\nstudy on grapevine red blotch disease, Aleks progressively identified\nbiologically meaningful features and converged on interpretable models with\nrobust performance. Ablation studies underscored the importance of domain\nknowledge and memory for coherent outcomes. This exploratory work highlights\nthe promise of agentic AI as an autonomous collaborator for accelerating\nscientific discovery in plant sciences.",
+    "pdf_url": "http://arxiv.org/pdf/2508.19383v1",
+    "published": "2025-08-26"
+  },
+  "2405.13352v1": {
+    "title": "\"Turing Tests\" For An AI Scientist",
+    "authors": [
+      "Xiaoxin Yin"
+    ],
+    "summary": "While LLMs have shown impressive capabilities in solving math or coding\nproblems, the ability to make scientific discoveries remains a distinct\nchallenge. This paper proposes a \"Turing test for an AI scientist\" to assess\nwhether an AI agent can conduct scientific research independently, without\nrelying on human-generated knowledge. Drawing inspiration from the historical\ndevelopment of science, we propose seven benchmark tests that evaluate an AI\nagent's ability to make groundbreaking discoveries in various scientific\ndomains. These tests include inferring the heliocentric model from celestial\nobservations, discovering the laws of motion in a simulated environment,\nderiving the differential equation governing vibrating strings, inferring\nMaxwell's equations from electrodynamics simulations, inventing numerical\nmethods for initial value problems, discovering Huffman coding for data\ncompression, and developing efficient sorting algorithms. To ensure the\nvalidity of these tests, the AI agent is provided with interactive libraries or\ndatasets specific to each problem, without access to human knowledge that could\npotentially contain information about the target discoveries. The ultimate goal\nis to create an AI scientist capable of making novel and impactful scientific\ndiscoveries, surpassing the best human experts in their respective fields.\nThese \"Turing tests\" serve as intermediate milestones, assessing the AI agent's\nability to make discoveries that were groundbreaking in their time. If an AI\nagent can pass the majority of these seven tests, it would indicate significant\nprogress towards building an AI scientist, paving the way for future\nadvancements in autonomous scientific discovery. This paper aims to establish a\nbenchmark for the capabilities of AI in scientific research and to stimulate\nfurther research in this exciting field.",
+    "pdf_url": "http://arxiv.org/pdf/2405.13352v1",
+    "published": "2024-05-22"
+  },
+  "2506.17510v1": {
+    "title": "A Grassroots Network and Community Roadmap for Interconnected Autonomous Science Laboratories for Accelerated Discovery",
+    "authors": [
+      "Rafael Ferreira da Silva",
+      "Milad Abolhasani",
+      "Dionysios A. Antonopoulos",
+      "Laura Biven",
+      "Ryan Coffee",
+      "Ian T. Foster",
+      "Leslie Hamilton",
+      "Shantenu Jha",
+      "Theresa Mayer",
+      "Benjamin Mintz",
+      "Robert G. Moore",
+      "Salahudin Nimer",
+      "Noah Paulson",
+      "Woong Shin",
+      "Frederic Suter",
+      "Mitra Taheri",
+      "Michela Taufer",
+      "Newell R. Washburn"
+    ],
+    "summary": "Scientific discovery is being revolutionized by AI and autonomous systems,\nyet current autonomous laboratories remain isolated islands unable to\ncollaborate across institutions. We present the Autonomous Interconnected\nScience Lab Ecosystem (AISLE), a grassroots network transforming fragmented\ncapabilities into a unified system that shorten the path from ideation to\ninnovation to impact and accelerates discovery from decades to months. AISLE\naddresses five critical dimensions: (1) cross-institutional equipment\norchestration, (2) intelligent data management with FAIR compliance, (3)\nAI-agent driven orchestration grounded in scientific principles, (4)\ninteroperable agent communication interfaces, and (5) AI/ML-integrated\nscientific education. By connecting autonomous agents across institutional\nboundaries, autonomous science can unlock research spaces inaccessible to\ntraditional approaches while democratizing cutting-edge technologies. This\nparadigm shift toward collaborative autonomous science promises breakthroughs\nin sustainable energy, materials development, and public health.",
+    "pdf_url": "http://arxiv.org/pdf/2506.17510v1",
+    "published": "2025-06-20"
+  }
+}

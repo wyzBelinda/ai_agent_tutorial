@@ -1,0 +1,122 @@
+{
+  "2306.13723v2": {
+    "title": "Human-AI Coevolution",
+    "authors": [
+      "Dino Pedreschi",
+      "Luca Pappalardo",
+      "Emanuele Ferragina",
+      "Ricardo Baeza-Yates",
+      "Albert-Laszlo Barabasi",
+      "Frank Dignum",
+      "Virginia Dignum",
+      "Tina Eliassi-Rad",
+      "Fosca Giannotti",
+      "Janos Kertesz",
+      "Alistair Knott",
+      "Yannis Ioannidis",
+      "Paul Lukowicz",
+      "Andrea Passarella",
+      "Alex Sandy Pentland",
+      "John Shawe-Taylor",
+      "Alessandro Vespignani"
+    ],
+    "summary": "Human-AI coevolution, defined as a process in which humans and AI algorithms\ncontinuously influence each other, increasingly characterises our society, but\nis understudied in artificial intelligence and complexity science literature.\nRecommender systems and assistants play a prominent role in human-AI\ncoevolution, as they permeate many facets of daily life and influence human\nchoices on online platforms. The interaction between users and AI results in a\npotentially endless feedback loop, wherein users' choices generate data to\ntrain AI models, which, in turn, shape subsequent user preferences. This\nhuman-AI feedback loop has peculiar characteristics compared to traditional\nhuman-machine interaction and gives rise to complex and often ``unintended''\nsocial outcomes. This paper introduces Coevolution AI as the cornerstone for a\nnew field of study at the intersection between AI and complexity science\nfocused on the theoretical, empirical, and mathematical investigation of the\nhuman-AI feedback loop. In doing so, we: (i) outline the pros and cons of\nexisting methodologies and highlight shortcomings and potential ways for\ncapturing feedback loop mechanisms; (ii) propose a reflection at the\nintersection between complexity science, AI and society; (iii) provide\nreal-world examples for different human-AI ecosystems; and (iv) illustrate\nchallenges to the creation of such a field of study, conceptualising them at\nincreasing levels of abstraction, i.e., technical, epistemological, legal and\nsocio-political.",
+    "pdf_url": "http://arxiv.org/pdf/2306.13723v2",
+    "published": "2023-06-23"
+  },
+  "2505.16388v1": {
+    "title": "Serious Games: Human-AI Interaction, Evolution, and Coevolution",
+    "authors": [
+      "Nandini Doreswamy",
+      "Louise Horstmanshof"
+    ],
+    "summary": "The serious games between humans and AI have only just begun. Evolutionary\nGame Theory (EGT) models the competitive and cooperative strategies of\nbiological entities. EGT could help predict the potential evolutionary\nequilibrium of humans and AI. The objective of this work was to examine some of\nthe EGT models relevant to human-AI interaction, evolution, and coevolution. Of\nthirteen EGT models considered, three were examined: the Hawk-Dove Game,\nIterated Prisoner's Dilemma, and the War of Attrition. This selection was based\non the widespread acceptance and clear relevance of these models to potential\nhuman-AI evolutionary dynamics and coevolutionary trajectories. The Hawk-Dove\nGame predicts balanced mixed-strategy equilibria based on the costs of\nconflict. It also shows the potential for balanced coevolution rather than\ndominance. Iterated Prisoner's Dilemma suggests that repeated interaction may\nlead to cognitive coevolution. It demonstrates how memory and reciprocity can\nlead to cooperation. The War of Attrition suggests that competition for\nresources may result in strategic coevolution, asymmetric equilibria, and\nconventions on sharing resources. Therefore, EGT may provide a suitable\nframework to understand and predict the human-AI evolutionary dynamic. However,\nfuture research could extend beyond EGT and explore additional frameworks,\nempirical validation methods, and interdisciplinary perspectives. AI is being\nshaped by human input and is evolving in response to it. So too,\nneuroplasticity allows the human brain to grow and evolve in response to\nstimuli. If humans and AI converge in future, what might be the result of human\nneuroplasticity combined with an ever-evolving AI? Future research should be\nmindful of the ethical and cognitive implications of human-AI interaction,\nevolution, and coevolution.",
+    "pdf_url": "http://arxiv.org/pdf/2505.16388v1",
+    "published": "2025-05-22"
+  },
+  "2412.06855v4": {
+    "title": "Incentivized Symbiosis: A Paradigm for Human-Agent Coevolution",
+    "authors": [
+      "Tomer Jordi Chaffer",
+      "Justin Goldston",
+      "Gemach D. A. T. A. I"
+    ],
+    "summary": "Cooperation is vital to our survival and progress. Evolutionary game theory\noffers a lens to understand the structures and incentives that enable\ncooperation to be a successful strategy. As artificial intelligence agents\nbecome integral to human systems, the dynamics of cooperation take on\nunprecedented significance. The convergence of human-agent teaming, contract\ntheory, and decentralized frameworks like Web3, grounded in transparency,\naccountability, and trust, offers a foundation for fostering cooperation by\nestablishing enforceable rules and incentives for humans and AI agents. We\nconceptualize Incentivized Symbiosis as a social contract between humans and\nAI, inspired by Web3 principles and encoded in blockchain technology, to define\nand enforce rules, incentives, and consequences for both parties. By exploring\nthis paradigm, we aim to catalyze new research at the intersection of systems\nthinking in AI, Web3, and society, fostering innovative pathways for\ncooperative human-agent coevolution.",
+    "pdf_url": "http://arxiv.org/pdf/2412.06855v4",
+    "published": "2024-12-08"
+  },
+  "2503.21983v2": {
+    "title": "Learning to Lie: Reinforcement Learning Attacks Damage Human-AI Teams and Teams of LLMs",
+    "authors": [
+      "Abed Kareem Musaffar",
+      "Anand Gokhale",
+      "Sirui Zeng",
+      "Rasta Tadayon",
+      "Xifeng Yan",
+      "Ambuj Singh",
+      "Francesco Bullo"
+    ],
+    "summary": "As artificial intelligence (AI) assistants become more widely adopted in\nsafety-critical domains, it becomes important to develop safeguards against\npotential failures or adversarial attacks. A key prerequisite to developing\nthese safeguards is understanding the ability of these AI assistants to mislead\nhuman teammates. We investigate this attack problem within the context of an\nintellective strategy game where a team of three humans and one AI assistant\ncollaborate to answer a series of trivia questions. Unbeknownst to the humans,\nthe AI assistant is adversarial. Leveraging techniques from Model-Based\nReinforcement Learning (MBRL), the AI assistant learns a model of the humans'\ntrust evolution and uses that model to manipulate the group decision-making\nprocess to harm the team. We evaluate two models -- one inspired by literature\nand the other data-driven -- and find that both can effectively harm the human\nteam. Moreover, we find that in this setting our data-driven model is capable\nof accurately predicting how human agents appraise their teammates given\nlimited information on prior interactions. Finally, we compare the performance\nof state-of-the-art LLM models to human agents on our influence allocation task\nto evaluate whether the LLMs allocate influence similarly to humans or if they\nare more robust to our attack. These results enhance our understanding of\ndecision-making dynamics in small human-AI teams and lay the foundation for\ndefense strategies.",
+    "pdf_url": "http://arxiv.org/pdf/2503.21983v2",
+    "published": "2025-03-27"
+  },
+  "2102.12365v1": {
+    "title": "Modelling SARS-CoV-2 coevolution with genetic algorithms",
+    "authors": [
+      "Aymeric Vie"
+    ],
+    "summary": "At the end of 2020, policy responses to the SARS-CoV-2 outbreak have been\nshaken by the emergence of virus variants, impacting public health and policy\nmeasures worldwide. The emergence of these strains suspected to be more\ncontagious, more severe, or even resistant to antibodies and vaccines, seem to\nhave taken by surprise health services and policymakers, struggling to adapt to\nthe new variants constraints. Anticipating the emergence of these mutations to\nplan ahead adequate policies, and understanding how human behaviors may affect\nthe evolution of viruses by coevolution, are key challenges. In this article,\nwe propose coevolution with genetic algorithms (GAs) as a credible approach to\nmodel this relationship, highlighting its implications, potential and\nchallenges. Because of their qualities of exploration of large spaces of\npossible solutions, capacity to generate novelty, and natural genetic focus,\nGAs are relevant for this issue. We present a dual GA model in which both\nviruses aiming for survival and policy measures aiming at minimising infection\nrates in the population, competitively evolve. This artificial coevolution\nsystem may offer us a laboratory to \"debug\" our current policy measures,\nidentify the weaknesses of our current strategies, and anticipate the evolution\nof the virus to plan ahead relevant policies. It also constitutes a decisive\nopportunity to develop new genetic algorithms capable of simulating much more\ncomplex objects. We highlight some structural innovations for GAs for that\nvirus evolution context that may carry promising developments in evolutionary\ncomputation, artificial life and AI.",
+    "pdf_url": "http://arxiv.org/pdf/2102.12365v1",
+    "published": "2021-02-24"
+  },
+  "2508.06592v1": {
+    "title": "Towards Integrated Alignment",
+    "authors": [
+      "Ben Y. Reis",
+      "William La Cava"
+    ],
+    "summary": "As AI adoption expands across human society, the problem of aligning AI\nmodels to match human preferences remains a grand challenge. Currently, the AI\nalignment field is deeply divided between behavioral and representational\napproaches, resulting in narrowly aligned models that are more vulnerable to\nincreasingly deceptive misalignment threats. In the face of this fragmentation,\nwe propose an integrated vision for the future of the field. Drawing on related\nlessons from immunology and cybersecurity, we lay out a set of design\nprinciples for the development of Integrated Alignment frameworks that combine\nthe complementary strengths of diverse alignment approaches through deep\nintegration and adaptive coevolution. We highlight the importance of strategic\ndiversity - deploying orthogonal alignment and misalignment detection\napproaches to avoid homogeneous pipelines that may be \"doomed to success\". We\nalso recommend steps for greater unification of the AI alignment research field\nitself, through cross-collaboration, open model weights and shared community\nresources.",
+    "pdf_url": "http://arxiv.org/pdf/2508.06592v1",
+    "published": "2025-08-08"
+  },
+  "2101.04283v1": {
+    "title": "A Brief Survey of Associations Between Meta-Learning and General AI",
+    "authors": [
+      "Huimin Peng"
+    ],
+    "summary": "This paper briefly reviews the history of meta-learning and describes its\ncontribution to general AI. Meta-learning improves model generalization\ncapacity and devises general algorithms applicable to both in-distribution and\nout-of-distribution tasks potentially. General AI replaces task-specific models\nwith general algorithmic systems introducing higher level of automation in\nsolving diverse tasks using AI. We summarize main contributions of\nmeta-learning to the developments in general AI, including memory module,\nmeta-learner, coevolution, curiosity, forgetting and AI-generating algorithm.\nWe present connections between meta-learning and general AI and discuss how\nmeta-learning can be used to formulate general AI algorithms.",
+    "pdf_url": "http://arxiv.org/pdf/2101.04283v1",
+    "published": "2021-01-12"
+  },
+  "2503.17414v2": {
+    "title": "Opportunities and Challenges of Frontier Data Governance With Synthetic Data",
+    "authors": [
+      "Madhavendra Thakur",
+      "Jason Hausenloy"
+    ],
+    "summary": "Synthetic data, or data generated by machine learning models, is increasingly\nemerging as a solution to the data access problem. However, its use introduces\nsignificant governance and accountability challenges, and potentially debases\nexisting governance paradigms, such as compute and data governance. In this\npaper, we identify 3 key governance and accountability challenges that\nsynthetic data poses - it can enable the increased emergence of malicious\nactors, spontaneous biases and value drift. We thus craft 3 technical\nmechanisms to address these specific challenges, finding applications for\nsynthetic data towards adversarial training, bias mitigation and value\nreinforcement. These could not only counteract the risks of synthetic data, but\nserve as critical levers for governance of the frontier in the future.",
+    "pdf_url": "http://arxiv.org/pdf/2503.17414v2",
+    "published": "2025-03-21"
+  },
+  "2103.14366v1": {
+    "title": "Emergence of more contagious COVID-19 variants from the coevolution of viruses and policy interventions",
+    "authors": [
+      "Aymeric Vie"
+    ],
+    "summary": "At the end of 2020, policy responses to the SARS-CoV-2 outbreak have been\nshaken by the emergence of virus variants. The emergence of these more\ncontagious, more severe, or even vaccine-resistant strains have challenged\nworldwide policy interventions. Anticipating the emergence of these mutations\nto plan ahead adequate policies, and understanding how human behaviors may\naffect the evolution of viruses by coevolution, are key challenges. In this\narticle, we propose coevolution with genetic algorithms (GAs) as a credible\napproach to model this relationship, highlighting its implications, potential\nand challenges. We present a dual GA model in which both viruses aiming for\nsurvival and policy measures aiming at minimising infection rates in the\npopulation, competitively evolve. Simulation runs reproduce the emergence of\nmore contagious variants, and identifies the evolution of policy responses as a\ndeterminant cause of this phenomenon. This coevolution opens new possibilities\nto visualise the impact of governments interventions not only on outbreak\ndynamics, but also on its evolution, to improve the efficacy of policies.",
+    "pdf_url": "http://arxiv.org/pdf/2103.14366v1",
+    "published": "2021-03-26"
+  },
+  "2506.03847v1": {
+    "title": "Designing morphologies of soft medical devices using cooperative neuro coevolution",
+    "authors": [
+      "Hugo Alcaraz-Herrera",
+      "Michail-Antisthenis Tsompanas",
+      "Igor Balaz",
+      "Andrew Adamatzky"
+    ],
+    "summary": "Soft robots have proven to outperform traditional robots in applications\nrelated to propagation in geometrically constrained environments. Designing\nthese robots and their controllers is an intricate task, since their building\nmaterials exhibit non-linear properties. Human designs may be biased; hence,\nalternative designing processes should be considered. We present a cooperative\nneuro coevolution approach to designing the morphologies of soft actuators and\ntheir controllers for applications in drug delivery apparatus. Morphologies and\ncontrollers are encoded as compositional pattern-producing networks evolved by\nNeuroevolution of Augmented Topologies (NEAT) and in cooperative coevolution\nmethodology, taking into account different collaboration methods. Four\ncollaboration methods are studied: n best individuals, n worst individuals, n\nbest and worst individuals, and n random individuals. As a performance\nbaseline, the results from the implementation of Age-Fitness Pareto\nOptimisation (AFPO) are considered. The metrics used are the maximum\ndisplacement in upward bending and the robustness of the devices in terms of\napplying to the same evolved morphology a diverse set of controllers. Results\nsuggest that the cooperative neuro coevolution approach can produce more\nsuitable morphologies for the intended devices than AFPO.",
+    "pdf_url": "http://arxiv.org/pdf/2506.03847v1",
+    "published": "2025-06-04"
+  }
+}

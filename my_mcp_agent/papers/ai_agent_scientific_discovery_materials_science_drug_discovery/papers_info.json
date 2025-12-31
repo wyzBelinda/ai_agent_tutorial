@@ -1,0 +1,123 @@
+{
+  "2507.09023v1": {
+    "title": "Accelerating Drug Discovery Through Agentic AI: A Multi-Agent Approach to Laboratory Automation in the DMTA Cycle",
+    "authors": [
+      "Yao Fehlis",
+      "Charles Crain",
+      "Aidan Jensen",
+      "Michael Watson",
+      "James Juhasz",
+      "Paul Mandel",
+      "Betty Liu",
+      "Shawn Mahon",
+      "Daren Wilson",
+      "Nick Lynch-Jonely",
+      "Ben Leedom",
+      "David Fuller"
+    ],
+    "summary": "The pharmaceutical industry faces unprecedented challenges in drug discovery,\nwith traditional approaches struggling to meet modern therapeutic development\ndemands. This paper introduces a novel AI framework, Tippy, that transforms\nlaboratory automation through specialized AI agents operating within the\nDesign-Make-Test-Analyze (DMTA) cycle. Our multi-agent system employs five\nspecialized agents - Supervisor, Molecule, Lab, Analysis, and Report, with\nSafety Guardrail oversight - each designed to excel in specific phases of the\ndrug discovery pipeline. Tippy represents the first production-ready\nimplementation of specialized AI agents for automating the DMTA cycle,\nproviding a concrete example of how AI can transform laboratory workflows. By\nleveraging autonomous AI agents that reason, plan, and collaborate, we\ndemonstrate how Tippy accelerates DMTA cycles while maintaining scientific\nrigor essential for pharmaceutical research. The system shows significant\nimprovements in workflow efficiency, decision-making speed, and\ncross-disciplinary coordination, offering a new paradigm for AI-assisted drug\ndiscovery.",
+    "pdf_url": "http://arxiv.org/pdf/2507.09023v1",
+    "published": "2025-07-11"
+  },
+  "2508.14111v1": {
+    "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "authors": [
+      "Jiaqi Wei",
+      "Yuejin Yang",
+      "Xiang Zhang",
+      "Yuhan Chen",
+      "Xiang Zhuang",
+      "Zhangyang Gao",
+      "Dongzhan Zhou",
+      "Guangshuai Wang",
+      "Zhiqiang Gao",
+      "Juntai Cao",
+      "Zijie Qiu",
+      "Xuming He",
+      "Qiang Zhang",
+      "Chenyu You",
+      "Shuangjia Zheng",
+      "Ning Ding",
+      "Wanli Ouyang",
+      "Nanqing Dong",
+      "Yu Cheng",
+      "Siqi Sun",
+      "Lei Bai",
+      "Bowen Zhou"
+    ],
+    "summary": "Artificial intelligence (AI) is reshaping scientific discovery, evolving from\nspecialized computational tools into autonomous research partners. We position\nAgentic Science as a pivotal stage within the broader AI for Science paradigm,\nwhere AI systems progress from partial assistance to full scientific agency.\nEnabled by large language models (LLMs), multimodal systems, and integrated\nresearch platforms, agentic AI shows capabilities in hypothesis generation,\nexperimental design, execution, analysis, and iterative refinement -- behaviors\nonce regarded as uniquely human. This survey provides a domain-oriented review\nof autonomous scientific discovery across life sciences, chemistry, materials\nscience, and physics. We unify three previously fragmented perspectives --\nprocess-oriented, autonomy-oriented, and mechanism-oriented -- through a\ncomprehensive framework that connects foundational capabilities, core\nprocesses, and domain-specific realizations. Building on this framework, we (i)\ntrace the evolution of AI for Science, (ii) identify five core capabilities\nunderpinning scientific agency, (iii) model discovery as a dynamic four-stage\nworkflow, (iv) review applications across the above domains, and (v) synthesize\nkey challenges and future opportunities. This work establishes a\ndomain-oriented synthesis of autonomous scientific discovery and positions\nAgentic Science as a structured paradigm for advancing AI-driven research.",
+    "pdf_url": "http://arxiv.org/pdf/2508.14111v1",
+    "published": "2025-08-18"
+  },
+  "2305.02251v2": {
+    "title": "Automated Scientific Discovery: From Equation Discovery to Autonomous Discovery Systems",
+    "authors": [
+      "Stefan Kramer",
+      "Mattia Cerrato",
+      "Jannis Brugger",
+      "Sa\u0161o D\u017eeroski",
+      "Ross King"
+    ],
+    "summary": "The paper surveys automated scientific discovery, from equation discovery and\nsymbolic regression to autonomous discovery systems and agents. It discusses\nthe individual approaches from a \"big picture\" perspective and in context, but\nalso discusses open issues and recent topics like the various roles of deep\nneural networks in this area, aiding in the discovery of human-interpretable\nknowledge. Further, we will present closed-loop scientific discovery systems,\nstarting with the pioneering work on the Adam system up to current efforts in\nfields from material science to astronomy. Finally, we will elaborate on\nautonomy from a machine learning perspective, but also in analogy to the\nautonomy levels in autonomous driving. The maximal level, level five, is\ndefined to require no human intervention at all in the production of scientific\nknowledge. Achieving this is one step towards solving the Nobel Turing Grand\nChallenge to develop AI Scientists: AI systems capable of making Nobel-quality\nscientific discoveries highly autonomously at a level comparable, and possibly\nsuperior, to the best human scientists by 2050.",
+    "pdf_url": "http://arxiv.org/pdf/2305.02251v2",
+    "published": "2023-05-03"
+  },
+  "2307.06521v1": {
+    "title": "Artificial Intelligence for Drug Discovery: Are We There Yet?",
+    "authors": [
+      "Catrin Hasselgren",
+      "Tudor I. Oprea"
+    ],
+    "summary": "Drug discovery is adapting to novel technologies such as data science,\ninformatics, and artificial intelligence (AI) to accelerate effective treatment\ndevelopment while reducing costs and animal experiments. AI is transforming\ndrug discovery, as indicated by increasing interest from investors, industrial\nand academic scientists, and legislators. Successful drug discovery requires\noptimizing properties related to pharmacodynamics, pharmacokinetics, and\nclinical outcomes. This review discusses the use of AI in the three pillars of\ndrug discovery: diseases, targets, and therapeutic modalities, with a focus on\nsmall molecule drugs. AI technologies, such as generative chemistry, machine\nlearning, and multi-property optimization, have enabled several compounds to\nenter clinical trials. The scientific community must carefully vet known\ninformation to address the reproducibility crisis. The full potential of AI in\ndrug discovery can only be realized with sufficient ground truth and\nappropriate human intervention at later pipeline stages.",
+    "pdf_url": "http://arxiv.org/pdf/2307.06521v1",
+    "published": "2023-07-13"
+  },
+  "2412.11427v2": {
+    "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+    "authors": [
+      "Chandan K Reddy",
+      "Parshin Shojaee"
+    ],
+    "summary": "Scientific discovery is a complex cognitive process that has driven human\nknowledge and technological progress for centuries. While artificial\nintelligence (AI) has made significant advances in automating aspects of\nscientific reasoning, simulation, and experimentation, we still lack integrated\nAI systems capable of performing autonomous long-term scientific research and\ndiscovery. This paper examines the current state of AI for scientific\ndiscovery, highlighting recent progress in large language models and other AI\ntechniques applied to scientific tasks. We then outline key challenges and\npromising research directions toward developing more comprehensive AI systems\nfor scientific discovery, including the need for science-focused AI agents,\nimproved benchmarks and evaluation metrics, multimodal scientific\nrepresentations, and unified frameworks combining reasoning, theorem proving,\nand data-driven modeling. Addressing these challenges could lead to\ntransformative AI tools to accelerate progress across disciplines towards\nscientific discovery.",
+    "pdf_url": "http://arxiv.org/pdf/2412.11427v2",
+    "published": "2024-12-16"
+  },
+  "2104.05188v1": {
+    "title": "Accelerating science with human versus alien artificial intelligences",
+    "authors": [
+      "Jamshid Sourati",
+      "James Evans"
+    ],
+    "summary": "Data-driven artificial intelligence models fed with published scientific\nfindings have been used to create powerful prediction engines for scientific\nand technological advance, such as the discovery of novel materials with\ndesired properties and the targeted invention of new therapies and vaccines.\nThese AI approaches typically ignore the distribution of human prediction\nengines -- scientists and inventor -- who continuously alter the landscape of\ndiscovery and invention. As a result, AI hypotheses are designed to substitute\nfor human experts, failing to complement them for punctuated collective\nadvance. Here we show that incorporating the distribution of human expertise\ninto self-supervised models by training on inferences cognitively available to\nexperts dramatically improves AI prediction of future human discoveries and\ninventions. Including expert-awareness into models that propose (a) valuable\nenergy-relevant materials increases the precision of materials predictions by\n~100%, (b) repurposing thousands of drugs to treat new diseases increases\nprecision by 43%, and (c) COVID-19 vaccine candidates examined in clinical\ntrials by 260%. These models succeed by predicting human predictions and the\nscientists who will make them. By tuning AI to avoid the crowd, however, it\ngenerates scientifically promising \"alien\" hypotheses unlikely to be imagined\nor pursued without intervention, not only accelerating but punctuating\nscientific advance. By identifying and correcting for collective human bias,\nthese models also suggest opportunities to improve human prediction by\nreformulating science education for discovery.",
+    "pdf_url": "http://arxiv.org/pdf/2104.05188v1",
+    "published": "2021-04-12"
+  },
+  "2503.08979v1": {
+    "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+    "authors": [
+      "Mourad Gridach",
+      "Jay Nanavati",
+      "Khaldoun Zine El Abidine",
+      "Lenon Mendes",
+      "Christina Mack"
+    ],
+    "summary": "The integration of Agentic AI into scientific discovery marks a new frontier\nin research automation. These AI systems, capable of reasoning, planning, and\nautonomous decision-making, are transforming how scientists perform literature\nreview, generate hypotheses, conduct experiments, and analyze results. This\nsurvey provides a comprehensive overview of Agentic AI for scientific\ndiscovery, categorizing existing systems and tools, and highlighting recent\nprogress across fields such as chemistry, biology, and materials science. We\ndiscuss key evaluation metrics, implementation frameworks, and commonly used\ndatasets to offer a detailed understanding of the current state of the field.\nFinally, we address critical challenges, such as literature review automation,\nsystem reliability, and ethical concerns, while outlining future research\ndirections that emphasize human-AI collaboration and enhanced system\ncalibration.",
+    "pdf_url": "http://arxiv.org/pdf/2503.08979v1",
+    "published": "2025-03-12"
+  },
+  "2509.09915v1": {
+    "title": "The (R)evolution of Scientific Workflows in the Agentic AI Era: Towards Autonomous Science",
+    "authors": [
+      "Woong Shin",
+      "Renan Souza",
+      "Daniel Rosendo",
+      "Fr\u00e9d\u00e9ric Suter",
+      "Feiyi Wang",
+      "Prasanna Balaprakash",
+      "Rafael Ferreira da Silva"
+    ],
+    "summary": "Modern scientific discovery increasingly requires coordinating distributed\nfacilities and heterogeneous resources, forcing researchers to act as manual\nworkflow coordinators rather than scientists. Advances in AI leading to AI\nagents show exciting new opportunities that can accelerate scientific discovery\nby providing intelligence as a component in the ecosystem. However, it is\nunclear how this new capability would materialize and integrate in the real\nworld. To address this, we propose a conceptual framework where workflows\nevolve along two dimensions which are intelligence (from static to intelligent)\nand composition (from single to swarm) to chart an evolutionary path from\ncurrent workflow management systems to fully autonomous, distributed scientific\nlaboratories. With these trajectories in mind, we present an architectural\nblueprint that can help the community take the next steps towards harnessing\nthe opportunities in autonomous science with the potential for 100x discovery\nacceleration and transformational scientific workflows.",
+    "pdf_url": "http://arxiv.org/pdf/2509.09915v1",
+    "published": "2025-09-12"
+  }
+}

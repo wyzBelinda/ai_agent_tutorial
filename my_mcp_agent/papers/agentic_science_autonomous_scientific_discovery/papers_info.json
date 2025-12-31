@@ -1,0 +1,96 @@
+{
+  "2305.02251v2": {
+    "title": "Automated Scientific Discovery: From Equation Discovery to Autonomous Discovery Systems",
+    "authors": [
+      "Stefan Kramer",
+      "Mattia Cerrato",
+      "Jannis Brugger",
+      "Sa\u0161o D\u017eeroski",
+      "Ross King"
+    ],
+    "summary": "The paper surveys automated scientific discovery, from equation discovery and\nsymbolic regression to autonomous discovery systems and agents. It discusses\nthe individual approaches from a \"big picture\" perspective and in context, but\nalso discusses open issues and recent topics like the various roles of deep\nneural networks in this area, aiding in the discovery of human-interpretable\nknowledge. Further, we will present closed-loop scientific discovery systems,\nstarting with the pioneering work on the Adam system up to current efforts in\nfields from material science to astronomy. Finally, we will elaborate on\nautonomy from a machine learning perspective, but also in analogy to the\nautonomy levels in autonomous driving. The maximal level, level five, is\ndefined to require no human intervention at all in the production of scientific\nknowledge. Achieving this is one step towards solving the Nobel Turing Grand\nChallenge to develop AI Scientists: AI systems capable of making Nobel-quality\nscientific discoveries highly autonomously at a level comparable, and possibly\nsuperior, to the best human scientists by 2050.",
+    "pdf_url": "http://arxiv.org/pdf/2305.02251v2",
+    "published": "2023-05-03"
+  },
+  "2508.14111v1": {
+    "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+    "authors": [
+      "Jiaqi Wei",
+      "Yuejin Yang",
+      "Xiang Zhang",
+      "Yuhan Chen",
+      "Xiang Zhuang",
+      "Zhangyang Gao",
+      "Dongzhan Zhou",
+      "Guangshuai Wang",
+      "Zhiqiang Gao",
+      "Juntai Cao",
+      "Zijie Qiu",
+      "Xuming He",
+      "Qiang Zhang",
+      "Chenyu You",
+      "Shuangjia Zheng",
+      "Ning Ding",
+      "Wanli Ouyang",
+      "Nanqing Dong",
+      "Yu Cheng",
+      "Siqi Sun",
+      "Lei Bai",
+      "Bowen Zhou"
+    ],
+    "summary": "Artificial intelligence (AI) is reshaping scientific discovery, evolving from\nspecialized computational tools into autonomous research partners. We position\nAgentic Science as a pivotal stage within the broader AI for Science paradigm,\nwhere AI systems progress from partial assistance to full scientific agency.\nEnabled by large language models (LLMs), multimodal systems, and integrated\nresearch platforms, agentic AI shows capabilities in hypothesis generation,\nexperimental design, execution, analysis, and iterative refinement -- behaviors\nonce regarded as uniquely human. This survey provides a domain-oriented review\nof autonomous scientific discovery across life sciences, chemistry, materials\nscience, and physics. We unify three previously fragmented perspectives --\nprocess-oriented, autonomy-oriented, and mechanism-oriented -- through a\ncomprehensive framework that connects foundational capabilities, core\nprocesses, and domain-specific realizations. Building on this framework, we (i)\ntrace the evolution of AI for Science, (ii) identify five core capabilities\nunderpinning scientific agency, (iii) model discovery as a dynamic four-stage\nworkflow, (iv) review applications across the above domains, and (v) synthesize\nkey challenges and future opportunities. This work establishes a\ndomain-oriented synthesis of autonomous scientific discovery and positions\nAgentic Science as a structured paradigm for advancing AI-driven research.",
+    "pdf_url": "http://arxiv.org/pdf/2508.14111v1",
+    "published": "2025-08-18"
+  },
+  "2412.11427v2": {
+    "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+    "authors": [
+      "Chandan K Reddy",
+      "Parshin Shojaee"
+    ],
+    "summary": "Scientific discovery is a complex cognitive process that has driven human\nknowledge and technological progress for centuries. While artificial\nintelligence (AI) has made significant advances in automating aspects of\nscientific reasoning, simulation, and experimentation, we still lack integrated\nAI systems capable of performing autonomous long-term scientific research and\ndiscovery. This paper examines the current state of AI for scientific\ndiscovery, highlighting recent progress in large language models and other AI\ntechniques applied to scientific tasks. We then outline key challenges and\npromising research directions toward developing more comprehensive AI systems\nfor scientific discovery, including the need for science-focused AI agents,\nimproved benchmarks and evaluation metrics, multimodal scientific\nrepresentations, and unified frameworks combining reasoning, theorem proving,\nand data-driven modeling. Addressing these challenges could lead to\ntransformative AI tools to accelerate progress across disciplines towards\nscientific discovery.",
+    "pdf_url": "http://arxiv.org/pdf/2412.11427v2",
+    "published": "2024-12-16"
+  },
+  "2509.09915v1": {
+    "title": "The (R)evolution of Scientific Workflows in the Agentic AI Era: Towards Autonomous Science",
+    "authors": [
+      "Woong Shin",
+      "Renan Souza",
+      "Daniel Rosendo",
+      "Fr\u00e9d\u00e9ric Suter",
+      "Feiyi Wang",
+      "Prasanna Balaprakash",
+      "Rafael Ferreira da Silva"
+    ],
+    "summary": "Modern scientific discovery increasingly requires coordinating distributed\nfacilities and heterogeneous resources, forcing researchers to act as manual\nworkflow coordinators rather than scientists. Advances in AI leading to AI\nagents show exciting new opportunities that can accelerate scientific discovery\nby providing intelligence as a component in the ecosystem. However, it is\nunclear how this new capability would materialize and integrate in the real\nworld. To address this, we propose a conceptual framework where workflows\nevolve along two dimensions which are intelligence (from static to intelligent)\nand composition (from single to swarm) to chart an evolutionary path from\ncurrent workflow management systems to fully autonomous, distributed scientific\nlaboratories. With these trajectories in mind, we present an architectural\nblueprint that can help the community take the next steps towards harnessing\nthe opportunities in autonomous science with the potential for 100x discovery\nacceleration and transformational scientific workflows.",
+    "pdf_url": "http://arxiv.org/pdf/2509.09915v1",
+    "published": "2025-09-12"
+  },
+  "2506.17510v1": {
+    "title": "A Grassroots Network and Community Roadmap for Interconnected Autonomous Science Laboratories for Accelerated Discovery",
+    "authors": [
+      "Rafael Ferreira da Silva",
+      "Milad Abolhasani",
+      "Dionysios A. Antonopoulos",
+      "Laura Biven",
+      "Ryan Coffee",
+      "Ian T. Foster",
+      "Leslie Hamilton",
+      "Shantenu Jha",
+      "Theresa Mayer",
+      "Benjamin Mintz",
+      "Robert G. Moore",
+      "Salahudin Nimer",
+      "Noah Paulson",
+      "Woong Shin",
+      "Frederic Suter",
+      "Mitra Taheri",
+      "Michela Taufer",
+      "Newell R. Washburn"
+    ],
+    "summary": "Scientific discovery is being revolutionized by AI and autonomous systems,\nyet current autonomous laboratories remain isolated islands unable to\ncollaborate across institutions. We present the Autonomous Interconnected\nScience Lab Ecosystem (AISLE), a grassroots network transforming fragmented\ncapabilities into a unified system that shorten the path from ideation to\ninnovation to impact and accelerates discovery from decades to months. AISLE\naddresses five critical dimensions: (1) cross-institutional equipment\norchestration, (2) intelligent data management with FAIR compliance, (3)\nAI-agent driven orchestration grounded in scientific principles, (4)\ninteroperable agent communication interfaces, and (5) AI/ML-integrated\nscientific education. By connecting autonomous agents across institutional\nboundaries, autonomous science can unlock research spaces inaccessible to\ntraditional approaches while democratizing cutting-edge technologies. This\nparadigm shift toward collaborative autonomous science promises breakthroughs\nin sustainable energy, materials development, and public health.",
+    "pdf_url": "http://arxiv.org/pdf/2506.17510v1",
+    "published": "2025-06-20"
+  }
+}

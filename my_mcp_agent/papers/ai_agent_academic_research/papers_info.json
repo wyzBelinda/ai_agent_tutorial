@@ -1,0 +1,146 @@
+{
+  "2505.00174v2": {
+    "title": "Real-World Gaps in AI Governance Research",
+    "authors": [
+      "Ilan Strauss",
+      "Isobel Moure",
+      "Tim O'Reilly",
+      "Sruly Rosenblat"
+    ],
+    "summary": "Drawing on 1,178 safety and reliability papers from 9,439 generative AI papers (January 2020 - March 2025), we compare research outputs of leading AI companies (Anthropic, Google DeepMind, Meta, Microsoft, and OpenAI) and AI universities (CMU, MIT, NYU, Stanford, UC Berkeley, and University of Washington). We find that corporate AI research increasingly concentrates on pre-deployment areas -- model alignment and testing & evaluation -- while attention to deployment-stage issues such as model bias has waned. Significant research gaps exist in high-risk deployment domains, including healthcare, finance, misinformation, persuasive and addictive features, hallucinations, and copyright. Without improved observability into deployed AI, growing corporate concentration could deepen knowledge deficits. We recommend expanding external researcher access to deployment data and systematic observability of in-market AI behaviors.",
+    "pdf_url": null,
+    "published": "2025-04-30"
+  },
+  "2501.02842v1": {
+    "title": "Foundations of GenIR",
+    "authors": [
+      "Qingyao Ai",
+      "Jingtao Zhan",
+      "Yiqun Liu"
+    ],
+    "summary": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+    "pdf_url": null,
+    "published": "2025-01-06"
+  },
+  "2401.15284v6": {
+    "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+    "authors": [
+      "Zhicheng Lin"
+    ],
+    "summary": "The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \"Triple-Too\" problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches--principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)--offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: 1) understanding model training and output, including bias mitigation strategies; 2) respecting privacy, confidentiality, and copyright; 3) avoiding plagiarism and policy violations; 4) applying AI beneficially compared to alternatives; and 5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.",
+    "pdf_url": null,
+    "published": "2024-01-27"
+  },
+  "2503.12687v1": {
+    "title": "AI Agents: Evolution, Architecture, and Real-World Applications",
+    "authors": [
+      "Naveen Krishnan"
+    ],
+    "summary": "This paper examines the evolution, architecture, and practical applications of AI agents from their early, rule-based incarnations to modern sophisticated systems that integrate large language models with dedicated modules for perception, planning, and tool use. Emphasizing both theoretical foundations and real-world deployments, the paper reviews key agent paradigms, discusses limitations of current evaluation benchmarks, and proposes a holistic evaluation framework that balances task effectiveness, efficiency, robustness, and safety. Applications across enterprise, personal assistance, and specialized domains are analyzed, with insights into future research directions for more resilient and adaptive AI agent systems.",
+    "pdf_url": null,
+    "published": "2025-03-16"
+  },
+  "2504.08817v2": {
+    "title": "Exploring utilization of generative AI for research and education in data-driven materials science",
+    "authors": [
+      "Takahiro Misawa",
+      "Ai Koizumi",
+      "Ryo Tamura",
+      "Kazuyoshi Yoshimi"
+    ],
+    "summary": "Generative AI has recently had a profound impact on various fields, including daily life, research, and education. To explore its efficient utilization in data-driven materials science, we organized a hackathon -- AIMHack2024 -- in July 2024. In this hackathon, researchers from fields such as materials science, information science, bioinformatics, and condensed matter physics worked together to explore how generative AI can facilitate research and education. Based on the results of the hackathon, this paper presents topics related to (1) conducting AI-assisted software trials, (2) building AI tutors for software, and (3) developing GUI applications for software. While generative AI continues to evolve rapidly, this paper provides an early record of its application in data-driven materials science and highlights strategies for integrating AI into research and education.",
+    "pdf_url": null,
+    "published": "2025-04-09"
+  },
+  "2411.09973v1": {
+    "title": "Establishing and Evaluating Trustworthy AI: Overview and Research Challenges",
+    "authors": [
+      "Dominik Kowald",
+      "Sebastian Scher",
+      "Viktoria Pammer-Schindler",
+      "Peter M\u00fcllner",
+      "Kerstin Waxnegger",
+      "Lea Demelius",
+      "Angela Fessl",
+      "Maximilian Toller",
+      "Inti Gabriel Mendoza Estrada",
+      "Ilija Simic",
+      "Vedran Sabol",
+      "Andreas Truegler",
+      "Eduardo Veas",
+      "Roman Kern",
+      "Tomislav Nad",
+      "Simone Kopeinik"
+    ],
+    "summary": "Artificial intelligence (AI) technologies (re-)shape modern life, driving innovation in a wide range of sectors. However, some AI systems have yielded unexpected or undesirable outcomes or have been used in questionable manners. As a result, there has been a surge in public and academic discussions about aspects that AI systems must fulfill to be considered trustworthy. In this paper, we synthesize existing conceptualizations of trustworthy AI along six requirements: 1) human agency and oversight, 2) fairness and non-discrimination, 3) transparency and explainability, 4) robustness and accuracy, 5) privacy and security, and 6) accountability. For each one, we provide a definition, describe how it can be established and evaluated, and discuss requirement-specific research challenges. Finally, we conclude this analysis by identifying overarching research challenges across the requirements with respect to 1) interdisciplinary research, 2) conceptual clarity, 3) context-dependency, 4) dynamics in evolving systems, and 5) investigations in real-world contexts. Thus, this paper synthesizes and consolidates a wide-ranging and active discussion currently taking place in various academic sub-communities and public forums. It aims to serve as a reference for a broad audience and as a basis for future research directions.",
+    "pdf_url": null,
+    "published": "2024-11-15"
+  },
+  "2009.10385v4": {
+    "title": "A narrowing of AI research?",
+    "authors": [
+      "Joel Klinger",
+      "Juan Mateos-Garcia",
+      "Konstantinos Stathoulopoulos"
+    ],
+    "summary": "The arrival of deep learning techniques able to infer patterns from large datasets has dramatically improved the performance of Artificial Intelligence (AI) systems. Deep learning's rapid development and adoption, in great part led by large technology companies, has however created concerns about a premature narrowing in the technological trajectory of AI research despite its weaknesses, which include lack of robustness, high environmental costs, and potentially unfair outcomes. We seek to improve the evidence base with a semantic analysis of AI research in arXiv, a popular pre-prints database. We study the evolution of the thematic diversity of AI research, compare the thematic diversity of AI research in academia and the private sector and measure the influence of private companies in AI research through the citations they receive and their collaborations with other institutions. Our results suggest that diversity in AI research has stagnated in recent years, and that AI research involving the private sector tends to be less diverse and more influential than research in academia. We also find that private sector AI researchers tend to specialise in data-hungry and computationally intensive deep learning methods at the expense of research involving other AI methods, research that considers the societal and ethical implications of AI, and applications in sectors like health. Our results provide a rationale for policy action to prevent a premature narrowing of AI research that could constrain its societal benefits, but we note the informational, incentive and scale hurdles standing in the way of such interventions.",
+    "pdf_url": null,
+    "published": "2020-09-22"
+  },
+  "2509.00961v1": {
+    "title": "Ultra Strong Machine Learning: Teaching Humans Active Learning Strategies via Automated AI Explanations",
+    "authors": [
+      "Lun Ai",
+      "Johannes Langer",
+      "Ute Schmid",
+      "Stephen Muggleton"
+    ],
+    "summary": "Ultra Strong Machine Learning (USML) refers to symbolic learning systems that not only improve their own performance but can also teach their acquired knowledge to quantifiably improve human performance. In this work, we present LENS (Logic Programming Explanation via Neural Summarisation), a neuro-symbolic method that combines symbolic program synthesis with large language models (LLMs) to automate the explanation of machine-learned logic programs in natural language. LENS addresses a key limitation of prior USML approaches by replacing hand-crafted explanation templates with scalable automated generation. Through systematic evaluation using multiple LLM judges and human validation, we demonstrate that LENS generates superior explanations compared to direct LLM prompting and hand-crafted templates. To investigate whether LENS can teach transferable active learning strategies, we carried out a human learning experiment across three related domains. Our results show no significant human performance improvements, suggesting that comprehensive LLM responses may overwhelm users for simpler problems rather than providing learning support. Our work provides a solid foundation for building effective USML systems to support human learning. The source code is available on: https://github.com/lun-ai/LENS.git.",
+    "pdf_url": null,
+    "published": "2025-08-31"
+  },
+  "1910.12695v2": {
+    "title": "AI Ethics in Industry: A Research Framework",
+    "authors": [
+      "Ville Vakkuri",
+      "Kai-Kristian Kemell",
+      "Pekka Abrahamsson"
+    ],
+    "summary": "Artificial Intelligence (AI) systems exert a growing influence on our society. As they become more ubiquitous, their potential negative impacts also become evident through various real-world incidents. Following such early incidents, academic and public discussion on AI ethics has highlighted the need for implementing ethics in AI system development. However, little currently exists in the way of frameworks for understanding the practical implementation of AI ethics. In this paper, we discuss a research framework for implementing AI ethics in industrial settings. The framework presents a starting point for empirical studies into AI ethics but is still being developed further based on its practical utilization.",
+    "pdf_url": null,
+    "published": "2019-10-28"
+  },
+  "2412.14538v4": {
+    "title": "Overview of AI and Communication for 6G Network: Fundamentals, Challenges, and Future Research Opportunities",
+    "authors": [
+      "Qimei Cui",
+      "Xiaohu You",
+      "Ni Wei",
+      "Guoshun Nan",
+      "Xuefei Zhang",
+      "Jianhua Zhang",
+      "Xinchen Lyu",
+      "Ming Ai",
+      "Xiaofeng Tao",
+      "Zhiyong Feng",
+      "Ping Zhang",
+      "Qingqing Wu",
+      "Meixia Tao",
+      "Yongming Huang",
+      "Chongwen Huang",
+      "Guangyi Liu",
+      "Chenghui Peng",
+      "Zhiwen Pan",
+      "Tao Sun",
+      "Dusit Niyato",
+      "Tao Chen",
+      "Muhammad Khurram Khan",
+      "Abbas Jamalipour",
+      "Mohsen Guizani",
+      "Chau Yuen"
+    ],
+    "summary": "With the growing demand for seamless connectivity and intelligent communication, the integration of artificial intelligence (AI) and sixth-generation (6G) communication networks has emerged as a transformative paradigm. By embedding AI capabilities across various network layers, this integration enables optimized resource allocation, improved efficiency, and enhanced system robust performance, particularly in intricate and dynamic environments. This paper presents a comprehensive overview of AI and communication for 6G networks, with a focus on emphasizing their foundational principles, inherent challenges, and future research opportunities. We first review the integration of AI and communications in the context of 6G, exploring the driving factors behind incorporating AI into wireless communications, as well as the vision for the convergence of AI and 6G. The discourse then transitions to a detailed exposition of the envisioned integration of AI within 6G networks, delineated across three progressive developmental stages. The first stage, AI for Network, focuses on employing AI to augment network performance, optimize efficiency, and enhance user service experiences. The second stage, Network for AI, highlights the role of the network in facilitating and buttressing AI operations and presents key enabling technologies, such as digital twins for AI and semantic communication. In the final stage, AI as a Service, it is anticipated that future 6G networks will innately provide AI functions as services, supporting application scenarios like immersive communication and intelligent industrial robots. In addition, we conduct an in-depth analysis of the critical challenges faced by the integration of AI and communications in 6G. Finally, we outline promising future research opportunities that are expected to drive the development and refinement of AI and 6G communications.",
+    "pdf_url": null,
+    "published": "2024-12-19"
+  }
+}

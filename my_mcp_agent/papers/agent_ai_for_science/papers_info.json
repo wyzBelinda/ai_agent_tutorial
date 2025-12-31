@@ -1,0 +1,112 @@
+{
+  "2502.18359v1": {
+    "title": "Responsible AI Agents",
+    "authors": [
+      "Deven R. Desai",
+      "Mark O. Riedl"
+    ],
+    "summary": "Thanks to advances in large language models, a new type of software agent,\nthe artificial intelligence (AI) agent, has entered the marketplace. Companies\nsuch as OpenAI, Google, Microsoft, and Salesforce promise their AI Agents will\ngo from generating passive text to executing tasks. Instead of a travel\nitinerary, an AI Agent would book all aspects of your trip. Instead of\ngenerating text or images for social media post, an AI Agent would post the\ncontent across a host of social media outlets. The potential power of AI Agents\nhas fueled legal scholars' fears that AI Agents will enable rogue commerce,\nhuman manipulation, rampant defamation, and intellectual property harms. These\nscholars are calling for regulation before AI Agents cause havoc.\n  This Article addresses the concerns around AI Agents head on. It shows that\ncore aspects of how one piece of software interacts with another creates ways\nto discipline AI Agents so that rogue, undesired actions are unlikely, perhaps\nmore so than rules designed to govern human agents. It also develops a way to\nleverage the computer-science approach to value-alignment to improve a user's\nability to take action to prevent or correct AI Agent operations. That approach\noffers and added benefit of helping AI Agents align with norms around user-AI\nAgent interactions. These practices will enable desired economic outcomes and\nmitigate perceived risks. The Article also argues that no matter how much AI\nAgents seem like human agents, they need not, and should not, be given legal\npersonhood status. In short, humans are responsible for AI Agents' actions, and\nthis Article provides a guide for how humans can build and maintain responsible\nAI Agents.",
+    "pdf_url": "http://arxiv.org/pdf/2502.18359v1",
+    "published": "2025-02-25"
+  },
+  "2506.01463v1": {
+    "title": "Agentic AI and Multiagentic: Are We Reinventing the Wheel?",
+    "authors": [
+      "V. Botti"
+    ],
+    "summary": "The terms Agentic AI and Multiagentic AI have recently gained popularity in\ndiscussions on generative artificial intelligence, often used to describe\nautonomous software agents and systems composed of such agents. However, the\nuse of these terms confuses these buzzwords with well-established concepts in\nAI literature: intelligent agents and multi-agent systems. This article offers\na critical analysis of this conceptual misuse. We review the theoretical\norigins of \"agentic\" in the social sciences (Bandura, 1986) and philosophical\nnotions of intentionality (Dennett, 1971), and then summarise foundational\nworks on intelligent agents and multi-agent systems by Wooldridge, Jennings and\nothers. We examine classic agent architectures, from simple reactive agents to\nBelief-Desire-Intention (BDI) models, and highlight key properties (autonomy,\nreactivity, proactivity, social capability) that define agency in AI. We then\ndiscuss recent developments in large language models (LLMs) and agent platforms\nbased on LLMs, including the emergence of LLM-powered AI agents and open-source\nmulti-agent orchestration frameworks. We argue that the term AI Agentic is\noften used as a buzzword for what are essentially AI agents, and AI\nMultiagentic for what are multi-agent systems. This confusion overlooks decades\nof research in the field of autonomous agents and multi-agent systems. The\narticle advocates for scientific and technological rigour and the use of\nestablished terminology from the state of the art in AI, incorporating the\nwealth of existing knowledge, including standards for multi-agent system\nplatforms, communication languages and coordination and cooperation algorithms,\nagreement technologies (automated negotiation, argumentation, virtual\norganisations, trust, reputation, etc.), into the new and promising wave of\nLLM-based AI agents, so as not to end up reinventing the wheel.",
+    "pdf_url": "http://arxiv.org/pdf/2506.01463v1",
+    "published": "2025-06-02"
+  },
+  "2412.05450v1": {
+    "title": "Promoting Cooperation in the Public Goods Game using Artificial Intelligent Agents",
+    "authors": [
+      "Arend Hintze",
+      "Christoph Adami"
+    ],
+    "summary": "The tragedy of the commons illustrates a fundamental social dilemma where\nindividual rational actions lead to collectively undesired outcomes,\nthreatening the sustainability of shared resources. Strategies to escape this\ndilemma, however, are in short supply. In this study, we explore how artificial\nintelligence (AI) agents can be leveraged to enhance cooperation in public\ngoods games, moving beyond traditional regulatory approaches to using AI as\nfacilitators of cooperation. We investigate three scenarios: (1) Mandatory\nCooperation Policy for AI Agents, where AI agents are institutionally mandated\nalways to cooperate; (2) Player-Controlled Agent Cooperation Policy, where\nplayers evolve control over AI agents' likelihood to cooperate; and (3) Agents\nMimic Players, where AI agents copy the behavior of players. Using a\ncomputational evolutionary model with a population of agents playing public\ngoods games, we find that only when AI agents mimic player behavior does the\ncritical synergy threshold for cooperation decrease, effectively resolving the\ndilemma. This suggests that we can leverage AI to promote collective well-being\nin societal dilemmas by designing AI agents to mimic human players.",
+    "pdf_url": "http://arxiv.org/pdf/2412.05450v1",
+    "published": "2024-12-06"
+  },
+  "2504.18875v1": {
+    "title": "Generative to Agentic AI: Survey, Conceptualization, and Challenges",
+    "authors": [
+      "Johannes Schneider"
+    ],
+    "summary": "Agentic Artificial Intelligence (AI) builds upon Generative AI (GenAI). It\nconstitutes the next major step in the evolution of AI with much stronger\nreasoning and interaction capabilities that enable more autonomous behavior to\ntackle complex tasks. Since the initial release of ChatGPT (3.5), Generative AI\nhas seen widespread adoption, giving users firsthand experience. However, the\ndistinction between Agentic AI and GenAI remains less well understood. To\naddress this gap, our survey is structured in two parts. In the first part, we\ncompare GenAI and Agentic AI using existing literature, discussing their key\ncharacteristics, how Agentic AI remedies limitations of GenAI, and the major\nsteps in GenAI's evolution toward Agentic AI. This section is intended for a\nbroad audience, including academics in both social sciences and engineering, as\nwell as industry professionals. It provides the necessary insights to\ncomprehend novel applications that are possible with Agentic AI but not with\nGenAI. In the second part, we deep dive into novel aspects of Agentic AI,\nincluding recent developments and practical concerns such as defining agents.\nFinally, we discuss several challenges that could serve as a future research\nagenda, while cautioning against risks that can emerge when exceeding human\nintelligence.",
+    "pdf_url": "http://arxiv.org/pdf/2504.18875v1",
+    "published": "2025-04-26"
+  },
+  "2506.00856v2": {
+    "title": "Can AI Master Econometrics? Evidence from Econometrics AI Agent on Expert-Level Tasks",
+    "authors": [
+      "Qiang Chen",
+      "Tianyang Han",
+      "Jin Li",
+      "Ye Luo",
+      "Yuxiao Wu",
+      "Xiaowei Zhang",
+      "Tuo Zhou"
+    ],
+    "summary": "Can AI effectively perform complex econometric analysis traditionally\nrequiring human expertise? This paper evaluates AI agents' capability to master\neconometrics, focusing on empirical analysis performance. We develop an\n``Econometrics AI Agent'' built on the open-source MetaGPT framework. This\nagent exhibits outstanding performance in: (1) planning econometric tasks\nstrategically, (2) generating and executing code, (3) employing error-based\nreflection for improved robustness, and (4) allowing iterative refinement\nthrough multi-round conversations. We construct two datasets from academic\ncoursework materials and published research papers to evaluate performance\nagainst real-world challenges. Comparative testing shows our domain-specialized\nAI agent significantly outperforms both benchmark large language models (LLMs)\nand general-purpose AI agents. This work establishes a testbed for exploring\nAI's impact on social science research and enables cost-effective integration\nof domain expertise, making advanced econometric methods accessible to users\nwith minimal coding skills. Furthermore, our AI agent enhances research\nreproducibility and offers promising pedagogical applications for econometrics\nteaching.",
+    "pdf_url": "http://arxiv.org/pdf/2506.00856v2",
+    "published": "2025-06-01"
+  },
+  "2507.15003v1": {
+    "title": "The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering",
+    "authors": [
+      "Hao Li",
+      "Haoxiang Zhang",
+      "Ahmed E. Hassan"
+    ],
+    "summary": "The future of software engineering--SE 3.0--is unfolding with the rise of AI\nteammates: autonomous, goal-driven systems collaborating with human developers.\nAmong these, autonomous coding agents are especially transformative, now\nactively initiating, reviewing, and evolving code at scale. This paper\nintroduces AIDev, the first large-scale dataset capturing how such agents\noperate in the wild. Spanning over 456,000 pull requests by five leading\nagents--OpenAI Codex, Devin, GitHub Copilot, Cursor, and Claude Code--across\n61,000 repositories and 47,000 developers, AIDev provides an unprecedented\nempirical foundation for studying autonomous teammates in software development.\n  Unlike prior work that has largely theorized the rise of AI-native software\nengineering, AIDev offers structured, open data to support research in\nbenchmarking, agent readiness, optimization, collaboration modeling, and AI\ngovernance. The dataset includes rich metadata on PRs, authorship, review\ntimelines, code changes, and integration outcomes--enabling exploration beyond\nsynthetic benchmarks like SWE-bench. For instance, although agents often\noutperform humans in speed, their PRs are accepted less frequently, revealing a\ntrust and utility gap. Furthermore, while agents accelerate code\nsubmission--one developer submitted as many PRs in three days as they had in\nthree years--these are structurally simpler (via code complexity metrics).\n  We envision AIDev as a living resource: extensible, analyzable, and ready for\nthe SE and AI communities. Grounding SE 3.0 in real-world evidence, AIDev\nenables a new generation of research into AI-native workflows and supports\nbuilding the next wave of symbiotic human-AI collaboration. The dataset is\npublicly available at https://github.com/SAILResearch/AI_Teammates_in_SE3.\n  > AI Agent, Agentic AI, Coding Agent, Agentic Coding, Software Engineering\nAgent",
+    "pdf_url": "http://arxiv.org/pdf/2507.15003v1",
+    "published": "2025-07-20"
+  },
+  "2412.05214v1": {
+    "title": "AI's assigned gender affects human-AI cooperation",
+    "authors": [
+      "Sepideh Bazazi",
+      "Jurgis Karpus",
+      "Taha Yasseri"
+    ],
+    "summary": "Cooperation between humans and machines is increasingly vital as artificial\nintelligence (AI) becomes more integrated into daily life. Research indicates\nthat people are often less willing to cooperate with AI agents than with\nhumans, more readily exploiting AI for personal gain. While prior studies have\nshown that giving AI agents human-like features influences people's cooperation\nwith them, the impact of AI's assigned gender remains underexplored. This study\ninvestigates how human cooperation varies based on gender labels assigned to AI\nagents with which they interact. In the Prisoner's Dilemma game, 402\nparticipants interacted with partners labelled as AI (bot) or humans. The\npartners were also labelled male, female, non-binary, or gender-neutral.\nResults revealed that participants tended to exploit female-labelled and\ndistrust male-labelled AI agents more than their human counterparts, reflecting\ngender biases similar to those in human-human interactions. These findings\nhighlight the significance of gender biases in human-AI interactions that must\nbe considered in future policy, design of interactive AI systems, and\nregulation of their use.",
+    "pdf_url": "http://arxiv.org/pdf/2412.05214v1",
+    "published": "2024-12-06"
+  },
+  "2507.01069v1": {
+    "title": "Agentic AI in Product Management: A Co-Evolutionary Model",
+    "authors": [
+      "Nishant A. Parikh"
+    ],
+    "summary": "This study explores agentic AI's transformative role in product management,\nproposing a conceptual co-evolutionary framework to guide its integration\nacross the product lifecycle. Agentic AI, characterized by autonomy,\ngoal-driven behavior, and multi-agent collaboration, redefines product managers\n(PMs) as orchestrators of socio-technical ecosystems. Using systems theory,\nco-evolutionary theory, and human-AI interaction theory, the framework maps\nagentic AI capabilities in discovery, scoping, business case development,\ndevelopment, testing, and launch. An integrative review of 70+ sources,\nincluding case studies from leading tech firms, highlights PMs' evolving roles\nin AI orchestration, supervision, and strategic alignment. Findings emphasize\nmutual adaptation between PMs and AI, requiring skills in AI literacy,\ngovernance, and systems thinking. Addressing gaps in traditional frameworks,\nthis study provides a foundation for future research and practical\nimplementation to ensure responsible, effective agentic AI integration in\nsoftware organizations.",
+    "pdf_url": "http://arxiv.org/pdf/2507.01069v1",
+    "published": "2025-07-01"
+  },
+  "2401.11839v1": {
+    "title": "AI for social science and social science of AI: A Survey",
+    "authors": [
+      "Ruoxi Xu",
+      "Yingfei Sun",
+      "Mengjie Ren",
+      "Shiguang Guo",
+      "Ruotong Pan",
+      "Hongyu Lin",
+      "Le Sun",
+      "Xianpei Han"
+    ],
+    "summary": "Recent advancements in artificial intelligence, particularly with the\nemergence of large language models (LLMs), have sparked a rethinking of\nartificial general intelligence possibilities. The increasing human-like\ncapabilities of AI are also attracting attention in social science research,\nleading to various studies exploring the combination of these two fields. In\nthis survey, we systematically categorize previous explorations in the\ncombination of AI and social science into two directions that share common\ntechnical approaches but differ in their research objectives. The first\ndirection is focused on AI for social science, where AI is utilized as a\npowerful tool to enhance various stages of social science research. While the\nsecond direction is the social science of AI, which examines AI agents as\nsocial entities with their human-like cognitive and linguistic capabilities. By\nconducting a thorough review, particularly on the substantial progress\nfacilitated by recent advancements in large language models, this paper\nintroduces a fresh perspective to reassess the relationship between AI and\nsocial science, provides a cohesive framework that allows researchers to\nunderstand the distinctions and connections between AI for social science and\nsocial science of AI, and also summarized state-of-art experiment simulation\nplatforms to facilitate research in these two directions. We believe that as AI\ntechnology continues to advance and intelligent agents find increasing\napplications in our daily lives, the significance of the combination of AI and\nsocial science will become even more prominent.",
+    "pdf_url": "http://arxiv.org/pdf/2401.11839v1",
+    "published": "2024-01-22"
+  },
+  "2508.08544v1": {
+    "title": "AI Agents and the Law",
+    "authors": [
+      "Mark O. Riedl",
+      "Deven R. Desai"
+    ],
+    "summary": "As AI becomes more \"agentic,\" it faces technical and socio-legal issues it\nmust address if it is to fulfill its promise of increased economic productivity\nand efficiency. This paper uses technical and legal perspectives to explain how\nthings change when AI systems start being able to directly execute tasks on\nbehalf of a user. We show how technical conceptions of agents track some, but\nnot all, socio-legal conceptions of agency. That is, both computer science and\nthe law recognize the problems of under-specification for an agent, and both\ndisciplines have robust conceptions of how to address ensuring an agent does\nwhat the programmer, or in the law, the principal desires and no more. However,\nto date, computer science has under-theorized issues related to questions of\nloyalty and to third parties that interact with an agent, both of which are\ncentral parts of the law of agency. First, we examine the correlations between\nimplied authority in agency law and the principle of value-alignment in AI,\nwherein AI systems must operate under imperfect objective specification.\nSecond, we reveal gaps in the current computer science view of agents\npertaining to the legal concepts of disclosure and loyalty, and how failure to\naccount for them can result in unintended effects in AI ecommerce agents. In\nsurfacing these gaps, we show a path forward for responsible AI agent\ndevelopment and deployment.",
+    "pdf_url": "http://arxiv.org/pdf/2508.08544v1",
+    "published": "2025-08-12"
+  }
+}
